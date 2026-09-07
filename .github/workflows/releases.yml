@@ -1,0 +1,20 @@
+name: Reconcile official GitHub Releases
+on:
+  workflow_dispatch:
+    inputs:
+      package:
+        description: Optional enrolled package name
+        default: ''
+      release_id:
+        description: Optional existing GitHub Release ID
+        default: ''
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+permissions:
+  contents: write
+jobs:
+  publish:
+    uses: kujolang/kennel/.github/workflows/publish-kennel-package.yml@main
+    with:
+      package: ${{ inputs.package || '' }}
+      release_id: ${{ inputs.release_id || '' }}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "packages": {
+    "kennel": {
+      "repository": "kujolang/kennel",
+      "repository_id": 1264528549,
+      "official": true,
+      "enabled": true
+    },
+    "changebucket": {
+      "repository": "kujolang/changebucket",
+      "repository_id": 1264528269,
+      "official": true,
+      "enabled": true,
+      "legacy_releases": {
+        "bea11cf488aa916b68cab5e178378eeb10c0bb82": {
+          "source_manifest": "kujo.toml",
+          "source_package": "changebudget",
+          "description": "Measures code-change size, shape, and risk footprint. This original release uses the ChangeBudget CLI name.",
+          "entry": "changebudget.kujo"
+        }
+      }
+    }
+  }
+}
