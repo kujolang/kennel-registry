@@ -14,7 +14,7 @@ permissions:
   contents: write
 jobs:
   publish:
-    uses: kujolang/kennel/.github/workflows/publish-kennel-package.yml@main
+    uses: kujolang/kennel/.github/workflows/publish-kennel-package.yml@3b9c4195a2b869851da32421fd9a5dc69d05afd5
     with:
       package: ${{ inputs.package || '' }}
       release_id: ${{ inputs.release_id || '' }}
