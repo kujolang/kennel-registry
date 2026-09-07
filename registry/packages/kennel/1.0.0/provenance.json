@@ -1,0 +1,17 @@
+{
+  "archive_sha256": "0a64fb3483a022f25787f386960a93050ef41d092c4193d8793499ab84d8e37e",
+  "builder": "kennel-ustar-gzip-v1",
+  "package": "kennel",
+  "published_at": "2026-09-07T03:55:47.886750Z",
+  "release_id": 367138335,
+  "released_at": "2026-08-08T07:08:39Z",
+  "repository": "kujolang/kennel",
+  "repository_id": 1264528549,
+  "schema_version": 1,
+  "source_commit": "6df043c3ba0bde4445cc8f8f7d4c01c60c9c6d7e",
+  "source_tag": "v1.0.0",
+  "version": "1.0.0",
+  "workflow_ref": "kujolang/kennel/.github/workflows/publish-kennel-package.yml@98a5421fbacd9363bc76db71790f47de74bfc47b",
+  "workflow_run": "https://github.com/kujolang/kennel-registry/actions/runs/34081283600",
+  "workflow_sha": "98a5421fbacd9363bc76db71790f47de74bfc47b"
+}

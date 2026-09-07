@@ -1,0 +1,32 @@
+{
+  "packages": [
+    {
+      "description": "Measures code-change size, shape, and risk footprint. This original release uses the ChangeBudget CLI name.",
+      "latest": "1.0.0",
+      "metadata_path": "packages/changebucket.json",
+      "name": "changebucket",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "Production-focused package manager for Kujo projects with deterministic dependency operations and hosted-registry workflows.",
+      "latest": "1.0.1",
+      "metadata_path": "packages/kennel.json",
+      "name": "kennel",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    }
+  ],
+  "registry": "https://kennel.kujolang.ai",
+  "schema_version": 1
+}

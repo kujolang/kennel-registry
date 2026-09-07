@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "0a64fb3483a022f25787f386960a93050ef41d092c4193d8793499ab84d8e37e",
+  "archive_size": 126287,
+  "archive_url": "https://kennel.kujolang.ai/packages/kennel/1.0.0/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/kennel/1.0.0/checksums.txt",
+  "dependencies": {},
+  "description": "Production-focused package manager for Kujo projects with deterministic dependency operations and hosted-registry workflows.",
+  "file_count": 165,
+  "license": "MIT",
+  "minimum_kujo_version": "0.1.0",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "kennel",
+  "provenance_sha256": "09f4802c2707b45887a7841ca3def061f777a8f55ccd9cd27e4963187964928b",
+  "provenance_url": "https://kennel.kujolang.ai/packages/kennel/1.0.0/provenance.json",
+  "release_id": 367138335,
+  "released_at": "2026-08-08T07:08:39Z",
+  "repository": "kujolang/kennel",
+  "repository_id": 1264528549,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "6df043c3ba0bde4445cc8f8f7d4c01c60c9c6d7e",
+  "source_tag": "v1.0.0",
+  "version": "1.0.0"
+}

@@ -1,0 +1,23 @@
+{
+  "archive_sha256": "6efa51b6201c55902c160bea9dcf42b3fc7e5883e8cf5a4b3616ce443321e411",
+  "builder": "kennel-ustar-gzip-v1",
+  "legacy_packaging": {
+    "generated_file": "kennel.toml",
+    "generated_file_sha256": "2828e1e6e17246434582d5845cbce3670721d50b8a8f26d21c371ff62d398035",
+    "source_manifest": "kujo.toml",
+    "source_package": "changebudget"
+  },
+  "package": "changebucket",
+  "published_at": "2026-09-07T03:55:45.737823Z",
+  "release_id": 367136441,
+  "released_at": "2026-08-08T06:59:28Z",
+  "repository": "kujolang/changebucket",
+  "repository_id": 1264528269,
+  "schema_version": 1,
+  "source_commit": "bea11cf488aa916b68cab5e178378eeb10c0bb82",
+  "source_tag": "v1.0.0",
+  "version": "1.0.0",
+  "workflow_ref": "kujolang/kennel/.github/workflows/publish-kennel-package.yml@98a5421fbacd9363bc76db71790f47de74bfc47b",
+  "workflow_run": "https://github.com/kujolang/kennel-registry/actions/runs/34081283600",
+  "workflow_sha": "98a5421fbacd9363bc76db71790f47de74bfc47b"
+}
