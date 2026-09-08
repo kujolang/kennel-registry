@@ -20,6 +20,695 @@
           "entry": "changebudget.kujo"
         }
       }
+    },
+    "spec": {
+      "repository": "kujolang/spec",
+      "repository_id": 1264528531,
+      "official": true,
+      "enabled": true,
+      "category": "primitives",
+      "backfill_release_ids": [
+        379427817
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "1.0.1": "be4696b4acbefac39ea3c3645f27eb2bb6410f8e"
+      }
+    },
+    "eval": {
+      "repository": "kujolang/eval",
+      "repository_id": 1264528504,
+      "official": true,
+      "enabled": true,
+      "category": "primitives",
+      "backfill_release_ids": [
+        367136915
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "1.0.0": "dce9d030a3547803dab876b404c44c25b247dde1"
+      }
+    },
+    "scout": {
+      "repository": "kujolang/scout",
+      "repository_id": 1264527924,
+      "official": true,
+      "enabled": true,
+      "category": "primitives",
+      "backfill_release_ids": [
+        367136922
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "1.0.0": "e74384795e5c73595cc8469528cc3f49a13fd7bc"
+      }
+    },
+    "ability": {
+      "repository": "kujolang/ability",
+      "repository_id": 1353984444,
+      "official": true,
+      "enabled": true,
+      "category": "primitives",
+      "backfill_release_ids": [
+        383050709,
+        380896234
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "1.1.0": "e5a74803c822de79e934d2bea82d615d8be3bbee",
+        "1.0.1": "4aa354da8d02b027c459f692f69b523f96e97056"
+      }
+    },
+    "mcp": {
+      "repository": "kujolang/mcp",
+      "repository_id": 1264528133,
+      "official": true,
+      "enabled": true,
+      "category": "primitives",
+      "backfill_release_ids": [
+        382717847
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "1.1.1": "7c938d765702b07cb7051a50c7bf206cffe1d78e"
+      },
+      "release_manifests": {
+        "7c938d765702b07cb7051a50c7bf206cffe1d78e": {
+          "source_manifest": "kennel.toml",
+          "source_manifest_sha256": "a595f68d0f1033857e670ae8839657513104e0b0c8206ce353caaae63ce73dc5",
+          "source_package": "mcp",
+          "description": "A Kujo-native MCP server framework for tools, resources, and JSON-schema validated tool handlers.",
+          "license": "MIT",
+          "entry": "server.kujo",
+          "dependency_releases": {
+            "ability": {
+              "original": {
+                "commit": "4aa354da8d02b027c459f692f69b523f96e97056",
+                "source": "github:kujolang/ability"
+              },
+              "package": "ability",
+              "version": "1.0.1",
+              "commit": "4aa354da8d02b027c459f692f69b523f96e97056"
+            }
+          }
+        }
+      }
+    },
+    "rag": {
+      "repository": "kujolang/rag",
+      "repository_id": 1264528453,
+      "official": true,
+      "enabled": true,
+      "category": "primitives",
+      "backfill_release_ids": [
+        367136936
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "1.0.0": "667af5bfa6a57a3c6e0788d1603f43e652a54864"
+      }
+    },
+    "ai-sdk": {
+      "repository": "kujolang/ai-sdk",
+      "repository_id": 1264528429,
+      "official": true,
+      "enabled": true,
+      "category": "primitives",
+      "backfill_release_ids": [
+        367136429
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "1.0.0": "c7ed65a7fccc2186b6ec12ec369891c1c2e49a7f"
+      }
+    },
+    "agents-sdk": {
+      "repository": "kujolang/agents-sdk",
+      "repository_id": 1264528407,
+      "official": true,
+      "enabled": true,
+      "category": "primitives",
+      "backfill_release_ids": [
+        367136944
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "1.0.0": "e92a61ec1df21c89ae26f411838b4669405a0765"
+      }
+    },
+    "scent": {
+      "repository": "kujolang/scent",
+      "repository_id": 1264528102,
+      "official": true,
+      "enabled": true,
+      "category": "primitives",
+      "backfill_release_ids": [
+        367136953
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "1.0.0": "8c066cf454df9a4acd58d4d354fff7077e9e416d"
+      },
+      "release_manifests": {
+        "8c066cf454df9a4acd58d4d354fff7077e9e416d": {
+          "source_manifest": null,
+          "source_manifest_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "source_package": "scent",
+          "description": "Deterministic, token-budgeted context packs for AI coding agents.",
+          "license": "MIT",
+          "entry": "scent.kujo"
+        }
+      }
+    },
+    "fence": {
+      "repository": "kujolang/fence",
+      "repository_id": 1264528387,
+      "official": true,
+      "enabled": true,
+      "category": "primitives",
+      "backfill_release_ids": [
+        367136432
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "1.0.0": "55f11c889a644c065ce9e179454d864fc1bf6d66"
+      },
+      "release_manifests": {
+        "55f11c889a644c065ce9e179454d864fc1bf6d66": {
+          "source_manifest": null,
+          "source_manifest_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "source_package": "fence",
+          "description": "Fence prevents agents and developers from crossing architecture boundaries.",
+          "license": "MIT",
+          "entry": "fence.kujo"
+        }
+      }
+    },
+    "watchdog": {
+      "repository": "kujolang/watchdog",
+      "repository_id": 1264528352,
+      "official": true,
+      "enabled": true,
+      "category": "primitives",
+      "backfill_release_ids": [
+        368730538
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "1.0.1": "3e3a8fcbcb2a3e5e92bb169da4d40cf4ee15bb04"
+      },
+      "release_manifests": {
+        "3e3a8fcbcb2a3e5e92bb169da4d40cf4ee15bb04": {
+          "source_manifest": "kujo.toml",
+          "source_manifest_sha256": "eb6e486a735fb9df9f93d61025a5a6fda704bd97020e17af206413f443f29e04",
+          "source_package": "kujo-watchdog",
+          "description": "Watchdog is an observability dashboard for AI applications written in Kujo.",
+          "license": "MIT",
+          "entry": "dashboard_server.kujo"
+        }
+      }
+    },
+    "muzzle": {
+      "repository": "kujolang/muzzle",
+      "repository_id": 1264528075,
+      "official": true,
+      "enabled": true,
+      "category": "tooling",
+      "backfill_release_ids": [
+        379433804
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "1.1.0": "55c149271e3c6b81b993879d5bdd7f79e96a0cca"
+      }
+    },
+    "runledger": {
+      "repository": "kujolang/runledger",
+      "repository_id": 1264528298,
+      "official": true,
+      "enabled": true,
+      "category": "tooling",
+      "backfill_release_ids": [
+        379448355
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "1.1.0": "ca60031f8b3e5349efe9637a908fc1fde79a7764"
+      },
+      "release_manifests": {
+        "ca60031f8b3e5349efe9637a908fc1fde79a7764": {
+          "source_manifest": "kujo.toml",
+          "source_manifest_sha256": "935c6ef09424939a77b5406befbf66960eeadbb9076c4ed35679eb637530f54c",
+          "source_package": "runledger",
+          "description": "RunLedger is a structured receipt system for agent work.",
+          "license": "MIT",
+          "entry": "runledger.kujo"
+        }
+      }
+    },
+    "patchbrief": {
+      "repository": "kujolang/patchbrief",
+      "repository_id": 1264528240,
+      "official": true,
+      "enabled": true,
+      "category": "tooling",
+      "backfill_release_ids": [
+        379432745
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "1.0.1": "76adc15975c1c826a1ae59134cdb21905f6c3c48"
+      }
+    },
+    "concord": {
+      "repository": "kujolang/concord",
+      "repository_id": 1264527877,
+      "official": true,
+      "enabled": true,
+      "category": "tooling",
+      "backfill_release_ids": [
+        367136445
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "1.0.0": "bef9d5bf75ffe7bb37d700b9aab0341342ba6338"
+      }
+    },
+    "shipcheck": {
+      "repository": "kujolang/shipcheck",
+      "repository_id": 1264528217,
+      "official": true,
+      "enabled": true,
+      "category": "tooling",
+      "backfill_release_ids": [
+        367137016
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "1.0.0": "2768e3040e766b0befd354db4427afc4c7a81899"
+      }
+    },
+    "packwrite": {
+      "repository": "kujolang/packwrite",
+      "repository_id": 1264528190,
+      "official": true,
+      "enabled": true,
+      "category": "tooling",
+      "backfill_release_ids": [
+        379436208
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "1.1.0": "b69652241b035a7216a59867d93073728849987e"
+      },
+      "release_manifests": {
+        "b69652241b035a7216a59867d93073728849987e": {
+          "source_manifest": "kujo.toml",
+          "source_manifest_sha256": "be9b869228c5fd3829c41156859ba204e823c15540da51a243876349b00f3013",
+          "source_package": "packwrite",
+          "description": "AI-assisted, local-first planning compiler that turns project intent into validated agent execution packs",
+          "license": "MIT",
+          "entry": "packwrite.kujo"
+        }
+      }
+    },
+    "casefile": {
+      "repository": "kujolang/casefile",
+      "repository_id": 1264528054,
+      "official": true,
+      "enabled": true,
+      "category": "tooling",
+      "backfill_release_ids": [
+        367136450
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "1.0.0": "a9684c3552afbb16c6e7afb04ff8faa396401c20"
+      },
+      "release_manifests": {
+        "a9684c3552afbb16c6e7afb04ff8faa396401c20": {
+          "source_manifest": null,
+          "source_manifest_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "source_package": "casefile",
+          "description": "Turn failures into reproducible, reviewable investigation packets.",
+          "license": "MIT",
+          "entry": "casefile.kujo"
+        }
+      }
+    },
+    "lens": {
+      "repository": "kujolang/lens",
+      "repository_id": 1264528159,
+      "official": true,
+      "enabled": true,
+      "category": "tooling",
+      "backfill_release_ids": [
+        384030048
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "1.1.0": "fd388efd4f55f3f844cf7de4fc541abfd07a6785"
+      }
+    },
+    "howl": {
+      "repository": "kujolang/howl",
+      "repository_id": 1264527899,
+      "official": true,
+      "enabled": true,
+      "category": "tooling",
+      "backfill_release_ids": [
+        368735202
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "1.1.0": "5470f928c5b563599778bbdf8ea0671211d3a265"
+      },
+      "release_manifests": {
+        "5470f928c5b563599778bbdf8ea0671211d3a265": {
+          "source_manifest": "kujo.toml",
+          "source_manifest_sha256": "94049ed142f68cde675ac730762f4b9f596ebff31028376e0f5a8035bbfbb797",
+          "source_package": "howl",
+          "description": "Turn example files into a multi-format showcase gallery",
+          "license": "MIT",
+          "entry": "howl.kujo"
+        }
+      }
+    },
+    "workcell": {
+      "repository": "kujolang/workcell",
+      "repository_id": 1297065619,
+      "official": true,
+      "enabled": true,
+      "category": "tooling",
+      "backfill_release_ids": [
+        382998311
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "1.1.0": "074d7262ef6c565e3dabd22ee046228c7329e5c1"
+      }
+    },
+    "redact": {
+      "repository": "kujolang/redact",
+      "repository_id": 1291327966,
+      "official": true,
+      "enabled": true,
+      "category": "tooling",
+      "backfill_release_ids": [
+        367367864
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "1.0.0": "fb05f763b76dc021844cd75200872913877ee6e6"
+      }
+    },
+    "sitekit": {
+      "repository": "kujolang/site-kit",
+      "repository_id": 1275615914,
+      "official": true,
+      "enabled": true,
+      "category": "tooling",
+      "backfill_release_ids": [
+        367355693
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "1.0.0": "245c24d0784cb2cfa1ba17ddf86e27be15e1946b"
+      },
+      "release_manifests": {
+        "245c24d0784cb2cfa1ba17ddf86e27be15e1946b": {
+          "source_manifest": null,
+          "source_manifest_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "source_package": "sitekit",
+          "description": "AI-readable, human-verifiable design system and component library for building accessible, semantic, token-driven websites and web interfaces.",
+          "license": "MIT",
+          "entry": ""
+        }
+      }
+    },
+    "contentgraph": {
+      "repository": "kujolang/contentgraph",
+      "repository_id": 1330689381,
+      "official": true,
+      "enabled": true,
+      "category": "tooling",
+      "backfill_release_ids": [
+        369662644
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "0.3.0": "5360f5f50f0f01a1e40648b9ad8863f00564cd1b"
+      },
+      "release_manifests": {
+        "5360f5f50f0f01a1e40648b9ad8863f00564cd1b": {
+          "source_manifest": "kujo.toml",
+          "source_manifest_sha256": "ec2e981949e0b5f9eccd3914790b79b5b718c2395152528f5fe2ab6cf0c6f99e",
+          "source_package": "contentgraph",
+          "description": "contentgraph",
+          "license": "MIT",
+          "entry": "src/main.kujo"
+        }
+      }
+    },
+    "searchbridge": {
+      "repository": "kujolang/searchbridge",
+      "repository_id": 1330689376,
+      "official": true,
+      "enabled": true,
+      "category": "tooling",
+      "backfill_release_ids": [
+        383036738
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "1.0.0": "70a63c0b0e25e7b875bddf74f7e5ea746e506f30"
+      },
+      "release_manifests": {
+        "70a63c0b0e25e7b875bddf74f7e5ea746e506f30": {
+          "source_manifest": "kujo.toml",
+          "source_manifest_sha256": "f11ff83f64a2b05259fb3cb8d9bb4d49ce802cea343dd1b185942425a76e9b2e",
+          "source_package": "searchbridge",
+          "description": "SearchBridge is the normalized external-data layer for Kujo WebOps. ",
+          "license": "MIT",
+          "entry": "searchbridge.kujo"
+        }
+      }
+    },
+    "siteprobe": {
+      "repository": "kujolang/siteprobe",
+      "repository_id": 1330689374,
+      "official": true,
+      "enabled": true,
+      "category": "tooling",
+      "backfill_release_ids": [
+        384131831
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "0.3.0": "71a2071b60174cf755084e167ccc392710a104b8"
+      },
+      "release_manifests": {
+        "71a2071b60174cf755084e167ccc392710a104b8": {
+          "source_manifest": "kujo.toml",
+          "source_manifest_sha256": "36d29b875c98875a3b520a78aef44a55c866bc7d1bac85e7102038df1d8affbb",
+          "source_package": "siteprobe",
+          "description": "Native Kujo website intelligence with bounded deterministic artifacts",
+          "license": "MIT",
+          "entry": "src/main.kujo"
+        }
+      }
+    },
+    "assetworks": {
+      "repository": "kujolang/assetworks",
+      "repository_id": 1334494752,
+      "official": true,
+      "enabled": true,
+      "category": "tooling",
+      "backfill_release_ids": [
+        370827472
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "0.2.0": "05252fa6aeab39b04db0e9c54d36c3885231c07b"
+      },
+      "release_manifests": {
+        "05252fa6aeab39b04db0e9c54d36c3885231c07b": {
+          "source_manifest": "kujo.toml",
+          "source_manifest_sha256": "264a08cc2910a87b39b708bf8079513952ac982f09bbcc439844c84d1f5a981b",
+          "source_package": "assetworks",
+          "description": "Kujo-native controlled media jobs, manifests, provenance, captions, and accessibility records",
+          "license": "MIT",
+          "entry": "assetworks.kujo"
+        }
+      }
+    },
+    "bluepencil": {
+      "repository": "kujolang/bluepencil",
+      "repository_id": 1334494490,
+      "official": true,
+      "enabled": true,
+      "category": "tooling",
+      "backfill_release_ids": [
+        370827484
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "0.2.0": "8867ae72874c9584795c3122f69067a439f136e0"
+      },
+      "release_manifests": {
+        "8867ae72874c9584795c3122f69067a439f136e0": {
+          "source_manifest": "kujo.toml",
+          "source_manifest_sha256": "683f3eae6a6a5b751d9d7d820a6a6910c788149f63a3d72291e9a8f96cd4abca",
+          "source_package": "bluepencil",
+          "description": "Kujo-native editorial review, blockers, verdicts, disagreement, and quality calibration",
+          "license": "MIT",
+          "entry": "bluepencil.kujo"
+        }
+      }
+    },
+    "dossier": {
+      "repository": "kujolang/dossier",
+      "repository_id": 1334493513,
+      "official": true,
+      "enabled": true,
+      "category": "tooling",
+      "backfill_release_ids": [
+        370827490
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "0.2.0": "b584a5bd043fc8b5e49934ce99ac622cb6ec696b"
+      },
+      "release_manifests": {
+        "b584a5bd043fc8b5e49934ce99ac622cb6ec696b": {
+          "source_manifest": "kujo.toml",
+          "source_manifest_sha256": "8ab03c007ede8cf498913236fe9ba0e758e9b471094129257d7cdbc081edb722",
+          "source_package": "dossier",
+          "description": "Kujo-native evidence, claims, sources, consent, freshness, and rights ledger",
+          "license": "MIT",
+          "entry": "dossier.kujo"
+        }
+      }
+    },
+    "galleypack": {
+      "repository": "kujolang/galleypack",
+      "repository_id": 1334493723,
+      "official": true,
+      "enabled": true,
+      "category": "tooling",
+      "backfill_release_ids": [
+        370827499
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "0.2.0": "429bef9a71507250a9b1d292be7411db149a8946"
+      },
+      "release_manifests": {
+        "429bef9a71507250a9b1d292be7411db149a8946": {
+          "source_manifest": "kujo.toml",
+          "source_manifest_sha256": "b69ea6cbf72af4ac0bcd5f878b2fcdb4310cf1eef11a3d0917fbd7c0945914b0",
+          "source_package": "galleypack",
+          "description": "Kujo-native versioned editorial packages, checksums, freeze, and drift verification",
+          "license": "MIT",
+          "entry": "galleypack.kujo"
+        }
+      }
+    },
+    "presswire": {
+      "repository": "kujolang/presswire",
+      "repository_id": 1334496068,
+      "official": true,
+      "enabled": true,
+      "category": "tooling",
+      "backfill_release_ids": [
+        370827510
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "0.2.0": "fe2bc77ccff6f66b1daaf78e308a8e2dc3923581"
+      },
+      "release_manifests": {
+        "fe2bc77ccff6f66b1daaf78e308a8e2dc3923581": {
+          "source_manifest": "kujo.toml",
+          "source_manifest_sha256": "fab9af795cdd17092aea64f51a23791599692a3f3124b96f278427a49f26f90f",
+          "source_package": "presswire",
+          "description": "Kujo-native bounded publication gateway with approval checks, idempotency, and receipts",
+          "license": "MIT",
+          "entry": "presswire.kujo"
+        }
+      }
+    },
+    "readersignal": {
+      "repository": "kujolang/readersignal",
+      "repository_id": 1334496858,
+      "official": true,
+      "enabled": true,
+      "category": "tooling",
+      "backfill_release_ids": [
+        370827520
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "0.2.0": "5062b23173baae679b07a4a885ac8bc9f0f7aefc"
+      },
+      "release_manifests": {
+        "5062b23173baae679b07a4a885ac8bc9f0f7aefc": {
+          "source_manifest": "kujo.toml",
+          "source_manifest_sha256": "a1a8a9e6d42caffbde1c6111d73d0528a471c3c9c09a61cb2b95ae7b2a7dcc0d",
+          "source_package": "readersignal",
+          "description": "Kujo-native audience measurement, feedback, attribution boundaries, and editorial learning",
+          "license": "MIT",
+          "entry": "readersignal.kujo"
+        }
+      }
+    },
+    "storydesk": {
+      "repository": "kujolang/storydesk",
+      "repository_id": 1334493083,
+      "official": true,
+      "enabled": true,
+      "category": "tooling",
+      "backfill_release_ids": [
+        370827532
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "0.2.0": "d79c6d2b890c22e4cd67761039d6c27c76e1b784"
+      },
+      "release_manifests": {
+        "d79c6d2b890c22e4cd67761039d6c27c76e1b784": {
+          "source_manifest": "kujo.toml",
+          "source_manifest_sha256": "5313e0c01b934a0b237c897a865475ae40f9eb501d85a3a1e82e3ac0228751c2",
+          "source_package": "storydesk",
+          "description": "Kujo-native editorial control desk for planning, assignments, handoffs, and review queues",
+          "license": "MIT",
+          "entry": "storydesk.kujo"
+        }
+      }
+    },
+    "versionseal": {
+      "repository": "kujolang/versionseal",
+      "repository_id": 1334495207,
+      "official": true,
+      "enabled": true,
+      "category": "tooling",
+      "backfill_release_ids": [
+        370827541
+      ],
+      "enrolled_at": "2026-09-08T00:00:00Z",
+      "release_commits": {
+        "0.2.0": "45fedd70b35a19c24c64235f421c285d90f7d5e5"
+      },
+      "release_manifests": {
+        "45fedd70b35a19c24c64235f421c285d90f7d5e5": {
+          "source_manifest": "kujo.toml",
+          "source_manifest_sha256": "9bf1bce1275370dd880f5f442e74d6784580ac1df4f585f5437196280cb86855",
+          "source_package": "versionseal",
+          "description": "Kujo-native exact-version human approval and checksum verification",
+          "license": "MIT",
+          "entry": "versionseal.kujo"
+        }
+      }
     }
   }
 }
