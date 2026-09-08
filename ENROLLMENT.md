@@ -61,3 +61,5 @@ catalog.json provides reviewed, mutable package discovery descriptions without c
 ## Verification
 
 Local deterministic package builds passed for all 34 new package names. GitHub reconciliation run [34258829008](https://github.com/kujolang/kennel-registry/actions/runs/34258829008) published the backfill atomically and passed production index/archive verification. All-package fresh and cached install results are recorded in the client acceptance report; the test deliberately disables Git to detect hidden source fallback.
+
+Production acceptance: **36/36 fresh installs and 36/36 cached lock replays passed with Git disabled** using the updated client and Kujo 1.3.1. The full Kennel verification profile passed, and 113 live registry documents passed JSON Schema validation. [Committed acceptance evidence](https://github.com/kujolang/kennel/blob/main/docs/registry/ecosystem-acceptance.md).
