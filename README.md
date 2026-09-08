@@ -33,3 +33,5 @@ Enrollment requires reviewing suitability as a public reusable Kujo package, obt
 Pages production branch: `main`; build command: none; output: `registry`; domain: `kennel.kujolang.ai`. `_headers` and `404.html` are source controlled. No SPA fallback or expanded source deployment. Current limits: archive 8 MiB, expanded USTAR 64 MiB, 10,000 files. Stable URLs permit future object storage if actual limits require it.
 
 Provenance statements bind archive/release identity through the trusted HTTPS registry. They are not independent cryptographic signatures. Registry write access and publishing automation remain the trust root. Clients verify archive and provenance digests before staging and replacement.
+
+Production activated 2026-09-08. The Git-connected Pages project is `kennel-registry`; the verified deployment settings are recorded in `cloudflare-pages.json`. DNS and TLS are active for `kennel.kujolang.ai`. Consumer install acceptance uses the updated Kennel client from its main branch with Kujo 1.3.1 or newer; historical Kennel package releases retain their original client behavior. No historical release was rewritten to include new registry support.

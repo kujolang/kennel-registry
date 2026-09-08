@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "purpose": "Recorded Pages Git integration settings; provisioned through Cloudflare dashboard",
+  "project_name": "kennel-registry",
+  "project_id": "618df53e-08cf-41d2-9424-ba213e19eb21",
+  "source_repository": "kujolang/kennel-registry",
+  "production_branch": "main",
+  "build_command": "",
+  "build_output_directory": "registry",
+  "domain": "kennel.kujolang.ai",
+  "pages_hostname": "kennel-registry.pages.dev",
+  "dns": {"type": "CNAME", "name": "kennel", "content": "kennel-registry.pages.dev", "proxied": true},
+  "activated_on": "2026-09-08"
+}
