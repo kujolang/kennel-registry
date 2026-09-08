@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "3fb30481ddda19046ab60cd49db60588142c4d005fee4c5cf3e4d7ca625532ab",
+  "archive_size": 32950,
+  "archive_url": "https://kennel.kujolang.ai/packages/presswire/0.2.0/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/presswire/0.2.0/checksums.txt",
+  "dependencies": {},
+  "description": "Kujo-native bounded publication gateway with approval checks, idempotency, and receipts",
+  "file_count": 42,
+  "license": "MIT",
+  "minimum_kujo_version": "",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "presswire",
+  "provenance_sha256": "449a4ae926e771550a91e05f0d93890bda83c868dc6528a33076948b6960ff15",
+  "provenance_url": "https://kennel.kujolang.ai/packages/presswire/0.2.0/provenance.json",
+  "release_id": 370827510,
+  "released_at": "2026-08-14T21:16:29Z",
+  "repository": "kujolang/presswire",
+  "repository_id": 1334496068,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "fe2bc77ccff6f66b1daaf78e308a8e2dc3923581",
+  "source_tag": "v0.2.0",
+  "version": "0.2.0"
+}

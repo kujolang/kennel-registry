@@ -1,0 +1,21 @@
+{
+  "description": "contentgraph",
+  "latest": "0.3.0",
+  "metadata_path": "packages/contentgraph.json",
+  "name": "contentgraph",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "schema_version": 1,
+  "scope": null,
+  "versions": [
+    {
+      "archive_sha256": "1f1f7ef0c9deab654863076c90ba9fd7b4d491a3e1a516d234a828b63f923a92",
+      "metadata_url": "https://kennel.kujolang.ai/api/v1/packages/contentgraph/0.3.0.json",
+      "version": "0.3.0",
+      "yanked": false
+    }
+  ]
+}

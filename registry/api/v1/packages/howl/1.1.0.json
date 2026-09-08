@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "d883fdcb9a28b477e3190437c845e8fa6a7468f0e6de2bdf221b836dcac46a2a",
+  "archive_size": 48905,
+  "archive_url": "https://kennel.kujolang.ai/packages/howl/1.1.0/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/howl/1.1.0/checksums.txt",
+  "dependencies": {},
+  "description": "Turn example files into a multi-format showcase gallery",
+  "file_count": 38,
+  "license": "MIT",
+  "minimum_kujo_version": "",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "howl",
+  "provenance_sha256": "9f6f75c2889b209ef27b635bc24587bd3ad0d4e0eb78ffa2b50f9207ea659186",
+  "provenance_url": "https://kennel.kujolang.ai/packages/howl/1.1.0/provenance.json",
+  "release_id": 368735202,
+  "released_at": "2026-08-11T17:24:47Z",
+  "repository": "kujolang/howl",
+  "repository_id": 1264527899,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "5470f928c5b563599778bbdf8ea0671211d3a265",
+  "source_tag": "v1.1.0",
+  "version": "1.1.0"
+}

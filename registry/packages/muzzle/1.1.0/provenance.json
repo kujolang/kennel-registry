@@ -1,0 +1,17 @@
+{
+  "archive_sha256": "f2e0414623c17efc904fa7ca0db73856821fb56bb0e7ebfb558053ad97adecbd",
+  "builder": "kennel-ustar-gzip-v1",
+  "package": "muzzle",
+  "published_at": "2026-09-08T17:44:22.601710Z",
+  "release_id": 379433804,
+  "released_at": "2026-08-30T23:38:44Z",
+  "repository": "kujolang/muzzle",
+  "repository_id": 1264528075,
+  "schema_version": 1,
+  "source_commit": "55c149271e3c6b81b993879d5bdd7f79e96a0cca",
+  "source_tag": "v1.1.0",
+  "version": "1.1.0",
+  "workflow_ref": "kujolang/kennel-registry/.github/workflows/releases.yml@refs/heads/main",
+  "workflow_run": "https://github.com/kujolang/kennel-registry/actions/runs/34258829008",
+  "workflow_sha": "b4f7ec4f0ab90380ef772bd16e967faf62a9312f"
+}

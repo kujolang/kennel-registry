@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "d0bf9663a81c91be0bf0e75349a3bd93ae648d98ffdfbe683df625077ca15ca5",
+  "archive_size": 25034,
+  "archive_url": "https://kennel.kujolang.ai/packages/scent/1.0.0/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/scent/1.0.0/checksums.txt",
+  "dependencies": {},
+  "description": "Deterministic, token-budgeted context packs for AI coding agents.",
+  "file_count": 16,
+  "license": "MIT",
+  "minimum_kujo_version": "",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "scent",
+  "provenance_sha256": "b37d323a9ac1f0402ca45f4652cb4a8f4a78d226664c5ca052fd64399da33d61",
+  "provenance_url": "https://kennel.kujolang.ai/packages/scent/1.0.0/provenance.json",
+  "release_id": 367136953,
+  "released_at": "2026-08-08T07:01:47Z",
+  "repository": "kujolang/scent",
+  "repository_id": 1264528102,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "8c066cf454df9a4acd58d4d354fff7077e9e416d",
+  "source_tag": "v1.0.0",
+  "version": "1.0.0"
+}

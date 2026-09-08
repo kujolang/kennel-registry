@@ -1,0 +1,21 @@
+{
+  "description": "Artifact drift and alignment checker for Kujo ecosystem projects. Dogfood showcase for the Kujo ecosystem.",
+  "latest": "1.0.0",
+  "metadata_path": "packages/concord.json",
+  "name": "concord",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "schema_version": 1,
+  "scope": null,
+  "versions": [
+    {
+      "archive_sha256": "a39b3a69a3aeda68a1e0c86d8ae96e44d7f596bcf1d1282e94c011751e06f60a",
+      "metadata_url": "https://kennel.kujolang.ai/api/v1/packages/concord/1.0.0.json",
+      "version": "1.0.0",
+      "yanked": false
+    }
+  ]
+}

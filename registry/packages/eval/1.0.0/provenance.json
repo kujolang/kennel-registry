@@ -1,0 +1,17 @@
+{
+  "archive_sha256": "d43b912edd520673792fbd6c2dddecbc8f29ec82df526cbbb69f3b926e0524c3",
+  "builder": "kennel-ustar-gzip-v1",
+  "package": "eval",
+  "published_at": "2026-09-08T17:44:10.269585Z",
+  "release_id": 367136915,
+  "released_at": "2026-08-08T07:01:34Z",
+  "repository": "kujolang/eval",
+  "repository_id": 1264528504,
+  "schema_version": 1,
+  "source_commit": "dce9d030a3547803dab876b404c44c25b247dde1",
+  "source_tag": "v1.0.0",
+  "version": "1.0.0",
+  "workflow_ref": "kujolang/kennel-registry/.github/workflows/releases.yml@refs/heads/main",
+  "workflow_run": "https://github.com/kujolang/kennel-registry/actions/runs/34258829008",
+  "workflow_sha": "b4f7ec4f0ab90380ef772bd16e967faf62a9312f"
+}

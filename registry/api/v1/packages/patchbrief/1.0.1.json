@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "c2e364b37254d2d98a69a0e305ce70c3162504f521c1d31deba5cff677168437",
+  "archive_size": 28067,
+  "archive_url": "https://kennel.kujolang.ai/packages/patchbrief/1.0.1/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/patchbrief/1.0.1/checksums.txt",
+  "dependencies": {},
+  "description": "Local developer tool that inspects git diffs and generates structured implementation briefs. Dogfood showcase for the Kujo ecosystem.",
+  "file_count": 24,
+  "license": "MIT",
+  "minimum_kujo_version": "0.1.0",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "patchbrief",
+  "provenance_sha256": "f4e3a5b94c073b33b1a9ec4d62aad06e98907653695150759426ce2ff35e7b36",
+  "provenance_url": "https://kennel.kujolang.ai/packages/patchbrief/1.0.1/provenance.json",
+  "release_id": 379432745,
+  "released_at": "2026-08-30T23:33:27Z",
+  "repository": "kujolang/patchbrief",
+  "repository_id": 1264528240,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "76adc15975c1c826a1ae59134cdb21905f6c3c48",
+  "source_tag": "v1.0.1",
+  "version": "1.0.1"
+}

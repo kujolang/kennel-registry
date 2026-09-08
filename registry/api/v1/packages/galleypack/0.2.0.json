@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "b85fe27d9405a8531a4b05fb133b81e590bf77f8973ef6b4b61f67b0335821c6",
+  "archive_size": 33987,
+  "archive_url": "https://kennel.kujolang.ai/packages/galleypack/0.2.0/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/galleypack/0.2.0/checksums.txt",
+  "dependencies": {},
+  "description": "Kujo-native versioned editorial packages, checksums, freeze, and drift verification",
+  "file_count": 44,
+  "license": "MIT",
+  "minimum_kujo_version": "",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "galleypack",
+  "provenance_sha256": "e4bef655b28807a16772c0dc2b69830575eb3160c101e957f47aaebc2387e9ef",
+  "provenance_url": "https://kennel.kujolang.ai/packages/galleypack/0.2.0/provenance.json",
+  "release_id": 370827499,
+  "released_at": "2026-08-14T21:16:28Z",
+  "repository": "kujolang/galleypack",
+  "repository_id": 1334493723,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "429bef9a71507250a9b1d292be7411db149a8946",
+  "source_tag": "v0.2.0",
+  "version": "0.2.0"
+}

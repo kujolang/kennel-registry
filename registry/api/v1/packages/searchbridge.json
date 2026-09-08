@@ -1,0 +1,21 @@
+{
+  "description": "SearchBridge is the normalized external-data layer for Kujo WebOps. ",
+  "latest": "1.0.0",
+  "metadata_path": "packages/searchbridge.json",
+  "name": "searchbridge",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "schema_version": 1,
+  "scope": null,
+  "versions": [
+    {
+      "archive_sha256": "793b0e92c181a8f91906f50239a985824dc968f9e911e9142e56a564eaa5b0c7",
+      "metadata_url": "https://kennel.kujolang.ai/api/v1/packages/searchbridge/1.0.0.json",
+      "version": "1.0.0",
+      "yanked": false
+    }
+  ]
+}

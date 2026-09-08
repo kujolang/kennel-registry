@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "f2e0414623c17efc904fa7ca0db73856821fb56bb0e7ebfb558053ad97adecbd",
+  "archive_size": 80732,
+  "archive_url": "https://kennel.kujolang.ai/packages/muzzle/1.1.0/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/muzzle/1.1.0/checksums.txt",
+  "dependencies": {},
+  "description": "Quiet workflow runner for AI-assisted development. Kujo-native CLI with modular runner support (Kujo default, Bash, Python, Node). Captures noisy logs to files, prints compact agent-friendly summaries.",
+  "file_count": 57,
+  "license": "MIT",
+  "minimum_kujo_version": "1.0.0",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "muzzle",
+  "provenance_sha256": "2e2e384dfc62bcf82e83b53a98e6fee3b7fd0037a5f7a65ba1e0279801a0d4d7",
+  "provenance_url": "https://kennel.kujolang.ai/packages/muzzle/1.1.0/provenance.json",
+  "release_id": 379433804,
+  "released_at": "2026-08-30T23:38:44Z",
+  "repository": "kujolang/muzzle",
+  "repository_id": 1264528075,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "55c149271e3c6b81b993879d5bdd7f79e96a0cca",
+  "source_tag": "v1.1.0",
+  "version": "1.1.0"
+}

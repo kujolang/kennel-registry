@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "793b0e92c181a8f91906f50239a985824dc968f9e911e9142e56a564eaa5b0c7",
+  "archive_size": 223310,
+  "archive_url": "https://kennel.kujolang.ai/packages/searchbridge/1.0.0/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/searchbridge/1.0.0/checksums.txt",
+  "dependencies": {},
+  "description": "SearchBridge is the normalized external-data layer for Kujo WebOps. ",
+  "file_count": 260,
+  "license": "MIT",
+  "minimum_kujo_version": "",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "searchbridge",
+  "provenance_sha256": "458204f06e4f064aa13678e2cfb52a14804b701602299aad894a7de2bc1b9c76",
+  "provenance_url": "https://kennel.kujolang.ai/packages/searchbridge/1.0.0/provenance.json",
+  "release_id": 383036738,
+  "released_at": "2026-09-04T22:02:26Z",
+  "repository": "kujolang/searchbridge",
+  "repository_id": 1330689376,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "70a63c0b0e25e7b875bddf74f7e5ea746e506f30",
+  "source_tag": "v1.0.0",
+  "version": "1.0.0"
+}

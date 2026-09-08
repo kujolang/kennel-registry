@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "ce0241974951c82daaa5d70842873c726d1e402df5f724f60ba9d97319905eeb",
+  "archive_size": 268013,
+  "archive_url": "https://kennel.kujolang.ai/packages/rag/1.0.0/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/rag/1.0.0/checksums.txt",
+  "dependencies": {},
+  "description": "Local-first Kujo RAG starter kit with offline indexing, retrieval, and API proof gates.",
+  "file_count": 275,
+  "license": "MIT",
+  "minimum_kujo_version": "0.1.0",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "rag",
+  "provenance_sha256": "578f778efd8248b611bf5a7ff571db38d9e5c62757041d446c535b73cb5a8c2c",
+  "provenance_url": "https://kennel.kujolang.ai/packages/rag/1.0.0/provenance.json",
+  "release_id": 367136936,
+  "released_at": "2026-08-08T07:01:42Z",
+  "repository": "kujolang/rag",
+  "repository_id": 1264528453,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "667af5bfa6a57a3c6e0788d1603f43e652a54864",
+  "source_tag": "v1.0.0",
+  "version": "1.0.0"
+}

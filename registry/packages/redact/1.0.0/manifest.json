@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "a735223aacca4ecddfefaab9fde874f3f38b134e7700babafe4d21dcef75336b",
+  "archive_size": 36578,
+  "archive_url": "https://kennel.kujolang.ai/packages/redact/1.0.0/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/redact/1.0.0/checksums.txt",
+  "dependencies": {},
+  "description": "Deterministic local-first redaction aid for text and Markdown.",
+  "file_count": 63,
+  "license": "MIT",
+  "minimum_kujo_version": "1.0.0",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "redact",
+  "provenance_sha256": "5f091d0fd343e995f82865b7511aeea49bf385f75d1fd479f1d1664893e18018",
+  "provenance_url": "https://kennel.kujolang.ai/packages/redact/1.0.0/provenance.json",
+  "release_id": 367367864,
+  "released_at": "2026-08-09T03:30:18Z",
+  "repository": "kujolang/redact",
+  "repository_id": 1291327966,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "fb05f763b76dc021844cd75200872913877ee6e6",
+  "source_tag": "v1.0.0",
+  "version": "1.0.0"
+}

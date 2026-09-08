@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "a39b3a69a3aeda68a1e0c86d8ae96e44d7f596bcf1d1282e94c011751e06f60a",
+  "archive_size": 21531,
+  "archive_url": "https://kennel.kujolang.ai/packages/concord/1.0.0/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/concord/1.0.0/checksums.txt",
+  "dependencies": {},
+  "description": "Artifact drift and alignment checker for Kujo ecosystem projects. Dogfood showcase for the Kujo ecosystem.",
+  "file_count": 20,
+  "license": "MIT",
+  "minimum_kujo_version": "1.0.0",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "concord",
+  "provenance_sha256": "a0e5039335f4e30752847726cf3bab72cc79703e196b950d7fbe1a23f820152a",
+  "provenance_url": "https://kennel.kujolang.ai/packages/concord/1.0.0/provenance.json",
+  "release_id": 367136445,
+  "released_at": "2026-08-08T06:59:31Z",
+  "repository": "kujolang/concord",
+  "repository_id": 1264527877,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "bef9d5bf75ffe7bb37d700b9aab0341342ba6338",
+  "source_tag": "v1.0.0",
+  "version": "1.0.0"
+}

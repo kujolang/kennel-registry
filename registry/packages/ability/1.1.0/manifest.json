@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "5f4f5e5eca1f382319869aa38d4ebd9177f38dcfb573c019f2e9ef6f2cade20b",
+  "archive_size": 49425,
+  "archive_url": "https://kennel.kujolang.ai/packages/ability/1.1.0/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/ability/1.1.0/checksums.txt",
+  "dependencies": {},
+  "description": "Portable semantic operation contracts for the Kujo ecosystem.",
+  "file_count": 50,
+  "license": "MIT",
+  "minimum_kujo_version": "1.2.0",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "ability",
+  "provenance_sha256": "9c824787d99aa9649e1bc3a8258127cb596d66575fb0372eb92b9a5949f6f8df",
+  "provenance_url": "https://kennel.kujolang.ai/packages/ability/1.1.0/provenance.json",
+  "release_id": 383050709,
+  "released_at": "2026-09-04T22:43:43Z",
+  "repository": "kujolang/ability",
+  "repository_id": 1353984444,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "e5a74803c822de79e934d2bea82d615d8be3bbee",
+  "source_tag": "v1.1.0",
+  "version": "1.1.0"
+}

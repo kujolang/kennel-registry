@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "ab5a62045d008bb3df26e5a8ead297b70039e1613d66f7f42c0cf187236e277a",
+  "archive_size": 33690,
+  "archive_url": "https://kennel.kujolang.ai/packages/versionseal/0.2.0/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/versionseal/0.2.0/checksums.txt",
+  "dependencies": {},
+  "description": "Kujo-native exact-version human approval and checksum verification",
+  "file_count": 44,
+  "license": "MIT",
+  "minimum_kujo_version": "",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "versionseal",
+  "provenance_sha256": "60f23908f97282d0ca2de29c22c5d1321d68f45f04500aba9f7dd5adca61dd46",
+  "provenance_url": "https://kennel.kujolang.ai/packages/versionseal/0.2.0/provenance.json",
+  "release_id": 370827541,
+  "released_at": "2026-08-14T21:16:33Z",
+  "repository": "kujolang/versionseal",
+  "repository_id": 1334495207,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "45fedd70b35a19c24c64235f421c285d90f7d5e5",
+  "source_tag": "v0.2.0",
+  "version": "0.2.0"
+}

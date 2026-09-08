@@ -1,0 +1,17 @@
+{
+  "archive_sha256": "c2e364b37254d2d98a69a0e305ce70c3162504f521c1d31deba5cff677168437",
+  "builder": "kennel-ustar-gzip-v1",
+  "package": "patchbrief",
+  "published_at": "2026-09-08T17:44:25.809385Z",
+  "release_id": 379432745,
+  "released_at": "2026-08-30T23:33:27Z",
+  "repository": "kujolang/patchbrief",
+  "repository_id": 1264528240,
+  "schema_version": 1,
+  "source_commit": "76adc15975c1c826a1ae59134cdb21905f6c3c48",
+  "source_tag": "v1.0.1",
+  "version": "1.0.1",
+  "workflow_ref": "kujolang/kennel-registry/.github/workflows/releases.yml@refs/heads/main",
+  "workflow_run": "https://github.com/kujolang/kennel-registry/actions/runs/34258829008",
+  "workflow_sha": "b4f7ec4f0ab90380ef772bd16e967faf62a9312f"
+}

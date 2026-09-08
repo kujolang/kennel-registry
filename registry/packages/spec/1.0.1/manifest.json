@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "5b5ac92f22e87db705caec4ea5638206778a998ebdcc10fefb363d05d2411da6",
+  "archive_size": 83754,
+  "archive_url": "https://kennel.kujolang.ai/packages/spec/1.0.1/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/spec/1.0.1/checksums.txt",
+  "dependencies": {},
+  "description": "Structured task definition format for AI-native development \u2014 turns messy human instructions into clear machine-readable implementation context.",
+  "file_count": 74,
+  "license": "MIT",
+  "minimum_kujo_version": "0.1.0",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "spec",
+  "provenance_sha256": "77398b66c7ec62ba8ab8e4a081915a75d761ff96d308614ab0d329e639aca0f6",
+  "provenance_url": "https://kennel.kujolang.ai/packages/spec/1.0.1/provenance.json",
+  "release_id": 379427817,
+  "released_at": "2026-08-30T23:08:24Z",
+  "repository": "kujolang/spec",
+  "repository_id": 1264528531,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "be4696b4acbefac39ea3c3645f27eb2bb6410f8e",
+  "source_tag": "v1.0.1",
+  "version": "1.0.1"
+}

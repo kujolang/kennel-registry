@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "cc594d914fbefdd058e299988dbb2a1a61454133fff6d2be7de430a3465d8054",
+  "archive_size": 18767,
+  "archive_url": "https://kennel.kujolang.ai/packages/casefile/1.0.0/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/casefile/1.0.0/checksums.txt",
+  "dependencies": {},
+  "description": "Turn failures into reproducible, reviewable investigation packets.",
+  "file_count": 19,
+  "license": "MIT",
+  "minimum_kujo_version": "",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "casefile",
+  "provenance_sha256": "6aa5148ee25251522091e18f5cb6c60cc05807e1043ba5fa7ef0dcc01474aac4",
+  "provenance_url": "https://kennel.kujolang.ai/packages/casefile/1.0.0/provenance.json",
+  "release_id": 367136450,
+  "released_at": "2026-08-08T06:59:33Z",
+  "repository": "kujolang/casefile",
+  "repository_id": 1264528054,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "a9684c3552afbb16c6e7afb04ff8faa396401c20",
+  "source_tag": "v1.0.0",
+  "version": "1.0.0"
+}

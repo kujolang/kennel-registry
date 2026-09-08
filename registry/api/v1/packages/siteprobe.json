@@ -1,0 +1,21 @@
+{
+  "description": "Native Kujo website intelligence with bounded deterministic artifacts",
+  "latest": "0.3.0",
+  "metadata_path": "packages/siteprobe.json",
+  "name": "siteprobe",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "schema_version": 1,
+  "scope": null,
+  "versions": [
+    {
+      "archive_sha256": "68eb19b541aaeee4e6c3e30a95a00472c8babc86c24b82ca400a9c708ea0d03a",
+      "metadata_url": "https://kennel.kujolang.ai/api/v1/packages/siteprobe/0.3.0.json",
+      "version": "0.3.0",
+      "yanked": false
+    }
+  ]
+}

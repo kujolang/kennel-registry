@@ -1,0 +1,21 @@
+{
+  "description": "Evaluation framework for AI-native software \u2014 27 deterministic checks, 5 report formats, snapshot testing, retry support, security hardened. Contract v2.0.0.",
+  "latest": "1.0.0",
+  "metadata_path": "packages/eval.json",
+  "name": "eval",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "schema_version": 1,
+  "scope": null,
+  "versions": [
+    {
+      "archive_sha256": "d43b912edd520673792fbd6c2dddecbc8f29ec82df526cbbb69f3b926e0524c3",
+      "metadata_url": "https://kennel.kujolang.ai/api/v1/packages/eval/1.0.0.json",
+      "version": "1.0.0",
+      "yanked": false
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Local developer tool that inspects git diffs and generates structured implementation briefs. Dogfood showcase for the Kujo ecosystem.",
+  "latest": "1.0.1",
+  "metadata_path": "packages/patchbrief.json",
+  "name": "patchbrief",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "schema_version": 1,
+  "scope": null,
+  "versions": [
+    {
+      "archive_sha256": "c2e364b37254d2d98a69a0e305ce70c3162504f521c1d31deba5cff677168437",
+      "metadata_url": "https://kennel.kujolang.ai/api/v1/packages/patchbrief/1.0.1.json",
+      "version": "1.0.1",
+      "yanked": false
+    }
+  ]
+}

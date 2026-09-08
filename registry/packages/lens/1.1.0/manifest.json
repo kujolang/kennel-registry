@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "398e164f5cdd13f1330dade568e2dd34f8d483058a6908f5f2cb173fc5362c7a",
+  "archive_size": 1443321,
+  "archive_url": "https://kennel.kujolang.ai/packages/lens/1.1.0/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/lens/1.1.0/checksums.txt",
+  "dependencies": {},
+  "description": "Deterministic browser/visual QA tool for AI-built software. Gives agents eyes by opening a local app or URL, collecting evidence, and producing agent-ready repair reports.",
+  "file_count": 220,
+  "license": "MIT",
+  "minimum_kujo_version": "1.2.3",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "lens",
+  "provenance_sha256": "074ac6d9f2253b9621c667c13a4cba273e78a08c7027e1f78b394834f5a1fba0",
+  "provenance_url": "https://kennel.kujolang.ai/packages/lens/1.1.0/provenance.json",
+  "release_id": 384030048,
+  "released_at": "2026-09-07T11:12:52Z",
+  "repository": "kujolang/lens",
+  "repository_id": 1264528159,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "fd388efd4f55f3f844cf7de4fc541abfd07a6785",
+  "source_tag": "v1.1.0",
+  "version": "1.1.0"
+}

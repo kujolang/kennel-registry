@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "f1ae0054f2ea79c247cdfd95b46429d9a2bf5a770131e92c6275e2b4cd4f9675",
+  "archive_size": 55716,
+  "archive_url": "https://kennel.kujolang.ai/packages/fence/1.0.0/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/fence/1.0.0/checksums.txt",
+  "dependencies": {},
+  "description": "Fence prevents agents and developers from crossing architecture boundaries.",
+  "file_count": 59,
+  "license": "MIT",
+  "minimum_kujo_version": "",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "fence",
+  "provenance_sha256": "a856da2b1395ae125413d25424b44630d77ff453d9c9b6b393bfb2e1bd009a25",
+  "provenance_url": "https://kennel.kujolang.ai/packages/fence/1.0.0/provenance.json",
+  "release_id": 367136432,
+  "released_at": "2026-08-08T06:59:26Z",
+  "repository": "kujolang/fence",
+  "repository_id": 1264528387,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "55f11c889a644c065ce9e179454d864fc1bf6d66",
+  "source_tag": "v1.0.0",
+  "version": "1.0.0"
+}

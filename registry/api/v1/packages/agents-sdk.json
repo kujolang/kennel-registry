@@ -1,0 +1,21 @@
+{
+  "description": "Production-oriented agent runtime primitives for Kujo, built on top of the Kujo AI SDK.",
+  "latest": "1.0.0",
+  "metadata_path": "packages/agents-sdk.json",
+  "name": "agents-sdk",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "schema_version": 1,
+  "scope": null,
+  "versions": [
+    {
+      "archive_sha256": "dbe75eceef3055bb450bc619de702d2b2cddf2d3d8d3ea67822e61f3a581382e",
+      "metadata_url": "https://kennel.kujolang.ai/api/v1/packages/agents-sdk/1.0.0.json",
+      "version": "1.0.0",
+      "yanked": false
+    }
+  ]
+}

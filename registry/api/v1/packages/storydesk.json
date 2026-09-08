@@ -1,0 +1,21 @@
+{
+  "description": "Kujo-native editorial control desk for planning, assignments, handoffs, and review queues",
+  "latest": "0.2.0",
+  "metadata_path": "packages/storydesk.json",
+  "name": "storydesk",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "schema_version": 1,
+  "scope": null,
+  "versions": [
+    {
+      "archive_sha256": "bec987208d2c756342f56af9e226856420f5ffc33e27861242e8c94fbc5232af",
+      "metadata_url": "https://kennel.kujolang.ai/api/v1/packages/storydesk/0.2.0.json",
+      "version": "0.2.0",
+      "yanked": false
+    }
+  ]
+}

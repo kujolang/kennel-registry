@@ -1,0 +1,24 @@
+{
+  "archive_sha256": "d883fdcb9a28b477e3190437c845e8fa6a7468f0e6de2bdf221b836dcac46a2a",
+  "builder": "kennel-ustar-gzip-v1",
+  "manifest_projection": {
+    "dependency_releases": {},
+    "generated_file": "kennel.toml",
+    "generated_file_sha256": "749074ca38236e7bb2eb062af25d6a401a2c75c0407c70604f322f7b5033350c",
+    "source_manifest": "kujo.toml",
+    "source_manifest_sha256": "94049ed142f68cde675ac730762f4b9f596ebff31028376e0f5a8035bbfbb797"
+  },
+  "package": "howl",
+  "published_at": "2026-09-08T17:44:15.696787Z",
+  "release_id": 368735202,
+  "released_at": "2026-08-11T17:24:47Z",
+  "repository": "kujolang/howl",
+  "repository_id": 1264527899,
+  "schema_version": 1,
+  "source_commit": "5470f928c5b563599778bbdf8ea0671211d3a265",
+  "source_tag": "v1.1.0",
+  "version": "1.1.0",
+  "workflow_ref": "kujolang/kennel-registry/.github/workflows/releases.yml@refs/heads/main",
+  "workflow_run": "https://github.com/kujolang/kennel-registry/actions/runs/34258829008",
+  "workflow_sha": "b4f7ec4f0ab90380ef772bd16e967faf62a9312f"
+}

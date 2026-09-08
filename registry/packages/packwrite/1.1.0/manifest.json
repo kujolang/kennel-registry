@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "694ff8caefc9546f998b3b360362c13aea8416b802bc340cf482476f7fb5975f",
+  "archive_size": 82201,
+  "archive_url": "https://kennel.kujolang.ai/packages/packwrite/1.1.0/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/packwrite/1.1.0/checksums.txt",
+  "dependencies": {},
+  "description": "AI-assisted, local-first planning compiler that turns project intent into validated agent execution packs",
+  "file_count": 58,
+  "license": "MIT",
+  "minimum_kujo_version": "",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "packwrite",
+  "provenance_sha256": "7c452d6e9d6ed4c7c263c7cccf60fb7e810605d84ec0ca3269c2d5fd6c9c8f91",
+  "provenance_url": "https://kennel.kujolang.ai/packages/packwrite/1.1.0/provenance.json",
+  "release_id": 379436208,
+  "released_at": "2026-08-30T23:51:59Z",
+  "repository": "kujolang/packwrite",
+  "repository_id": 1264528190,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "b69652241b035a7216a59867d93073728849987e",
+  "source_tag": "v1.1.0",
+  "version": "1.1.0"
+}

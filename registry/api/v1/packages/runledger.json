@@ -1,0 +1,21 @@
+{
+  "description": "RunLedger is a structured receipt system for agent work.",
+  "latest": "1.1.0",
+  "metadata_path": "packages/runledger.json",
+  "name": "runledger",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "schema_version": 1,
+  "scope": null,
+  "versions": [
+    {
+      "archive_sha256": "3df77913f36abd4abc88e58ba77c9dde80418ccb8b991b915ab9ba964dd82f2c",
+      "metadata_url": "https://kennel.kujolang.ai/api/v1/packages/runledger/1.1.0.json",
+      "version": "1.1.0",
+      "yanked": false
+    }
+  ]
+}

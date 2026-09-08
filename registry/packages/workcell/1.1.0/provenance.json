@@ -1,0 +1,17 @@
+{
+  "archive_sha256": "3d4bc5bc27648ba482edf8d68b572a9c51af14aae94fc72f0b15c21da628f6a9",
+  "builder": "kennel-ustar-gzip-v1",
+  "package": "workcell",
+  "published_at": "2026-09-08T17:44:53.752373Z",
+  "release_id": 382998311,
+  "released_at": "2026-09-04T20:29:42Z",
+  "repository": "kujolang/workcell",
+  "repository_id": 1297065619,
+  "schema_version": 1,
+  "source_commit": "074d7262ef6c565e3dabd22ee046228c7329e5c1",
+  "source_tag": "v1.1.0",
+  "version": "1.1.0",
+  "workflow_ref": "kujolang/kennel-registry/.github/workflows/releases.yml@refs/heads/main",
+  "workflow_run": "https://github.com/kujolang/kennel-registry/actions/runs/34258829008",
+  "workflow_sha": "b4f7ec4f0ab90380ef772bd16e967faf62a9312f"
+}

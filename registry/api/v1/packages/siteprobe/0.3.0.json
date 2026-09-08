@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "68eb19b541aaeee4e6c3e30a95a00472c8babc86c24b82ca400a9c708ea0d03a",
+  "archive_size": 89219,
+  "archive_url": "https://kennel.kujolang.ai/packages/siteprobe/0.3.0/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/siteprobe/0.3.0/checksums.txt",
+  "dependencies": {},
+  "description": "Native Kujo website intelligence with bounded deterministic artifacts",
+  "file_count": 54,
+  "license": "MIT",
+  "minimum_kujo_version": "",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "siteprobe",
+  "provenance_sha256": "4e159e6a098f20341e727b364725d39ecbe981ad6cf53e49b57793cbd23ff4c1",
+  "provenance_url": "https://kennel.kujolang.ai/packages/siteprobe/0.3.0/provenance.json",
+  "release_id": 384131831,
+  "released_at": "2026-09-07T14:03:17Z",
+  "repository": "kujolang/siteprobe",
+  "repository_id": 1330689374,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "71a2071b60174cf755084e167ccc392710a104b8",
+  "source_tag": "v0.3.0",
+  "version": "0.3.0"
+}

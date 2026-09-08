@@ -1,0 +1,17 @@
+{
+  "archive_sha256": "8a8b4b9ce48e5ebb5baf5df2a87c8434c68405abd8b9367a9bf90b4453d38ad9",
+  "builder": "kennel-ustar-gzip-v1",
+  "package": "shipcheck",
+  "published_at": "2026-09-08T17:44:40.329767Z",
+  "release_id": 367137016,
+  "released_at": "2026-08-08T07:02:07Z",
+  "repository": "kujolang/shipcheck",
+  "repository_id": 1264528217,
+  "schema_version": 1,
+  "source_commit": "2768e3040e766b0befd354db4427afc4c7a81899",
+  "source_tag": "v1.0.0",
+  "version": "1.0.0",
+  "workflow_ref": "kujolang/kennel-registry/.github/workflows/releases.yml@refs/heads/main",
+  "workflow_run": "https://github.com/kujolang/kennel-registry/actions/runs/34258829008",
+  "workflow_sha": "b4f7ec4f0ab90380ef772bd16e967faf62a9312f"
+}

@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "db9123ed156b3fbcfbe42c3d5a30afc53dc4b503ac63c477f57e04c5dcbd4250",
+  "archive_size": 53717,
+  "archive_url": "https://kennel.kujolang.ai/packages/bluepencil/0.2.0/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/bluepencil/0.2.0/checksums.txt",
+  "dependencies": {},
+  "description": "Kujo-native editorial review, blockers, verdicts, disagreement, and quality calibration",
+  "file_count": 87,
+  "license": "MIT",
+  "minimum_kujo_version": "",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "bluepencil",
+  "provenance_sha256": "9b48ddfd13bf8be657f9306386ec420f6649eb63623a15aa9457418fbc4276c3",
+  "provenance_url": "https://kennel.kujolang.ai/packages/bluepencil/0.2.0/provenance.json",
+  "release_id": 370827484,
+  "released_at": "2026-08-14T21:16:25Z",
+  "repository": "kujolang/bluepencil",
+  "repository_id": 1334494490,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "8867ae72874c9584795c3122f69067a439f136e0",
+  "source_tag": "v0.2.0",
+  "version": "0.2.0"
+}

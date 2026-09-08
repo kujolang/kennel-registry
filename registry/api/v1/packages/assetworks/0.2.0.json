@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "078fbbc09f74fe6dea44d829e278aced4f16c0675f4afdf73cd657248297ca19",
+  "archive_size": 32892,
+  "archive_url": "https://kennel.kujolang.ai/packages/assetworks/0.2.0/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/assetworks/0.2.0/checksums.txt",
+  "dependencies": {},
+  "description": "Kujo-native controlled media jobs, manifests, provenance, captions, and accessibility records",
+  "file_count": 44,
+  "license": "MIT",
+  "minimum_kujo_version": "",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "assetworks",
+  "provenance_sha256": "907ad725785fe12191f770b80b00d22f879db771ee7047c0d64e279dee421130",
+  "provenance_url": "https://kennel.kujolang.ai/packages/assetworks/0.2.0/provenance.json",
+  "release_id": 370827472,
+  "released_at": "2026-08-14T21:16:24Z",
+  "repository": "kujolang/assetworks",
+  "repository_id": 1334494752,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "05252fa6aeab39b04db0e9c54d36c3885231c07b",
+  "source_tag": "v0.2.0",
+  "version": "0.2.0"
+}

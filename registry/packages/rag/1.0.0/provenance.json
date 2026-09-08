@@ -1,0 +1,17 @@
+{
+  "archive_sha256": "ce0241974951c82daaa5d70842873c726d1e402df5f724f60ba9d97319905eeb",
+  "builder": "kennel-ustar-gzip-v1",
+  "package": "rag",
+  "published_at": "2026-09-08T17:44:28.969168Z",
+  "release_id": 367136936,
+  "released_at": "2026-08-08T07:01:42Z",
+  "repository": "kujolang/rag",
+  "repository_id": 1264528453,
+  "schema_version": 1,
+  "source_commit": "667af5bfa6a57a3c6e0788d1603f43e652a54864",
+  "source_tag": "v1.0.0",
+  "version": "1.0.0",
+  "workflow_ref": "kujolang/kennel-registry/.github/workflows/releases.yml@refs/heads/main",
+  "workflow_run": "https://github.com/kujolang/kennel-registry/actions/runs/34258829008",
+  "workflow_sha": "b4f7ec4f0ab90380ef772bd16e967faf62a9312f"
+}

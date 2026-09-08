@@ -1,0 +1,21 @@
+{
+  "description": "Kujo-native Docker-backed disposable execution sandbox for AI agents and workflows.",
+  "latest": "1.1.0",
+  "metadata_path": "packages/workcell.json",
+  "name": "workcell",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "schema_version": 1,
+  "scope": null,
+  "versions": [
+    {
+      "archive_sha256": "3d4bc5bc27648ba482edf8d68b572a9c51af14aae94fc72f0b15c21da628f6a9",
+      "metadata_url": "https://kennel.kujolang.ai/api/v1/packages/workcell/1.1.0.json",
+      "version": "1.1.0",
+      "yanked": false
+    }
+  ]
+}

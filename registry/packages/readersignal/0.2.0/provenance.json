@@ -1,0 +1,24 @@
+{
+  "archive_sha256": "aad7148d9089bc5ed4296990cbd92cc1af64b0ba1386d8120e33382276aad392",
+  "builder": "kennel-ustar-gzip-v1",
+  "manifest_projection": {
+    "dependency_releases": {},
+    "generated_file": "kennel.toml",
+    "generated_file_sha256": "f77f3f29601ca7c759ceb7bf0f30813f2b332b74245619eafe6c279b2cfa6142",
+    "source_manifest": "kujo.toml",
+    "source_manifest_sha256": "a1a8a9e6d42caffbde1c6111d73d0528a471c3c9c09a61cb2b95ae7b2a7dcc0d"
+  },
+  "package": "readersignal",
+  "published_at": "2026-09-08T17:44:30.758573Z",
+  "release_id": 370827520,
+  "released_at": "2026-08-14T21:16:30Z",
+  "repository": "kujolang/readersignal",
+  "repository_id": 1334496858,
+  "schema_version": 1,
+  "source_commit": "5062b23173baae679b07a4a885ac8bc9f0f7aefc",
+  "source_tag": "v0.2.0",
+  "version": "0.2.0",
+  "workflow_ref": "kujolang/kennel-registry/.github/workflows/releases.yml@refs/heads/main",
+  "workflow_run": "https://github.com/kujolang/kennel-registry/actions/runs/34258829008",
+  "workflow_sha": "b4f7ec4f0ab90380ef772bd16e967faf62a9312f"
+}

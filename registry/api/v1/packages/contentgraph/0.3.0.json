@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "1f1f7ef0c9deab654863076c90ba9fd7b4d491a3e1a516d234a828b63f923a92",
+  "archive_size": 341696,
+  "archive_url": "https://kennel.kujolang.ai/packages/contentgraph/0.3.0/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/contentgraph/0.3.0/checksums.txt",
+  "dependencies": {},
+  "description": "contentgraph",
+  "file_count": 142,
+  "license": "MIT",
+  "minimum_kujo_version": "",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "contentgraph",
+  "provenance_sha256": "f0e7c31b135e99e7beca6d6048506cadfd21f59b1b2c8d1bb0143fb4d889f4f0",
+  "provenance_url": "https://kennel.kujolang.ai/packages/contentgraph/0.3.0/provenance.json",
+  "release_id": 369662644,
+  "released_at": "2026-08-13T04:13:13Z",
+  "repository": "kujolang/contentgraph",
+  "repository_id": 1330689381,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "5360f5f50f0f01a1e40648b9ad8863f00564cd1b",
+  "source_tag": "v0.3.0",
+  "version": "0.3.0"
+}

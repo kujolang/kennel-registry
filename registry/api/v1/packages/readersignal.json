@@ -1,0 +1,21 @@
+{
+  "description": "Kujo-native audience measurement, feedback, attribution boundaries, and editorial learning",
+  "latest": "0.2.0",
+  "metadata_path": "packages/readersignal.json",
+  "name": "readersignal",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "schema_version": 1,
+  "scope": null,
+  "versions": [
+    {
+      "archive_sha256": "aad7148d9089bc5ed4296990cbd92cc1af64b0ba1386d8120e33382276aad392",
+      "metadata_url": "https://kennel.kujolang.ai/api/v1/packages/readersignal/0.2.0.json",
+      "version": "0.2.0",
+      "yanked": false
+    }
+  ]
+}

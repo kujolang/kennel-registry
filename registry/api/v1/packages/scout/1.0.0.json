@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "e68685c32670f0cf65f6505f2f737484166406fbcc6cc69f00f17c720aee0953",
+  "archive_size": 53990,
+  "archive_url": "https://kennel.kujolang.ai/packages/scout/1.0.0/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/scout/1.0.0/checksums.txt",
+  "dependencies": {},
+  "description": "Repository intelligence and context-pack generator for Kujo ecosystem review.",
+  "file_count": 110,
+  "license": "MIT",
+  "minimum_kujo_version": "0.1.0",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "scout",
+  "provenance_sha256": "9865937acb3711fa41acc9adb421fd1201ed91fc1db43c5a31153a0c21517c43",
+  "provenance_url": "https://kennel.kujolang.ai/packages/scout/1.0.0/provenance.json",
+  "release_id": 367136922,
+  "released_at": "2026-08-08T07:01:37Z",
+  "repository": "kujolang/scout",
+  "repository_id": 1264527924,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "e74384795e5c73595cc8469528cc3f49a13fd7bc",
+  "source_tag": "v1.0.0",
+  "version": "1.0.0"
+}

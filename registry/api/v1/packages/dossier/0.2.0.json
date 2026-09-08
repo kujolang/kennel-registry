@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "2fdd2f52b908da6beac3eb098723bfe2067b02972a6e7276f931e98b2277df3b",
+  "archive_size": 35303,
+  "archive_url": "https://kennel.kujolang.ai/packages/dossier/0.2.0/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/dossier/0.2.0/checksums.txt",
+  "dependencies": {},
+  "description": "Kujo-native evidence, claims, sources, consent, freshness, and rights ledger",
+  "file_count": 44,
+  "license": "MIT",
+  "minimum_kujo_version": "",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "dossier",
+  "provenance_sha256": "cb0c42252d72970facf787b6b71975da5ecc28f819e0613b7cdd1cd68e17717f",
+  "provenance_url": "https://kennel.kujolang.ai/packages/dossier/0.2.0/provenance.json",
+  "release_id": 370827490,
+  "released_at": "2026-08-14T21:16:26Z",
+  "repository": "kujolang/dossier",
+  "repository_id": 1334493513,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "b584a5bd043fc8b5e49934ce99ac622cb6ec696b",
+  "source_tag": "v0.2.0",
+  "version": "0.2.0"
+}

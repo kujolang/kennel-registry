@@ -1,0 +1,21 @@
+{
+  "description": "Watchdog is an observability dashboard for AI applications written in Kujo.",
+  "latest": "1.0.1",
+  "metadata_path": "packages/watchdog.json",
+  "name": "watchdog",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "schema_version": 1,
+  "scope": null,
+  "versions": [
+    {
+      "archive_sha256": "7e35f7048eafe3db8d3b735a1f24fceec6b298b070315eeaad3b0285544955f8",
+      "metadata_url": "https://kennel.kujolang.ai/api/v1/packages/watchdog/1.0.1.json",
+      "version": "1.0.1",
+      "yanked": false
+    }
+  ]
+}

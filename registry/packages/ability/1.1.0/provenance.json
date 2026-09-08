@@ -1,0 +1,17 @@
+{
+  "archive_sha256": "5f4f5e5eca1f382319869aa38d4ebd9177f38dcfb573c019f2e9ef6f2cade20b",
+  "builder": "kennel-ustar-gzip-v1",
+  "package": "ability",
+  "published_at": "2026-09-08T17:43:53.723798Z",
+  "release_id": 383050709,
+  "released_at": "2026-09-04T22:43:43Z",
+  "repository": "kujolang/ability",
+  "repository_id": 1353984444,
+  "schema_version": 1,
+  "source_commit": "e5a74803c822de79e934d2bea82d615d8be3bbee",
+  "source_tag": "v1.1.0",
+  "version": "1.1.0",
+  "workflow_ref": "kujolang/kennel-registry/.github/workflows/releases.yml@refs/heads/main",
+  "workflow_run": "https://github.com/kujolang/kennel-registry/actions/runs/34258829008",
+  "workflow_sha": "b4f7ec4f0ab90380ef772bd16e967faf62a9312f"
+}

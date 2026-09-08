@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "9073f0df9466e20aca87d506a81afe707d58612e0c240f946e8cfec008f2e12b",
+  "archive_size": 62013,
+  "archive_url": "https://kennel.kujolang.ai/packages/ai-sdk/1.0.0/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/ai-sdk/1.0.0/checksums.txt",
+  "dependencies": {},
+  "description": "Provider-agnostic SDK primitives for building OpenAI-compatible chat integrations in Kujo.",
+  "file_count": 40,
+  "license": "MIT",
+  "minimum_kujo_version": "0.1.0",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "ai-sdk",
+  "provenance_sha256": "63a515b00eac333689a23e6a997e62f65fcc1dad2332a156cec3496a791e5e9a",
+  "provenance_url": "https://kennel.kujolang.ai/packages/ai-sdk/1.0.0/provenance.json",
+  "release_id": 367136429,
+  "released_at": "2026-08-08T06:59:24Z",
+  "repository": "kujolang/ai-sdk",
+  "repository_id": 1264528429,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "c7ed65a7fccc2186b6ec12ec369891c1c2e49a7f",
+  "source_tag": "v1.0.0",
+  "version": "1.0.0"
+}

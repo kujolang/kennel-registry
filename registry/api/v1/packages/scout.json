@@ -1,0 +1,21 @@
+{
+  "description": "Repository intelligence and context-pack generator for Kujo ecosystem review.",
+  "latest": "1.0.0",
+  "metadata_path": "packages/scout.json",
+  "name": "scout",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "schema_version": 1,
+  "scope": null,
+  "versions": [
+    {
+      "archive_sha256": "e68685c32670f0cf65f6505f2f737484166406fbcc6cc69f00f17c720aee0953",
+      "metadata_url": "https://kennel.kujolang.ai/api/v1/packages/scout/1.0.0.json",
+      "version": "1.0.0",
+      "yanked": false
+    }
+  ]
+}

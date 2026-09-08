@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "3df77913f36abd4abc88e58ba77c9dde80418ccb8b991b915ab9ba964dd82f2c",
+  "archive_size": 41269,
+  "archive_url": "https://kennel.kujolang.ai/packages/runledger/1.1.0/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/runledger/1.1.0/checksums.txt",
+  "dependencies": {},
+  "description": "RunLedger is a structured receipt system for agent work.",
+  "file_count": 28,
+  "license": "MIT",
+  "minimum_kujo_version": "",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "runledger",
+  "provenance_sha256": "a61ed42ed1d6b9d2a12d112da56165cd533a6aa1a7f3f5af2b9d80e79a80a5e0",
+  "provenance_url": "https://kennel.kujolang.ai/packages/runledger/1.1.0/provenance.json",
+  "release_id": 379448355,
+  "released_at": "2026-08-31T00:49:32Z",
+  "repository": "kujolang/runledger",
+  "repository_id": 1264528298,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "ca60031f8b3e5349efe9637a908fc1fde79a7764",
+  "source_tag": "v1.1.0",
+  "version": "1.1.0"
+}

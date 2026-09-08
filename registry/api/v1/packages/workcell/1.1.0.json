@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "3d4bc5bc27648ba482edf8d68b572a9c51af14aae94fc72f0b15c21da628f6a9",
+  "archive_size": 401252,
+  "archive_url": "https://kennel.kujolang.ai/packages/workcell/1.1.0/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/workcell/1.1.0/checksums.txt",
+  "dependencies": {},
+  "description": "Kujo-native Docker-backed disposable execution sandbox for AI agents and workflows.",
+  "file_count": 209,
+  "license": "MIT",
+  "minimum_kujo_version": "1.2.1",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "workcell",
+  "provenance_sha256": "f954f3deac15ccbf43a132b169357422d9de17cdd56f4cb4559deb46445fe3b7",
+  "provenance_url": "https://kennel.kujolang.ai/packages/workcell/1.1.0/provenance.json",
+  "release_id": 382998311,
+  "released_at": "2026-09-04T20:29:42Z",
+  "repository": "kujolang/workcell",
+  "repository_id": 1297065619,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "074d7262ef6c565e3dabd22ee046228c7329e5c1",
+  "source_tag": "v1.1.0",
+  "version": "1.1.0"
+}

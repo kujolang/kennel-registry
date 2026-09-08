@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "d43b912edd520673792fbd6c2dddecbc8f29ec82df526cbbb69f3b926e0524c3",
+  "archive_size": 141726,
+  "archive_url": "https://kennel.kujolang.ai/packages/eval/1.0.0/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/eval/1.0.0/checksums.txt",
+  "dependencies": {},
+  "description": "Evaluation framework for AI-native software \u2014 27 deterministic checks, 5 report formats, snapshot testing, retry support, security hardened. Contract v2.0.0.",
+  "file_count": 78,
+  "license": "MIT",
+  "minimum_kujo_version": "0.1.0",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "eval",
+  "provenance_sha256": "f0f1a9ad92fd1480df71af3f41458dd13c355d2d1d5c5e948ee1b63c222b1c56",
+  "provenance_url": "https://kennel.kujolang.ai/packages/eval/1.0.0/provenance.json",
+  "release_id": 367136915,
+  "released_at": "2026-08-08T07:01:34Z",
+  "repository": "kujolang/eval",
+  "repository_id": 1264528504,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "dce9d030a3547803dab876b404c44c25b247dde1",
+  "source_tag": "v1.0.0",
+  "version": "1.0.0"
+}

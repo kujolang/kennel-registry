@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "aad7148d9089bc5ed4296990cbd92cc1af64b0ba1386d8120e33382276aad392",
+  "archive_size": 33619,
+  "archive_url": "https://kennel.kujolang.ai/packages/readersignal/0.2.0/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/readersignal/0.2.0/checksums.txt",
+  "dependencies": {},
+  "description": "Kujo-native audience measurement, feedback, attribution boundaries, and editorial learning",
+  "file_count": 44,
+  "license": "MIT",
+  "minimum_kujo_version": "",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "readersignal",
+  "provenance_sha256": "5f804c6ffd883d5858b73a295d015fff8cbd609a6f72bb78aa327e8d74f964b0",
+  "provenance_url": "https://kennel.kujolang.ai/packages/readersignal/0.2.0/provenance.json",
+  "release_id": 370827520,
+  "released_at": "2026-08-14T21:16:30Z",
+  "repository": "kujolang/readersignal",
+  "repository_id": 1334496858,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "5062b23173baae679b07a4a885ac8bc9f0f7aefc",
+  "source_tag": "v0.2.0",
+  "version": "0.2.0"
+}

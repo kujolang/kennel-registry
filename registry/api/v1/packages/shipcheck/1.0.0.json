@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "8a8b4b9ce48e5ebb5baf5df2a87c8434c68405abd8b9367a9bf90b4453d38ad9",
+  "archive_size": 25001,
+  "archive_url": "https://kennel.kujolang.ai/packages/shipcheck/1.0.0/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/shipcheck/1.0.0/checksums.txt",
+  "dependencies": {},
+  "description": "Release-readiness scanner for Kujo ecosystem projects. Inspects a repository and produces structured reports, checklists, and release gate validation.",
+  "file_count": 27,
+  "license": "MIT",
+  "minimum_kujo_version": "0.1.0",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "shipcheck",
+  "provenance_sha256": "66a4262377b5927b74ef3b3a6ebd89220f265a3d1514754b977fbc63f88a6553",
+  "provenance_url": "https://kennel.kujolang.ai/packages/shipcheck/1.0.0/provenance.json",
+  "release_id": 367137016,
+  "released_at": "2026-08-08T07:02:07Z",
+  "repository": "kujolang/shipcheck",
+  "repository_id": 1264528217,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "2768e3040e766b0befd354db4427afc4c7a81899",
+  "source_tag": "v1.0.0",
+  "version": "1.0.0"
+}

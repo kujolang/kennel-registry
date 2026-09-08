@@ -1,6 +1,84 @@
 {
   "packages": [
     {
+      "description": "Portable semantic operation contracts for the Kujo ecosystem.",
+      "latest": "1.1.0",
+      "metadata_path": "packages/ability.json",
+      "name": "ability",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "Production-oriented agent runtime primitives for Kujo, built on top of the Kujo AI SDK.",
+      "latest": "1.0.0",
+      "metadata_path": "packages/agents-sdk.json",
+      "name": "agents-sdk",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "Provider-agnostic SDK primitives for building OpenAI-compatible chat integrations in Kujo.",
+      "latest": "1.0.0",
+      "metadata_path": "packages/ai-sdk.json",
+      "name": "ai-sdk",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "Kujo-native controlled media jobs, manifests, provenance, captions, and accessibility records",
+      "latest": "0.2.0",
+      "metadata_path": "packages/assetworks.json",
+      "name": "assetworks",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "Kujo-native editorial review, blockers, verdicts, disagreement, and quality calibration",
+      "latest": "0.2.0",
+      "metadata_path": "packages/bluepencil.json",
+      "name": "bluepencil",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "Turn failures into reproducible, reviewable investigation packets.",
+      "latest": "1.0.0",
+      "metadata_path": "packages/casefile.json",
+      "name": "casefile",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
       "description": "Measures code-change size, shape, and risk footprint. This original release uses the ChangeBudget CLI name.",
       "latest": "1.0.0",
       "metadata_path": "packages/changebucket.json",
@@ -14,10 +92,374 @@
       "scope": null
     },
     {
+      "description": "Artifact drift and alignment checker for Kujo ecosystem projects. Dogfood showcase for the Kujo ecosystem.",
+      "latest": "1.0.0",
+      "metadata_path": "packages/concord.json",
+      "name": "concord",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "contentgraph",
+      "latest": "0.3.0",
+      "metadata_path": "packages/contentgraph.json",
+      "name": "contentgraph",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "Kujo-native evidence, claims, sources, consent, freshness, and rights ledger",
+      "latest": "0.2.0",
+      "metadata_path": "packages/dossier.json",
+      "name": "dossier",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "Evaluation framework for AI-native software \u2014 27 deterministic checks, 5 report formats, snapshot testing, retry support, security hardened. Contract v2.0.0.",
+      "latest": "1.0.0",
+      "metadata_path": "packages/eval.json",
+      "name": "eval",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "Fence prevents agents and developers from crossing architecture boundaries.",
+      "latest": "1.0.0",
+      "metadata_path": "packages/fence.json",
+      "name": "fence",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "Kujo-native versioned editorial packages, checksums, freeze, and drift verification",
+      "latest": "0.2.0",
+      "metadata_path": "packages/galleypack.json",
+      "name": "galleypack",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "Turn example files into a multi-format showcase gallery",
+      "latest": "1.1.0",
+      "metadata_path": "packages/howl.json",
+      "name": "howl",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
       "description": "Production-focused package manager for Kujo projects with deterministic dependency operations and hosted-registry workflows.",
       "latest": "1.0.1",
       "metadata_path": "packages/kennel.json",
       "name": "kennel",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "Deterministic browser/visual QA tool for AI-built software. Gives agents eyes by opening a local app or URL, collecting evidence, and producing agent-ready repair reports.",
+      "latest": "1.1.0",
+      "metadata_path": "packages/lens.json",
+      "name": "lens",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "A Kujo-native MCP server framework for tools, resources, and JSON-schema validated tool handlers.",
+      "latest": "1.1.1",
+      "metadata_path": "packages/mcp.json",
+      "name": "mcp",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "Quiet workflow runner for AI-assisted development. Kujo-native CLI with modular runner support (Kujo default, Bash, Python, Node). Captures noisy logs to files, prints compact agent-friendly summaries.",
+      "latest": "1.1.0",
+      "metadata_path": "packages/muzzle.json",
+      "name": "muzzle",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "AI-assisted, local-first planning compiler that turns project intent into validated agent execution packs",
+      "latest": "1.1.0",
+      "metadata_path": "packages/packwrite.json",
+      "name": "packwrite",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "Local developer tool that inspects git diffs and generates structured implementation briefs. Dogfood showcase for the Kujo ecosystem.",
+      "latest": "1.0.1",
+      "metadata_path": "packages/patchbrief.json",
+      "name": "patchbrief",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "Kujo-native bounded publication gateway with approval checks, idempotency, and receipts",
+      "latest": "0.2.0",
+      "metadata_path": "packages/presswire.json",
+      "name": "presswire",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "Local-first Kujo RAG starter kit with offline indexing, retrieval, and API proof gates.",
+      "latest": "1.0.0",
+      "metadata_path": "packages/rag.json",
+      "name": "rag",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "Kujo-native audience measurement, feedback, attribution boundaries, and editorial learning",
+      "latest": "0.2.0",
+      "metadata_path": "packages/readersignal.json",
+      "name": "readersignal",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "Deterministic local-first redaction aid for text and Markdown.",
+      "latest": "1.0.0",
+      "metadata_path": "packages/redact.json",
+      "name": "redact",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "RunLedger is a structured receipt system for agent work.",
+      "latest": "1.1.0",
+      "metadata_path": "packages/runledger.json",
+      "name": "runledger",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "Deterministic, token-budgeted context packs for AI coding agents.",
+      "latest": "1.0.0",
+      "metadata_path": "packages/scent.json",
+      "name": "scent",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "Repository intelligence and context-pack generator for Kujo ecosystem review.",
+      "latest": "1.0.0",
+      "metadata_path": "packages/scout.json",
+      "name": "scout",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "SearchBridge is the normalized external-data layer for Kujo WebOps. ",
+      "latest": "1.0.0",
+      "metadata_path": "packages/searchbridge.json",
+      "name": "searchbridge",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "Release-readiness scanner for Kujo ecosystem projects. Inspects a repository and produces structured reports, checklists, and release gate validation.",
+      "latest": "1.0.0",
+      "metadata_path": "packages/shipcheck.json",
+      "name": "shipcheck",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "AI-readable, human-verifiable design system and component library for building accessible, semantic, token-driven websites and web interfaces.",
+      "latest": "1.0.0",
+      "metadata_path": "packages/sitekit.json",
+      "name": "sitekit",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "Native Kujo website intelligence with bounded deterministic artifacts",
+      "latest": "0.3.0",
+      "metadata_path": "packages/siteprobe.json",
+      "name": "siteprobe",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "Structured task definition format for AI-native development \u2014 turns messy human instructions into clear machine-readable implementation context.",
+      "latest": "1.0.1",
+      "metadata_path": "packages/spec.json",
+      "name": "spec",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "Kujo-native editorial control desk for planning, assignments, handoffs, and review queues",
+      "latest": "0.2.0",
+      "metadata_path": "packages/storydesk.json",
+      "name": "storydesk",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "Kujo-native exact-version human approval and checksum verification",
+      "latest": "0.2.0",
+      "metadata_path": "packages/versionseal.json",
+      "name": "versionseal",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "Watchdog is an observability dashboard for AI applications written in Kujo.",
+      "latest": "1.0.1",
+      "metadata_path": "packages/watchdog.json",
+      "name": "watchdog",
+      "official": true,
+      "owner": {
+        "id": "kujolang",
+        "type": "organization"
+      },
+      "schema_version": 1,
+      "scope": null
+    },
+    {
+      "description": "Kujo-native Docker-backed disposable execution sandbox for AI agents and workflows.",
+      "latest": "1.1.0",
+      "metadata_path": "packages/workcell.json",
+      "name": "workcell",
       "official": true,
       "owner": {
         "id": "kujolang",

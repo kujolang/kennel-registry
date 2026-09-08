@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "dbe75eceef3055bb450bc619de702d2b2cddf2d3d8d3ea67822e61f3a581382e",
+  "archive_size": 106073,
+  "archive_url": "https://kennel.kujolang.ai/packages/agents-sdk/1.0.0/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/agents-sdk/1.0.0/checksums.txt",
+  "dependencies": {},
+  "description": "Production-oriented agent runtime primitives for Kujo, built on top of the Kujo AI SDK.",
+  "file_count": 81,
+  "license": "MIT",
+  "minimum_kujo_version": "",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "agents-sdk",
+  "provenance_sha256": "7d88cf86061889aef9d0c25f2108d1bf59320242f1055171f5708c83f492a5c3",
+  "provenance_url": "https://kennel.kujolang.ai/packages/agents-sdk/1.0.0/provenance.json",
+  "release_id": 367136944,
+  "released_at": "2026-08-08T07:01:44Z",
+  "repository": "kujolang/agents-sdk",
+  "repository_id": 1264528407,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "e92a61ec1df21c89ae26f411838b4669405a0765",
+  "source_tag": "v1.0.0",
+  "version": "1.0.0"
+}

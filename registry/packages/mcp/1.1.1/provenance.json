@@ -1,0 +1,34 @@
+{
+  "archive_sha256": "edaee686768a11e1c30db6a5710a9e38a7326d8a6909dc84942f88a96f07bf80",
+  "builder": "kennel-ustar-gzip-v1",
+  "manifest_projection": {
+    "dependency_releases": {
+      "ability": {
+        "commit": "4aa354da8d02b027c459f692f69b523f96e97056",
+        "original": {
+          "commit": "4aa354da8d02b027c459f692f69b523f96e97056",
+          "source": "github:kujolang/ability"
+        },
+        "package": "ability",
+        "version": "1.0.1"
+      }
+    },
+    "generated_file": "kennel.toml",
+    "generated_file_sha256": "01ee3a3537b5df33bec7de1db4719b8b23ca672d18dacb2f117b1023e0c1b226",
+    "source_manifest": "kennel.toml",
+    "source_manifest_sha256": "a595f68d0f1033857e670ae8839657513104e0b0c8206ce353caaae63ce73dc5"
+  },
+  "package": "mcp",
+  "published_at": "2026-09-08T17:44:20.908362Z",
+  "release_id": 382717847,
+  "released_at": "2026-09-04T12:43:30Z",
+  "repository": "kujolang/mcp",
+  "repository_id": 1264528133,
+  "schema_version": 1,
+  "source_commit": "7c938d765702b07cb7051a50c7bf206cffe1d78e",
+  "source_tag": "v1.1.1",
+  "version": "1.1.1",
+  "workflow_ref": "kujolang/kennel-registry/.github/workflows/releases.yml@refs/heads/main",
+  "workflow_run": "https://github.com/kujolang/kennel-registry/actions/runs/34258829008",
+  "workflow_sha": "b4f7ec4f0ab90380ef772bd16e967faf62a9312f"
+}

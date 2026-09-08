@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "7e35f7048eafe3db8d3b735a1f24fceec6b298b070315eeaad3b0285544955f8",
+  "archive_size": 445068,
+  "archive_url": "https://kennel.kujolang.ai/packages/watchdog/1.0.1/package.tar.gz",
+  "checksum_url": "https://kennel.kujolang.ai/packages/watchdog/1.0.1/checksums.txt",
+  "dependencies": {},
+  "description": "Watchdog is an observability dashboard for AI applications written in Kujo.",
+  "file_count": 129,
+  "license": "MIT",
+  "minimum_kujo_version": "",
+  "official": true,
+  "owner": {
+    "id": "kujolang",
+    "type": "organization"
+  },
+  "package": "watchdog",
+  "provenance_sha256": "9430fcbee26e583166bbc83a1136803caa4d03e6f84f23989fa471e51b8dfe6b",
+  "provenance_url": "https://kennel.kujolang.ai/packages/watchdog/1.0.1/provenance.json",
+  "release_id": 368730538,
+  "released_at": "2026-08-11T17:15:49Z",
+  "repository": "kujolang/watchdog",
+  "repository_id": 1264528352,
+  "schema_version": 1,
+  "scope": null,
+  "source_commit": "3e3a8fcbcb2a3e5e92bb169da4d40cf4ee15bb04",
+  "source_tag": "v1.0.1",
+  "version": "1.0.1"
+}
