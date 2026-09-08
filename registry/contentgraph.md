@@ -1,6 +1,6 @@
 # contentgraph
 
-contentgraph
+Maps website content and internal links to surface orphan pages, topic overlaps and linking opportunities.
 
 Install: `kennel add contentgraph`
 

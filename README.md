@@ -35,3 +35,7 @@ Pages production branch: `main`; build command: none; output: `registry`; domain
 Provenance statements bind archive/release identity through the trusted HTTPS registry. They are not independent cryptographic signatures. Registry write access and publishing automation remain the trust root. Clients verify archive and provenance digests before staging and replacement.
 
 Production activated 2026-09-08. The Git-connected Pages project is `kennel-registry`; the verified deployment settings are recorded in `cloudflare-pages.json`. DNS and TLS are active for `kennel.kujolang.ai`. Consumer install acceptance uses the updated Kennel client from its main branch with Kujo 1.3.1 or newer; historical Kennel package releases retain their original client behavior. No historical release was rewritten to include new registry support.
+
+## Ecosystem coverage
+
+The registry now contains 36 public Kujo primitives and tools. See [ENROLLMENT.md](ENROLLMENT.md) for exact versions, release adaptations and the five catalog entries that are pending, private, or use a different installer. [catalog.json](catalog.json) holds reviewed discovery copy; immutable release metadata stays unchanged.
