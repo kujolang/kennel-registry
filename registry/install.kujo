@@ -1,0 +1,805 @@
+# Generated Kennel native installer. Edit src/bootstrap.kujo and regenerate.
+
+# src/utils.kujo
+func dict_get_or(obj, lookup_key, default_value) {
+	if type(obj) != "dict" {
+		return default_value
+	}
+	if has_key(obj, lookup_key) {
+		return obj[lookup_key]
+	}
+	return default_value
+}
+func ensure_dir(path) {
+	if trim(path) == "" {
+		return
+	}
+	if path_exists(path) {
+		return
+	}
+	try {
+		create_dir(path)
+	} except err {
+		# Directory may be created concurrently.
+	}
+}
+func shell_quote(value) {
+	text := to_string(value)
+	return "'" + replace(text, "'", "'\"'\"'") + "'"
+}
+func is_valid_identifier(value) {
+	text := trim(to_string(value))
+	if text == "" {
+		return false
+	}
+	allowed := "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_.-"
+	i := 0
+	while i < len(text) {
+		ch := substring(text, i, i + 1)
+		if index_of(allowed, ch) < 0 {
+			return false
+		}
+		i := i + 1
+	}
+	return true
+}
+func validate_identifier(value, label) {
+	text := trim(to_string(value))
+	if is_valid_identifier(text) {
+		return {
+			"ok": true,
+			"value": text
+		}
+	}
+	return {
+		"ok": false,
+		"error": label + " must contain only letters, numbers, hyphen, or underscore.",
+		"value": text
+	}
+}
+
+# src/semver.kujo
+func strip_leading_v(value) {
+	text := trim(to_string(value))
+	if starts_with(text, "v") || starts_with(text, "V") {
+		return substring(text, 1, len(text))
+	}
+	return text
+}
+
+func is_digits(value) {
+	text := trim(to_string(value))
+	if text == "" {
+		return false
+	}
+	idx := 0
+	while idx < len(text) {
+		ch := substring(text, idx, idx + 1)
+		if ch < "0" || ch > "9" {
+			return false
+		}
+		idx = idx + 1
+	}
+	return true
+}
+
+func normalize_numeric_string(value) {
+	text := trim(to_string(value))
+	if text == "" {
+		return "0"
+	}
+	idx := 0
+	while idx < len(text) - 1 && substring(text, idx, idx + 1) == "0" {
+		idx = idx + 1
+	}
+	return substring(text, idx, len(text))
+}
+
+func parse_semver_value(value) {
+	text := strip_leading_v(value)
+	parts := split(text, ".")
+	if len(parts) != 3 {
+		return {
+			"ok": false
+		}
+	}
+	major := normalize_numeric_string(parts[0])
+	minor := normalize_numeric_string(parts[1])
+	patch := normalize_numeric_string(parts[2])
+	if is_digits(major) == false || is_digits(minor) == false || is_digits(patch) == false {
+		return {
+			"ok": false
+		}
+	}
+	return {
+		"ok": true,
+		"major": major,
+		"minor": minor,
+		"patch": patch,
+		"normalized": major + "." + minor + "." + patch
+	}
+}
+
+func compare_numeric_segments(left_value, right_value) {
+	left := normalize_numeric_string(left_value)
+	right := normalize_numeric_string(right_value)
+	if len(left) > len(right) {
+		return 1
+	}
+	if len(left) < len(right) {
+		return -1
+	}
+	if left > right {
+		return 1
+	}
+	if left < right {
+		return -1
+	}
+	return 0
+}
+
+func compare_semver(left_version, right_version) {
+	major_compare := compare_numeric_segments(left_version["major"], right_version["major"])
+	if major_compare != 0 {
+		return major_compare
+	}
+	minor_compare := compare_numeric_segments(left_version["minor"], right_version["minor"])
+	if minor_compare != 0 {
+		return minor_compare
+	}
+	return compare_numeric_segments(left_version["patch"], right_version["patch"])
+}
+
+func semver_range_tokens(range_expr) {
+	raw := replace(trim(to_string(range_expr)), ",", " ")
+	if raw == "" {
+		return []
+	}
+	parts := split(raw, " ")
+	tokens := []
+	for part in parts {
+		token := trim(to_string(part))
+		if token != "" {
+			tokens := push(tokens, token)
+		}
+	}
+	return tokens
+}
+
+func semver_satisfies_token(version_obj, token_value) {
+	token := trim(to_string(token_value))
+	if token == "" || token == "*" {
+		return true
+	}
+	operator := "="
+	operand := token
+	if starts_with(token, ">=") || starts_with(token, "<=") {
+		operator = substring(token, 0, 2)
+		operand = substring(token, 2, len(token))
+	} else if starts_with(token, ">") || starts_with(token, "<") || starts_with(token, "=") || starts_with(token, "^") || starts_with(token, "~") {
+		operator = substring(token, 0, 1)
+		operand = substring(token, 1, len(token))
+	}
+	base_version := parse_semver_value(operand)
+	if base_version["ok"] == false {
+		return false
+	}
+	cmp := compare_semver(version_obj, base_version)
+	if operator == ">=" {
+		return cmp >= 0
+	}
+	if operator == ">" {
+		return cmp > 0
+	}
+	if operator == "<=" {
+		return cmp <= 0
+	}
+	if operator == "<" {
+		return cmp < 0
+	}
+	if operator == "~" {
+		if compare_numeric_segments(version_obj["major"], base_version["major"]) != 0 {
+			return false
+		}
+		if compare_numeric_segments(version_obj["minor"], base_version["minor"]) != 0 {
+			return false
+		}
+		return cmp >= 0
+	}
+	if operator == "^" {
+		if compare_numeric_segments(base_version["major"], "0") == 0 {
+			if compare_numeric_segments(base_version["minor"], "0") == 0 {
+				if compare_numeric_segments(version_obj["major"], "0") != 0 {
+					return false
+				}
+				if compare_numeric_segments(version_obj["minor"], "0") != 0 {
+					return false
+				}
+				return cmp >= 0
+			}
+			if compare_numeric_segments(version_obj["major"], "0") != 0 {
+				return false
+			}
+			if compare_numeric_segments(version_obj["minor"], base_version["minor"]) != 0 {
+				return false
+			}
+			return cmp >= 0
+		}
+		if compare_numeric_segments(version_obj["major"], base_version["major"]) != 0 {
+			return false
+		}
+		return cmp >= 0
+	}
+	return cmp == 0
+}
+
+func semver_satisfies_range(version_obj, range_expr) {
+	tokens := semver_range_tokens(range_expr)
+	if len(tokens) == 0 {
+		return false
+	}
+	for token in tokens {
+		if semver_satisfies_token(version_obj, token) == false {
+			return false
+		}
+	}
+	return true
+}
+
+
+
+
+# src/registry_transport.kujo
+
+OFFICIAL_REGISTRY := "https://kennel.kujolang.ai/api/v1/index.json"
+MAX_ARCHIVE_BYTES := 8388608
+
+func registry_get(url, maximum) {
+	if starts_with(url, "https://") == false || index_of(url, "#") >= 0 {
+		throw("Registry transport requires an HTTPS URL without credentials or fragments")
+	}
+	authority := split(substring(url, len("https://"), len(url)), "/")[0]
+	if authority == "" || index_of(authority, "@") >= 0 {
+		throw("Registry transport forbids URL credentials")
+	}
+	result := http_request(url, {"method": "GET", "timeout": 30, "max_response_bytes": maximum, "redirects": "none", "headers": {"Accept": "application/json, application/octet-stream", "User-Agent": "Kennel/registry-v1"}})
+	match result {
+		case Result::Ok(response): {
+			if response["status"] != 200 {
+				throw("Registry request failed (HTTP " + to_string(response["status"]) + "): " + url)
+			}
+			return response
+		}
+		case Result::Err(message): {
+			throw("Registry network failure: " + to_string(message))
+		}
+	}
+	throw("Invalid registry response")
+}
+
+func registry_json(url) {
+	response := registry_get(url, 1048576)
+	doc := parse_json(response["body"])
+	if type(doc) != "dict" || dict_get_or(doc, "schema_version", 0) != 1 {
+		throw("Unsupported or malformed registry schema: " + url)
+	}
+	return doc
+}
+
+func registry_cache_root() {
+	home := env("HOME")
+	if trim(home) == "" {
+		throw("HOME is required for the Kennel artifact cache")
+	}
+	base := trim(env("KENNEL_HOME"))
+	if base == "" {
+		base = home + "/.kennel"
+	}
+	if starts_with(base, "/") == false {
+		throw("KENNEL_HOME must be an absolute directory")
+	}
+	root := base + "/cache/sha256"
+	for part in [base, base + "/cache", root] {
+		if (path_exists(part) && path_is_symlink(part)) {
+			throw("Refusing symlinked Kennel cache directory")
+		}
+		ensure_dir(part)
+	}
+	return root
+}
+
+func registry_blob(url, digest, maximum) {
+	if len(digest) != 64 {
+		throw("Invalid archive SHA-256")
+	}
+	for ch in split(digest, "") {
+		if index_of("0123456789abcdef", ch) < 0 {
+			throw("Invalid archive SHA-256")
+		}
+	}
+	cache := registry_cache_root() + "/" + digest
+	if file_exists(cache) && path_is_symlink(cache) == false && file_size(cache) <= maximum {
+		cached := io_read_bytes(cache, maximum)
+		if sha256(cached) == digest {
+			return cached
+		}
+	}
+	response := registry_get(url, maximum)
+	data := response["_body_bytes"]
+	if sha256(data) != digest {
+		throw("Registry checksum mismatch: " + url)
+	}
+	# Atomic replacement never follows an existing cache-file symlink.
+	write_file_atomic(cache, data, true)
+	return data
+}
+
+
+# src/registry_protocol.kujo
+func registry_identity(value) {
+	parts := split(value, "/")
+	if starts_with(value, "@") {
+		if len(parts) != 2 {
+			throw("Scoped package identity must be @scope/name")
+		}
+		parts[0] = substring(parts[0], 1, len(parts[0]))
+	} else if len(parts) != 1 {
+		throw("Invalid package identity")
+	}
+	for part in parts {
+		if part == "" || len(part) > 64 || to_lower(part) != part || validate_identifier(part, "Package identity")["ok"] == false || index_of(part, ".") >= 0 {
+			throw("Invalid package identity: " + value)
+		}
+	}
+	return value
+}
+func valid_digest(value) {
+	if type(value) != "string" || len(value) != 64 {
+		return false
+	}
+	for ch in split(value, "") {
+		if index_of("0123456789abcdef", ch) < 0 {
+			return false
+		}
+	}
+	return true
+}
+func registry_valid_version(version) {
+	pieces := split(version, "-")
+	stable := parse_semver_value(pieces[0])
+	if stable["ok"] == false || stable["normalized"] != pieces[0] { return false }
+	if len(pieces) == 1 { return true }
+	pre := substring(version, len(pieces[0]) + 1, len(version))
+	for token in split(pre, ".") {
+		if token == "" { return false }
+		numeric := true
+		for ch in split(token, "") {
+			if ch == "" { continue }
+			if index_of("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-", ch) < 0 { return false }
+			if ch < "0" || ch > "9" { numeric = false }
+		}
+		if numeric && len(token) > 1 && starts_with(token, "0") { return false }
+	}
+	return true
+}
+func registry_validate_version(doc, identity, version_url) {
+	if type(doc) != "dict" || dict_get_or(doc, "schema_version", 0) != 1 {
+		throw("Malformed package version schema")
+	}
+	for key in ["package", "version", "description", "license", "released_at", "source_commit", "source_tag", "archive_url", "provenance_url", "checksum_url", "repository", "minimum_kujo_version"] {
+		if type(dict_get_or(doc, key, null)) != "string" { throw("Missing or malformed release field: " + key) }
+	}
+	if has_key(doc, "scope") == 0 || type(dict_get_or(doc, "official", null)) != "bool" { throw("Missing ownership fields") }
+	for key in ["repository_id", "release_id"] {
+		if type(dict_get_or(doc, key, null)) != "int" || doc[key] < 1 { throw("Invalid release identity: " + key) }
+	}
+	name := registry_identity(identity)
+	actual := to_string(dict_get_or(doc, "package", ""))
+	scope := dict_get_or(doc, "scope", null)
+	if scope != null {
+		actual = "@" + to_string(scope) + "/" + actual
+	}
+	if actual != name {
+		throw("Package identity mismatch")
+	}
+	version := to_string(dict_get_or(doc, "version", ""))
+	if registry_valid_version(version) == false || index_of(version, "/") >= 0 || ends_with(version_url, "/" + identity + "/" + version + ".json") == false {
+		throw("Package version URL mismatch")
+	}
+	owner := dict_get_or(doc, "owner", {})
+	if type(owner) != "dict" || (dict_get_or(owner, "type", "") != "user" && dict_get_or(owner, "type", "") != "organization") || type(dict_get_or(owner, "id", null)) != "string" || owner["id"] == "" { throw("Malformed package owner") }
+	for ch in split(doc["source_commit"], "") {
+		if ch != "" && index_of("0123456789abcdef", ch) < 0 { throw("Malformed source commit") }
+	}
+	if scope == null && (dict_get_or(doc, "official", false) != true || dict_get_or(owner, "type", "") != "organization" || dict_get_or(owner, "id", "") != "kujolang") {
+		throw("Unscoped packages are reserved for official Kujo ownership")
+	}
+	if scope != null && dict_get_or(doc, "official", false) {
+		throw("Scoped packages cannot claim reserved official identity")
+	}
+	for key in ["archive_sha256", "provenance_sha256"] {
+		if valid_digest(dict_get_or(doc, key, "")) == false {
+			throw("Malformed package digest: " + key)
+		}
+	}
+	if type(dict_get_or(doc, "archive_size", "")) != "int" || doc["archive_size"] <= 0 || doc["archive_size"] > 8388608 || type(dict_get_or(doc, "file_count", "")) != "int" || doc["file_count"] < 1 || doc["file_count"] > 10000 {
+		throw("Invalid package size/file count")
+	}
+	if len(to_string(dict_get_or(doc, "source_commit", ""))) != 40 || type(dict_get_or(doc, "dependencies", "")) != "dict" {
+		throw("Malformed source commit/dependencies")
+	}
+	marker := index_of(version_url, "/api/v1/packages/")
+	if marker < 0 {
+		throw("Invalid version metadata URL")
+	}
+	origin := substring(version_url, 0, marker)
+	prefix := origin + "/packages/" + identity + "/" + version + "/"
+	for pair in [["archive_url", "package.tar.gz"], ["provenance_url", "provenance.json"], ["checksum_url", "checksums.txt"]] {
+		if dict_get_or(doc, pair[0], "") != prefix + pair[1] {
+			throw("Artifact URL is outside immutable package namespace")
+		}
+	}
+	return doc
+}
+
+# src/registry_archive.kujo
+
+func tar_text(data, start, count) {
+	end := start
+	while end < start + count && data[end] != 0 {
+		if data[end] < 32 || data[end] > 126 {
+			throw("Archive header contains nonportable characters")
+		}
+		end = end + 1
+	}
+	return decode_charset(slice(data, start, end), "utf-8", 512)
+}
+
+func tar_octal(data, start, count) {
+	text := trim(tar_text(data, start, count))
+	value := 0
+	for ch in split(text, "") {
+		if ch == "" { continue }
+		if ch < "0" || ch > "7" {
+			throw("Invalid archive numeric field")
+		}
+		value = value * 8 + to_int(ch)
+	}
+	return value
+}
+
+func archive_safe_path(name) {
+	if name == "" || len(name) > 240 || starts_with(name, "/") || index_of(name, "\\") >= 0 || index_of(name, ":") >= 0 {
+		throw("Unsafe archive path: " + name)
+	}
+	for part in split(name, "/") {
+		if part == "" || part == "." || part == ".." || ends_with(part, ".") || ends_with(part, " ") {
+			throw("Unsafe archive path: " + name)
+		}
+		base := to_lower(split(part, ".")[0])
+		if base == "con" || base == "prn" || base == "aux" || base == "nul" || starts_with(base, "com") && len(base) == 4 || starts_with(base, "lpt") && len(base) == 4 {
+			throw("Nonportable archive path: " + name)
+		}
+	}
+	return name
+}
+
+func extract_registry_archive(blob, staging, expected_count) {
+	data := gzip_decompress(blob, 67108864)
+	if len(data) < 1024 || len(data) % 512 != 0 {
+		throw("Invalid USTAR archive length")
+	}
+	entries := []
+	seen := {}
+	position := 0
+	terminated := false
+	manifest_found := false
+	while position + 512 <= len(data) {
+		# Keep repeated indexed reads bounded to one header-sized buffer.
+		header := slice(data, position, position + 512)
+		if header[0] == 0 {
+			if len(data) - position < 1024 || len(data) - position > 10752 {
+				throw("Invalid archive terminator length")
+			}
+			tail := slice(data, position, len(data))
+			tail_position := 0
+			while tail_position < len(tail) {
+				if tail[tail_position] != 0 {
+					throw("Unexpected trailing archive content")
+				}
+				tail_position = tail_position + 1
+			}
+			terminated = true
+			break
+		}
+		if tar_text(header, 257, 6) != "ustar" || tar_text(header, 263, 2) != "00" {
+			throw("Only normalized USTAR packages are supported")
+		}
+		check := 0
+		i := 0
+		while i < 512 {
+			if i >= 148 && i < 156 {
+				check = check + 32
+			} else {
+				check = check + header[i]
+			}
+			i = i + 1
+		}
+		if check != tar_octal(header, 148, 8) {
+			throw("Archive header checksum mismatch")
+		}
+		kind := header[156]
+		if kind != 48 && kind != 0 {
+			throw("Archive links, directories, devices and extension headers are forbidden")
+		}
+		name := tar_text(header, 0, 100)
+		prefix := tar_text(header, 345, 155)
+		if prefix != "" {
+			name = prefix + "/" + name
+		}
+		archive_safe_path(name)
+		if name == "kennel.toml" { manifest_found = true }
+		folded_name := to_lower(name)
+		if has_key(seen, folded_name) {
+			throw("Duplicate archive path")
+		}
+		seen[folded_name] := true
+		mode := tar_octal(header, 100, 8)
+		if mode != 420 && mode != 493 {
+			throw("Unsafe archive permissions")
+		}
+		size := tar_octal(header, 124, 12)
+		start := position + 512
+		if size > 67108864 || start + size > len(data) || len(entries) >= 10000 {
+			throw("Archive size or entry limit exceeded")
+		}
+		entries = push(entries, {"name": name, "start": start, "size": size, "mode": mode})
+		position = start + size
+		if size % 512 != 0 {
+			position = position + 512 - size % 512
+		}
+	}
+	if terminated == false || len(entries) != expected_count || manifest_found == false {
+		throw("Archive file count/manifest/termination mismatch")
+	}
+	# Validate all headers before touching staging. Staging must be new.
+	if path_exists(staging) || (path_exists(staging) && path_is_symlink(staging)) {
+		throw("Archive staging directory already exists")
+	}
+	ensure_dir(staging)
+	for entry in entries {
+		path := staging
+		parts := split(entry["name"], "/")
+		i := 0
+		while i < len(parts) - 1 {
+			path = path + "/" + parts[i]
+			if (path_exists(path) && path_is_symlink(path)) || path_is_file(path) {
+				throw("Archive path collision")
+			}
+			ensure_dir(path)
+			i = i + 1
+		}
+		target := staging + "/" + entry["name"]
+		io_write_bytes(target, slice(data, entry["start"], entry["start"] + entry["size"]))
+		io_set_permissions(target, entry["mode"])
+	}
+	return len(entries)
+}
+
+
+# src/global_common.kujo
+
+func global_absolute(path) {
+    if starts_with(path, "/") == false { path = os_getcwd() + "/" + path }
+    mut parts := []
+    for part in split(path, "/") {
+        if part == "" || part == "." { continue }
+        if part == ".." { if len(parts) > 0 { parts = slice(parts, 0, len(parts) - 1) } } else { parts = push(parts, part) }
+    }
+    return "/" + join(parts, "/")
+}
+func global_link(path) {
+    try { return path_is_symlink(path) } except err {
+        if global_contains(to_string(err), "No such file") { return false }
+        throw(err)
+    }
+}
+func global_present(path) { return path_exists(path) || global_link(path) }
+func global_no_links(path) {
+    mut current := global_absolute(path)
+    while current != "/" && current != "." {
+        if global_link(current) { throw("Path must not traverse symbolic links: " + current) }
+        mut next := dirname(current)
+        if next == current { break }
+        current = next
+    }
+}
+func global_directory(path) {
+    global_no_links(path)
+    if path_exists(path) == false { ensure_dir(path); io_set_permissions(path, 448) }
+    mut info := io_file_metadata(path)
+    if info["is_dir"] == false || path_owned(path) == false || bit_and(info["mode"], 18) != 0 {
+        throw("Installation directories must be user-owned and not group/world writable: " + path)
+    }
+    return path
+}
+func global_home(raw) {
+    if raw == "" { raw = env_or("KENNEL_HOME", env_required("HOME") + "/.kennel") }
+    if starts_with(raw, "~/") { raw = env("HOME") + substring(raw, 1, len(raw)) }
+    return global_directory(global_absolute(raw))
+}
+func global_delete(path) {
+    if global_link(path) || path_is_file(path) { delete_file(path); return }
+    if path_is_dir(path) { for item in list_dir(path) { global_delete(path + "/" + item) }; os_rmdir(path) }
+}
+func global_capture(argv, extra) {
+    mut result := spawn_process(argv, {"timeout_ms": 180000, "max_output_bytes": 8388608, "env": extra})
+    if result.success == false || result.stdout_truncated || result.stderr_truncated { throw("Command failed: " + join(argv, " ") + "\n" + result.stdout + result.stderr) }
+    return result.stdout
+}
+func global_which(name) {
+    if index_of(name, "/") >= 0 { if path_is_file(name) { return path_absolute(name) }; return "" }
+    for dir in split(env("PATH"), ":") {
+        mut path := global_absolute(dir + "/" + name)
+        if path_is_file(path) && bit_and(io_file_metadata(path)["mode"], 73) != 0 { return path }
+    }
+    return ""
+}
+func global_runtime() {
+    mut found := global_which(env_or("KUJO_BIN", "kujo"))
+    if found == "" { throw("Install a compatible Kujo runtime first") }
+    return found
+}
+func global_name(name) {
+    if type(name) != "string" || len(name) == 0 || len(name) > 64 { return false }
+    if name[0] < "a" || name[0] > "z" { return false }
+    for ch in split(name, "") { if index_of("abcdefghijklmnopqrstuvwxyz0123456789_-", ch) < 0 { return false } }
+    return true
+}
+func global_owned(path, expected) { return path_is_file(path) && global_link(path) == false && read_file(path) == expected }
+func global_options(argv, value_flags, boolean_flags) {
+    mut result := {"positional": []}
+    mut i := 0
+    while i < len(argv) {
+        mut arg := argv[i]
+        mut equals := index_of(arg, "=")
+        if starts_with(arg, "--") && equals > 2 {
+            mut flag := substring(arg, 0, equals)
+            if global_contains(value_flags, flag) == 0 { throw("Unknown option: " + flag) }
+            result[flag] = substring(arg, equals + 1, len(arg)); i = i + 1; continue
+        }
+        if global_contains(value_flags, arg) {
+            i = i + 1
+            if i >= len(argv) { throw("Missing value for " + arg) }
+            result[arg] = argv[i]
+        } else if global_contains(boolean_flags, arg) { result[arg] = true
+        } else if starts_with(arg, "--") { throw("Unknown option: " + arg)
+        } else { result["positional"] = push(result["positional"], arg) }
+        i = i + 1
+    }
+    return result
+}
+
+func global_contains(collection, value) { if contains(collection, value) { return 1 }; return 0 }
+
+
+# src/bootstrap.kujo
+
+func bootstrap_download(version, target) {
+    mut origin := "https://kennel.kujolang.ai"
+    if version == "" { version = dict_get_or(registry_json(origin + "/api/v1/packages/kennel.json"), "latest", "") }
+    if type(version) != "string" || registry_valid_version(version) == false { throw("Invalid or unavailable Kennel release version") }
+    mut url := origin + "/api/v1/packages/kennel/" + version + ".json"
+    mut doc := registry_validate_version(registry_json(url), "kennel", url)
+    mut archive := registry_blob(doc["archive_url"], doc["archive_sha256"], 8388608)
+    mut provenance := registry_blob(doc["provenance_url"], doc["provenance_sha256"], 1048576)
+    return bootstrap_install_release(doc, archive, provenance, target)
+}
+func bootstrap_install_release(doc, archive, provenance_bytes, target) {
+    mut origin := "https://kennel.kujolang.ai"
+    mut version := dict_get_or(doc, "version", "")
+    registry_validate_version(doc, "kennel", origin + "/api/v1/packages/kennel/" + version + ".json")
+    if doc["repository"] != "kujolang/kennel" || doc["repository_id"] != 1264528549 || doc["scope"] != null || doc["official"] != true { throw("Invalid official Kennel release identity") }
+    if doc["source_tag"] != version && doc["source_tag"] != "v" + version { throw("Malformed official release tag") }
+    if len(archive) != doc["archive_size"] { throw("Kennel archive size mismatch") }
+    if sha256(archive) != doc["archive_sha256"] || sha256(provenance_bytes) != doc["provenance_sha256"] { throw("Kennel release checksum mismatch") }
+    mut provenance := parse_json(decode_charset(provenance_bytes, "utf-8", 1048576))
+    if type(provenance) != "dict" || dict_get_or(provenance, "schema_version", 0) != 1 || starts_with(dict_get_or(provenance, "workflow_run", ""), "https://github.com/kujolang/kennel-registry/actions/runs/") == false { throw("Invalid official publishing workflow provenance") }
+    mut workflow_sha := dict_get_or(provenance, "workflow_sha", "")
+    if len(workflow_sha) != 40 { throw("Invalid publishing workflow SHA") }
+    for ch in split(workflow_sha, "") { if index_of("0123456789abcdef", ch) < 0 { throw("Invalid publishing workflow SHA") } }
+    for key in ["package", "version", "source_commit", "source_tag", "repository", "repository_id", "release_id", "archive_sha256"] {
+        if dict_get_or(provenance, key, null) != doc[key] { throw("Kennel provenance identity mismatch: " + key) }
+    }
+    os_rmdir(target)
+    extract_registry_archive(archive, target, doc["file_count"])
+    return {"version": version, "archive_sha256": doc["archive_sha256"], "registry": origin}
+}
+func bootstrap_source(source, target) {
+    for relative in ["kennel.kujo", "kennel.toml", "bin/kennel", "scripts/tool_manager.kujo", "scripts/bootstrap.json"] {
+        if path_is_file(source + "/" + relative) == false { throw("Not an installable Kennel checkout: " + relative) }
+    }
+    mut names := split(global_capture(["git", "-C", source, "ls-files", "-z"], {}), decode_charset(bytes([0]), "utf-8", 1))
+    for name in names {
+        if name == "" { continue }
+        mut excluded := false
+        for part in split(name, "/") { if global_contains([".git", ".kennel_tmp", "kennel_packages", "node_modules"], part) { excluded = true } }
+        if excluded { continue }
+        mut path := source + "/" + name
+        global_no_links(path)
+        if path_is_file(path) {
+            mut dest := target + "/" + name; ensure_dir(dirname(dest)); copy_file(path, dest)
+            mut mode := 420
+            if bit_and(io_file_metadata(path)["mode"], 73) != 0 { mode = 493 }
+            io_set_permissions(dest, mode)
+        }
+    }
+    return {"source": source, "review_build": true}
+}
+func bootstrap_profiles(base, user_home) {
+    mut environment := base + "/env"
+    global_no_links(environment)
+    mut text := "# Kennel PATH\ncase \":$" + "{PATH:-}:\" in *" + shell_quote(":" + base + "/bin:") + "*) ;; *) export PATH=" + shell_quote(base + "/bin") + ":\"$" + "{PATH:-}\" ;; esac\n"
+    write_file_atomic(environment, text, true)
+    mut block := "\n# >>> Kennel PATH >>>\n. " + shell_quote(environment) + "\n# <<< Kennel PATH <<<\n"
+    for name in [".profile", ".bash_profile", ".bashrc", ".zshrc"] {
+        mut path := user_home + "/" + name
+        if global_link(path) { throw("Refusing to change symlinked shell profile; use --no-modify-path: " + path) }
+        mut old := ""; if path_exists(path) { old = read_file(path) }
+        mut updated := old + block
+        mut start := index_of(old, "# >>> Kennel PATH >>>")
+        if start >= 0 {
+            mut finish := index_of(old, "# <<< Kennel PATH <<<")
+            if finish < start { throw("Malformed Kennel PATH profile block") }
+            mut end := finish + len("# <<< Kennel PATH <<<")
+            if start > 0 && substring(old, start - 1, start) == "\n" { start = start - 1 }
+            if end < len(old) && substring(old, end, end + 1) == "\n" { end = end + 1 }
+            updated = substring(old, 0, start) + block + substring(old, end, len(old))
+        }
+        if updated != old { write_file_atomic(path, updated, true) }
+    }
+}
+func bootstrap_main(argv) {
+    if global_contains(argv, "--help") || global_contains(argv, "-h") { print("Install Kennel for macOS/Linux. Requires a Kujo runtime with native package primitives.\nUsage: install.kujo [--source CHECKOUT | --version VERSION] [--home PATH] [--no-modify-path]"); return }
+    mut parsed := global_options(argv, ["--source", "--version", "--home"], ["--no-modify-path"])
+    mut source := dict_get_or(parsed, "--source", ""); mut version := dict_get_or(parsed, "--version", "")
+    if len(parsed["positional"]) != 0 || source != "" && version != "" { throw("Use either --source or --version") }
+    mut runtime := global_runtime()
+    mut base := global_home(dict_get_or(parsed, "--home", ""))
+    env_set("KENNEL_HOME", base)
+    mut token := file_lock(base + "/.tools.lock", 180000)
+    mut stage := ""
+    try {
+        mut clients := global_directory(base + "/clients"); mut bindir := global_directory(base + "/bin")
+        mut launcher := bindir + "/kennel"
+        mut expected := "#!/bin/sh\n# Kennel managed client\nexport KENNEL_HOME=" + shell_quote(base) + "\nexec " + shell_quote(base + "/client/bin/kennel") + " \"$@\"\n"
+        if global_present(launcher) && global_owned(launcher, expected) == false { throw("Refusing to overwrite an existing kennel command: " + launcher) }
+        mut current := base + "/client"
+        if global_present(current) && global_link(current) == false { throw("Existing client directory is not managed by this installer") }
+        mut modify := dict_get_or(parsed, "--no-modify-path", false) == false
+        if modify {
+            for name in [".profile", ".bash_profile", ".bashrc", ".zshrc"] { if global_link(env("HOME") + "/" + name) { throw("Shell profile is a symlink; use --no-modify-path") } }
+        }
+        stage = create_temp_dir(clients, "client-")
+        mut receipt := {}
+        if source != "" { receipt = bootstrap_source(path_absolute(source), stage) } else { receipt = bootstrap_download(version, stage) }
+        mut marker := stage + "/scripts/bootstrap.json"
+        if path_is_file(marker) == false || dict_get_or(parse_json(read_file(marker)), "installer_protocol", 0) != 2 { throw("This historical Kennel release predates the native installer; use --source for review until the compatible release is published") }
+        for relative in ["bin/kennel", "kennel.kujo", "scripts/tool_manager.kujo", "scripts/install.kujo"] { if path_is_file(stage + "/" + relative) == false { throw("Incomplete Kennel client: " + relative) } }
+        io_set_permissions(stage + "/bin/kennel", 493)
+        global_capture([runtime, "run", stage + "/kennel.kujo", "--interpreter", "--isolated-imports", "--", "help"], {"KUJO_MODULE_PATH": stage, "KUJO_ISOLATED_IMPORTS": "1"})
+        write_file(stage + "/install-receipt.json", to_json(receipt) + "\n")
+        if modify { bootstrap_profiles(base, env("HOME")) }
+        if global_present(launcher) == false { write_file(launcher, expected); io_set_permissions(launcher, 493) }
+        symlink_atomic("clients/" + basename(stage), current)
+        stage = ""
+    } except err { if stage != "" { global_delete(stage) }; file_unlock(token); throw(err) }
+    file_unlock(token)
+    print("Kennel installed in " + base)
+    print("For this terminal: export PATH=" + shell_quote(base + "/bin") + ":\"$PATH\"")
+    print("Next: kennel tool install shipcheck")
+    if source != "" { print("Review build installed; no official release was published.") }
+}
+
+
+try { bootstrap_main(args()) } except err { print("Kennel installer: " + to_string(err)); exit(1) }
