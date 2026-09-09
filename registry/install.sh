@@ -1,12 +1,23 @@
 #!/bin/sh
 set -eu
-command -v python3 >/dev/null 2>&1 || { echo 'Kennel requires Python 3.9+ and Kujo 1.3.1+.' >&2; exit 1; }
+KUJO_BIN=${KUJO_BIN:-kujo}
+command -v "$KUJO_BIN" >/dev/null 2>&1 || { echo 'Install a compatible Kujo runtime first.' >&2; exit 1; }
 installer_dir=$(mktemp -d)
 trap 'rm -rf "$installer_dir"' EXIT HUP INT TERM
-curl --fail --silent --show-error --proto '=https' --connect-timeout 10 --max-time 60 https://kennel.kujolang.ai/install.py -o "$installer_dir/install.py"
-python3 - "$installer_dir/install.py" <<'PY'
-import hashlib, pathlib, sys
-if hashlib.sha256(pathlib.Path(sys.argv[1]).read_bytes()).hexdigest() != '95e3965a71959f212f97d3aa9f6f6cd4418565c3fa7ab5ddb38edfa398295c1c':
-    raise SystemExit('Installer checksum mismatch; download install.sh again.')
-PY
-python3 "$installer_dir/install.py" "$@"
+cat > "$installer_dir/fetch.kujo" <<'KUJO'
+mut target := args()[0]
+try {
+    mut token := file_lock(target + "/probe.lock", 0)
+    file_unlock(token)
+} except err { print("Upgrade Kujo to a release with native package primitives before installing Kennel."); exit(1) }
+mut response := http_request("https://kennel.kujolang.ai/install.kujo", {"method": "GET", "timeout": 30, "max_response_bytes": 1048576, "redirects": "none"})
+match response {
+    case Result::Ok(result): {
+        if result["status"] != 200 || sha256(result["_body_bytes"]) != "7c1c235bf037b039187fcc90fe2bc34601f0d05b61c845307379bc937f90015a" { print("Installer download/checksum mismatch; download install.sh again."); exit(1) }
+        write_file(target + "/install.kujo", result["_body_bytes"])
+    }
+    case Result::Err(message): { print("Installer download failed: " + to_string(message)); exit(1) }
+}
+KUJO
+"$KUJO_BIN" run "$installer_dir/fetch.kujo" --interpreter --isolated-imports -- "$installer_dir"
+"$KUJO_BIN" run "$installer_dir/install.kujo" --interpreter --isolated-imports -- "$@"
