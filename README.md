@@ -48,6 +48,12 @@ Public bootstrap requires Kujo 1.4.0 or newer, followed by Kennel 1.1.0 or newer
 
 To regenerate mutable pages using a compatible runtime, set `KUJO_BIN` to its absolute path and `KUJO_MODULE_PATH` to the Kennel checkout, then run `"$KUJO_BIN" run "$KUJO_MODULE_PATH/scripts/registry/generate_registry.kujo" --interpreter --isolated-imports -- /absolute/kennel-registry/registry`. The native builder records `kennel-kujo-ustar-gzip-v1`; existing releases retain their original archive bytes and builder provenance.
 
-Once enabled, users install Kennel once, then use `kennel add NAME` for project dependencies or `kennel tool install NAME` for global commands. `kennel tool update` refreshes installed unpinned tools; `kennel self update` updates the client. The scheduled official-release reconciliation and Pages Git deployment keep new package releases available without changing those commands.
+Users install Kennel once, then use `kennel add NAME` for project dependencies or `kennel tool install NAME` for global commands. `kennel tool update` refreshes installed unpinned tools; `kennel self update` updates the client. The scheduled official-release reconciliation and Pages Git deployment keep new package releases available without changing those commands.
 
 If a reconciliation fails, inspect its failing step before retrying. Transient GitHub read failures receive four bounded attempts; authorization errors and malformed JSON fail immediately. Dispatch `releases.yml` for the affected package and existing release ID to recover. Cancel a stale queued run only after confirming it has no assigned runner, then dispatch a fresh run. Successful publication ends with live Pages metadata and archive verification.
+
+## Kennel 1.1.0 activation
+
+Published GitHub Release ID: `388030178`; exact source commit: `093d44dddcebebd99bd8987e3efcb7e044dc45a7`. The native client is live and the preview notice is removed. Archive SHA-256: `d20d585c4b1edc00718726f8f286712a64413f3c5d952a4be05976de318a3299`. Independent release and registry builds agree.
+
+The public shell downloader writes verified bytes, and the standalone native bootstrap preserves module import boundaries in a private temporary directory. Those mutable delivery fixes did not alter the published package. [macOS/Linux public acceptance](https://github.com/kujolang/kennel/actions/runs/34782478651) verifies installation and updates against the actual production registry.

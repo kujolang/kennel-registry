@@ -1,8 +1,8 @@
-# Ecosystem enrollment — 2026-09-08
+# Ecosystem enrollment — updated 2026-09-13
 
 Sources: https://kujolang.ai/ecosystem/primitives/ and https://kujolang.ai/ecosystem/tooling/. Reviewed actual public GitHub Releases, exact commit trees, package controls and dependency identities.
 
-36 packages (38 real released versions) are enrolled. No releases were fabricated. Initial backfill selects reviewed stable releases; older unrelated releases are not silently repackaged.
+36 packages (39 real released versions) are enrolled. No releases were fabricated. Initial backfill selects reviewed stable releases; older unrelated releases are not silently repackaged.
 
 | Package | Latest registry version |
 | --- | --- |
@@ -20,7 +20,7 @@ Sources: https://kujolang.ai/ecosystem/primitives/ and https://kujolang.ai/ecosy
 | [fence](https://kennel.kujolang.ai/fence) | 1.0.0 |
 | [galleypack](https://kennel.kujolang.ai/galleypack) | 0.2.0 |
 | [howl](https://kennel.kujolang.ai/howl) | 1.1.0 |
-| [kennel](https://kennel.kujolang.ai/kennel) | 1.0.1 |
+| [kennel](https://kennel.kujolang.ai/kennel) | 1.1.0 |
 | [lens](https://kennel.kujolang.ai/lens) | 1.1.0 |
 | [mcp](https://kennel.kujolang.ai/mcp) | 1.1.1 |
 | [muzzle](https://kennel.kujolang.ai/muzzle) | 1.1.0 |
@@ -63,3 +63,5 @@ catalog.json provides reviewed, mutable package discovery descriptions without c
 Local deterministic package builds passed for all 34 new package names. GitHub reconciliation run [34258829008](https://github.com/kujolang/kennel-registry/actions/runs/34258829008) published the backfill atomically and passed production index/archive verification. All-package fresh and cached install results are recorded in the client acceptance report; the test deliberately disables Git to detect hidden source fallback.
 
 Production acceptance: **36/36 fresh installs and 36/36 cached lock replays passed with Git disabled** using the updated client and Kujo 1.3.1. The full Kennel verification profile passed, and 113 live registry documents passed JSON Schema validation. [Committed acceptance evidence](https://github.com/kujolang/kennel/blob/main/docs/registry/ecosystem-acceptance.md).
+
+Kennel 1.1.0 was published on September 13 from commit `093d44dddcebebd99bd8987e3efcb7e044dc45a7`. The new archive and all 190 previously published immutable files were verified. [Public bootstrap acceptance](https://github.com/kujolang/kennel/actions/runs/34782478651) passes on macOS and Linux using released Kujo 1.4.0, including PATH, global commands, exact/latest/clean/cached installs, updates and failed-update rollback with Git/Python disabled.
