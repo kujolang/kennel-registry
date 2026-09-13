@@ -13,7 +13,7 @@ try {
 mut response := http_request("https://kennel.kujolang.ai/install.kujo", {"method": "GET", "timeout": 30, "max_response_bytes": 1048576, "redirects": "none"})
 match response {
     case Result::Ok(result): {
-        if result["status"] != 200 || sha256(result["_body_bytes"]) != "7c1c235bf037b039187fcc90fe2bc34601f0d05b61c845307379bc937f90015a" { print("Installer download/checksum mismatch; download install.sh again."); exit(1) }
+        if result["status"] != 200 || sha256(result["_body_bytes"]) != "2444835c54d971d521906a3f5107c3c23f95c69c3e21c9cf6dbe5311ce7eaf91" { print("Installer download/checksum mismatch; download install.sh again."); exit(1) }
         io_write_bytes(target + "/install.kujo", result["_body_bytes"])
     }
     case Result::Err(message): { print("Installer download failed: " + to_string(message)); exit(1) }
