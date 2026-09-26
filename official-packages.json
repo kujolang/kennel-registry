@@ -60,7 +60,8 @@
       ],
       "enrolled_at": "2026-09-08T00:00:00Z",
       "release_commits": {
-        "1.0.0": "e74384795e5c73595cc8469528cc3f49a13fd7bc"
+        "1.0.0": "e74384795e5c73595cc8469528cc3f49a13fd7bc",
+        "1.1.0": "f3a874fa0e95e26c52ef9ec4d23b0f52d8372089"
       }
     },
     "ability": {
@@ -419,7 +420,8 @@
       ],
       "enrolled_at": "2026-09-08T00:00:00Z",
       "release_commits": {
-        "1.0.0": "fb05f763b76dc021844cd75200872913877ee6e6"
+        "1.0.0": "fb05f763b76dc021844cd75200872913877ee6e6",
+        "1.1.0": "a9f15ade894012ba0b004fef3ae2f12059f2278c"
       }
     },
     "sitekit": {
@@ -505,12 +507,21 @@
       ],
       "enrolled_at": "2026-09-08T00:00:00Z",
       "release_commits": {
-        "0.3.0": "71a2071b60174cf755084e167ccc392710a104b8"
+        "0.3.0": "71a2071b60174cf755084e167ccc392710a104b8",
+        "0.4.0": "a96bafa57bb5f11f58d8e2af1f1901bb17588b6f"
       },
       "release_manifests": {
         "71a2071b60174cf755084e167ccc392710a104b8": {
           "source_manifest": "kujo.toml",
           "source_manifest_sha256": "36d29b875c98875a3b520a78aef44a55c866bc7d1bac85e7102038df1d8affbb",
+          "source_package": "siteprobe",
+          "description": "Native Kujo website intelligence with bounded deterministic artifacts",
+          "license": "MIT",
+          "entry": "src/main.kujo"
+        },
+        "a96bafa57bb5f11f58d8e2af1f1901bb17588b6f": {
+          "source_manifest": "kujo.toml",
+          "source_manifest_sha256": "f8de0e639f39473d8735bee23ced75bd31d39d6215c744a518398bc0a88c2176",
           "source_package": "siteprobe",
           "description": "Native Kujo website intelligence with bounded deterministic artifacts",
           "license": "MIT",
@@ -529,12 +540,21 @@
       ],
       "enrolled_at": "2026-09-08T00:00:00Z",
       "release_commits": {
-        "0.2.0": "05252fa6aeab39b04db0e9c54d36c3885231c07b"
+        "0.2.0": "05252fa6aeab39b04db0e9c54d36c3885231c07b",
+        "0.3.0": "1cef9b0a832bae17b8aca165e1008c2802335b69"
       },
       "release_manifests": {
         "05252fa6aeab39b04db0e9c54d36c3885231c07b": {
           "source_manifest": "kujo.toml",
           "source_manifest_sha256": "264a08cc2910a87b39b708bf8079513952ac982f09bbcc439844c84d1f5a981b",
+          "source_package": "assetworks",
+          "description": "Kujo-native controlled media jobs, manifests, provenance, captions, and accessibility records",
+          "license": "MIT",
+          "entry": "assetworks.kujo"
+        },
+        "1cef9b0a832bae17b8aca165e1008c2802335b69": {
+          "source_manifest": "kujo.toml",
+          "source_manifest_sha256": "6eb5b578b7e317fedaedb7c72a019b0e0e1ea09fb7a731d4128aa6584b66f754",
           "source_package": "assetworks",
           "description": "Kujo-native controlled media jobs, manifests, provenance, captions, and accessibility records",
           "license": "MIT",
@@ -553,12 +573,30 @@
       ],
       "enrolled_at": "2026-09-08T00:00:00Z",
       "release_commits": {
-        "0.2.0": "8867ae72874c9584795c3122f69067a439f136e0"
+        "0.2.0": "8867ae72874c9584795c3122f69067a439f136e0",
+        "0.3.0": "95f59c96ebc4f9a189d559c2b05faaa44e6ec6fe",
+        "0.3.0-rc.1": "e70621f6d058fd5149df9646eb8eeadfa32d67e6"
       },
       "release_manifests": {
         "8867ae72874c9584795c3122f69067a439f136e0": {
           "source_manifest": "kujo.toml",
           "source_manifest_sha256": "683f3eae6a6a5b751d9d7d820a6a6910c788149f63a3d72291e9a8f96cd4abca",
+          "source_package": "bluepencil",
+          "description": "Kujo-native editorial review, blockers, verdicts, disagreement, and quality calibration",
+          "license": "MIT",
+          "entry": "bluepencil.kujo"
+        },
+        "95f59c96ebc4f9a189d559c2b05faaa44e6ec6fe": {
+          "source_manifest": "kujo.toml",
+          "source_manifest_sha256": "06c6edad15d9ae470bf3e396323fd5cc54ed41e0cbd82f9830fb4ad163979064",
+          "source_package": "bluepencil",
+          "description": "Kujo-native editorial review, blockers, verdicts, disagreement, and quality calibration",
+          "license": "MIT",
+          "entry": "bluepencil.kujo"
+        },
+        "e70621f6d058fd5149df9646eb8eeadfa32d67e6": {
+          "source_manifest": "kujo.toml",
+          "source_manifest_sha256": "06d86f97c54dd98ee7087ae1e6cf4bab3cbc28b4247edb55309f947c728a39bd",
           "source_package": "bluepencil",
           "description": "Kujo-native editorial review, blockers, verdicts, disagreement, and quality calibration",
           "license": "MIT",
@@ -673,12 +711,21 @@
       ],
       "enrolled_at": "2026-09-08T00:00:00Z",
       "release_commits": {
-        "0.2.0": "d79c6d2b890c22e4cd67761039d6c27c76e1b784"
+        "0.2.0": "d79c6d2b890c22e4cd67761039d6c27c76e1b784",
+        "0.3.0": "18adafacaf1b109485d7b4dd9951eac3c88cfee8"
       },
       "release_manifests": {
         "d79c6d2b890c22e4cd67761039d6c27c76e1b784": {
           "source_manifest": "kujo.toml",
           "source_manifest_sha256": "5313e0c01b934a0b237c897a865475ae40f9eb501d85a3a1e82e3ac0228751c2",
+          "source_package": "storydesk",
+          "description": "Kujo-native editorial control desk for planning, assignments, handoffs, and review queues",
+          "license": "MIT",
+          "entry": "storydesk.kujo"
+        },
+        "18adafacaf1b109485d7b4dd9951eac3c88cfee8": {
+          "source_manifest": "kujo.toml",
+          "source_manifest_sha256": "fd44f8c00165121e0241950624b8c7d2726669ad6755a405f8eb893f8fe3f4f3",
           "source_package": "storydesk",
           "description": "Kujo-native editorial control desk for planning, assignments, handoffs, and review queues",
           "license": "MIT",
@@ -697,7 +744,8 @@
       ],
       "enrolled_at": "2026-09-08T00:00:00Z",
       "release_commits": {
-        "0.2.0": "45fedd70b35a19c24c64235f421c285d90f7d5e5"
+        "0.2.0": "45fedd70b35a19c24c64235f421c285d90f7d5e5",
+        "0.3.0": "cf14a2d23dc46b8773627ae25dbfaee6150465af"
       },
       "release_manifests": {
         "45fedd70b35a19c24c64235f421c285d90f7d5e5": {
@@ -707,6 +755,138 @@
           "description": "Kujo-native exact-version human approval and checksum verification",
           "license": "MIT",
           "entry": "versionseal.kujo"
+        },
+        "cf14a2d23dc46b8773627ae25dbfaee6150465af": {
+          "source_manifest": "kujo.toml",
+          "source_manifest_sha256": "795b21006bfe888d4666386f0d7006aa9fc01fc66ed67d2db8a8a7197ed4a7d7",
+          "source_package": "versionseal",
+          "description": "Kujo-native exact-version human approval and checksum verification",
+          "license": "MIT",
+          "entry": "versionseal.kujo"
+        }
+      }
+    },
+    "relay": {
+      "repository": "kujolang/relay",
+      "repository_id": 1297102919,
+      "official": true,
+      "enabled": true,
+      "category": "tooling",
+      "backfill_release_ids": [
+        377849492
+      ],
+      "enrolled_at": "2026-09-25T00:00:00Z",
+      "release_commits": {
+        "1.1.0": "0480733735a69f3b01d5452e6c86b4df3343c9d6"
+      }
+    },
+    "tribunal": {
+      "repository": "kujolang/tribunal",
+      "repository_id": 1296486007,
+      "official": true,
+      "enabled": true,
+      "category": "tooling",
+      "backfill_release_ids": [
+        383282910
+      ],
+      "enrolled_at": "2026-09-25T00:00:00Z",
+      "release_commits": {
+        "1.0.1": "936c5e99b689e1675845fe23ef25ba8d6b9f6efc"
+      }
+    },
+    "ssg": {
+      "repository": "kujolang/ssg",
+      "repository_id": 1264527957,
+      "official": true,
+      "enabled": true,
+      "category": "tooling",
+      "backfill_release_ids": [
+        367141750
+      ],
+      "enrolled_at": "2026-09-25T00:00:00Z",
+      "release_commits": {
+        "1.0.0": "0020115a007efa4c99ea07704d796d2e6cafb6da"
+      },
+      "release_manifests": {
+        "0020115a007efa4c99ea07704d796d2e6cafb6da": {
+          "source_manifest": null,
+          "source_manifest_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "source_package": "ssg",
+          "description": "A Kujo-native static site generator project.",
+          "license": "MIT",
+          "entry": "build.kujo"
+        }
+      }
+    },
+    "cms": {
+      "repository": "kujolang/cms",
+      "repository_id": 1264528021,
+      "official": true,
+      "enabled": true,
+      "category": "tooling",
+      "backfill_release_ids": [
+        379347884
+      ],
+      "enrolled_at": "2026-09-25T00:00:00Z",
+      "release_commits": {
+        "1.1.0": "22570a510a0169bab2a6c3a4f3b92512f290ea57"
+      },
+      "release_manifests": {
+        "22570a510a0169bab2a6c3a4f3b92512f290ea57": {
+          "source_manifest": null,
+          "source_manifest_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "source_package": "cms",
+          "description": "Kujo-native content management system",
+          "license": "MIT",
+          "entry": "backend/runtime/main.kujo"
+        }
+      }
+    },
+    "crud-api": {
+      "repository": "kujolang/crud-api",
+      "repository_id": 1264528005,
+      "official": true,
+      "enabled": true,
+      "category": "tooling",
+      "backfill_release_ids": [
+        337646133
+      ],
+      "enrolled_at": "2026-09-25T00:00:00Z",
+      "release_commits": {
+        "1.0.0": "260151bc5674495a1a148034f7344f03880a4cd7"
+      },
+      "release_manifests": {
+        "260151bc5674495a1a148034f7344f03880a4cd7": {
+          "source_manifest": null,
+          "source_manifest_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "source_package": "crud-api",
+          "description": "A production-oriented CRUD API example built with Kujo and SQLite.",
+          "license": "",
+          "entry": "main.kujo"
+        }
+      }
+    },
+    "sitekit-docs-template": {
+      "repository": "kujolang/sitekit-docs-template",
+      "repository_id": 1328367333,
+      "official": true,
+      "enabled": true,
+      "category": "tooling",
+      "backfill_release_ids": [
+        367361860
+      ],
+      "enrolled_at": "2026-09-25T00:00:00Z",
+      "release_commits": {
+        "1.0.0": "e8f0cf3fd5a1aed6d7e4c0df46e9863f4976a5fb"
+      },
+      "release_manifests": {
+        "e8f0cf3fd5a1aed6d7e4c0df46e9863f4976a5fb": {
+          "source_manifest": null,
+          "source_manifest_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "source_package": "sitekit-docs-template",
+          "description": "Plug-and-play documentation template for Kujo SSG and SiteKit",
+          "license": "MIT",
+          "entry": "build.kujo"
         }
       }
     }

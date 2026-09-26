@@ -38,7 +38,7 @@ Production activated 2026-09-08. The Git-connected Pages project is `kennel-regi
 
 ## Ecosystem coverage
 
-The registry now contains 36 public Kujo primitives and tools. See [ENROLLMENT.md](ENROLLMENT.md) for exact versions, release adaptations and the five catalog entries that are pending, private, or use a different installer. [catalog.json](catalog.json) holds reviewed discovery copy; immutable release metadata stays unchanged.
+The registry contains 42 public Kujo packages. See [ENROLLMENT.md](ENROLLMENT.md) for current versions and release adaptations, and [release-audit.json](release-audit.json) for the September 25 review of all 100 organization repositories, including dependency blockers and other installation surfaces. [catalog.json](catalog.json) holds reviewed discovery copy; immutable release metadata stays unchanged.
 
 ## Native installer and release activation
 

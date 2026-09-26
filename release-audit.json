@@ -1,0 +1,762 @@
+{
+  "reviewed_on": "2026-09-25",
+  "source": "GitHub organization repository inventory and published Releases API; exact release trees reviewed for new enrollments and metadata adaptations.",
+  "total_repositories_reviewed": 100,
+  "private_repositories_excluded": 11,
+  "public_repositories": [
+    {
+      "repository": "ability",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.1.0",
+      "release_id": 383050709,
+      "release_url": "https://github.com/kujolang/ability/releases/tag/v1.1.0",
+      "package": "ability"
+    },
+    {
+      "repository": "agents-sdk",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.0.0",
+      "release_id": 367136944,
+      "release_url": "https://github.com/kujolang/agents-sdk/releases/tag/v1.0.0",
+      "package": "agents-sdk"
+    },
+    {
+      "repository": "agents.kujolang.ai",
+      "status": "unreleased",
+      "reason": "No published stable GitHub Release; tags and development manifest versions do not qualify.",
+      "latest_release": null,
+      "release_id": null,
+      "release_url": null
+    },
+    {
+      "repository": "ai-chat",
+      "status": "external-install",
+      "reason": "Website, runtime, npm/plugin, role/skill/workflow collection, or CMS extension; use the repository installation instructions.",
+      "latest_release": "v1.2.0",
+      "release_id": 384014389,
+      "release_url": "https://github.com/kujolang/ai-chat/releases/tag/v1.2.0"
+    },
+    {
+      "repository": "ai-sdk",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.0.0",
+      "release_id": 367136429,
+      "release_url": "https://github.com/kujolang/ai-sdk/releases/tag/v1.0.0",
+      "package": "ai-sdk"
+    },
+    {
+      "repository": "anthropic",
+      "status": "blocked",
+      "reason": "Released manifest references AI SDK v1.1.0, a tag without a published GitHub Release; no immutable registry dependency projection is available.",
+      "latest_release": "v0.1.2",
+      "release_id": 377829135,
+      "release_url": "https://github.com/kujolang/anthropic/releases/tag/v0.1.2"
+    },
+    {
+      "repository": "assetworks",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v0.3.0",
+      "release_id": 394171259,
+      "release_url": "https://github.com/kujolang/assetworks/releases/tag/v0.3.0",
+      "package": "assetworks"
+    },
+    {
+      "repository": "azure-ai",
+      "status": "unreleased",
+      "reason": "No published stable GitHub Release; tags and development manifest versions do not qualify.",
+      "latest_release": null,
+      "release_id": null,
+      "release_url": null
+    },
+    {
+      "repository": "baseten",
+      "status": "unreleased",
+      "reason": "No published stable GitHub Release; tags and development manifest versions do not qualify.",
+      "latest_release": null,
+      "release_id": null,
+      "release_url": null
+    },
+    {
+      "repository": "bb-kujo",
+      "status": "external-install",
+      "reason": "Website, runtime, npm/plugin, role/skill/workflow collection, or CMS extension; use the repository installation instructions.",
+      "latest_release": "v0.2.0",
+      "release_id": 387615963,
+      "release_url": "https://github.com/kujolang/bb-kujo/releases/tag/v0.2.0"
+    },
+    {
+      "repository": "bedrock",
+      "status": "unreleased",
+      "reason": "No published stable GitHub Release; tags and development manifest versions do not qualify.",
+      "latest_release": null,
+      "release_id": null,
+      "release_url": null
+    },
+    {
+      "repository": "bluepencil",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v0.3.0",
+      "release_id": 394995066,
+      "release_url": "https://github.com/kujolang/bluepencil/releases/tag/v0.3.0",
+      "package": "bluepencil"
+    },
+    {
+      "repository": "casefile",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.0.0",
+      "release_id": 367136450,
+      "release_url": "https://github.com/kujolang/casefile/releases/tag/v1.0.0",
+      "package": "casefile"
+    },
+    {
+      "repository": "cerebras",
+      "status": "unreleased",
+      "reason": "No published stable GitHub Release; tags and development manifest versions do not qualify.",
+      "latest_release": null,
+      "release_id": null,
+      "release_url": null
+    },
+    {
+      "repository": "changebucket",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.1.0",
+      "release_id": 393740431,
+      "release_url": "https://github.com/kujolang/changebucket/releases/tag/v1.1.0",
+      "package": "changebucket"
+    },
+    {
+      "repository": "cloudflare-ai",
+      "status": "unreleased",
+      "reason": "No published stable GitHub Release; tags and development manifest versions do not qualify.",
+      "latest_release": null,
+      "release_id": null,
+      "release_url": null
+    },
+    {
+      "repository": "cms",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.1.0",
+      "release_id": 379347884,
+      "release_url": "https://github.com/kujolang/cms/releases/tag/v1.1.0",
+      "package": "cms"
+    },
+    {
+      "repository": "cms-contact-form",
+      "status": "external-install",
+      "reason": "Website, runtime, npm/plugin, role/skill/workflow collection, or CMS extension; use the repository installation instructions.",
+      "latest_release": "v1.0.0",
+      "release_id": 379082973,
+      "release_url": "https://github.com/kujolang/cms-contact-form/releases/tag/v1.0.0"
+    },
+    {
+      "repository": "cms-example",
+      "status": "external-install",
+      "reason": "Website, runtime, npm/plugin, role/skill/workflow collection, or CMS extension; use the repository installation instructions.",
+      "latest_release": "v1.1.0",
+      "release_id": 379347883,
+      "release_url": "https://github.com/kujolang/cms-example/releases/tag/v1.1.0"
+    },
+    {
+      "repository": "cms-field-notes-theme",
+      "status": "external-install",
+      "reason": "Website, runtime, npm/plugin, role/skill/workflow collection, or CMS extension; use the repository installation instructions.",
+      "latest_release": "v1.0.2",
+      "release_id": 379082934,
+      "release_url": "https://github.com/kujolang/cms-field-notes-theme/releases/tag/v1.0.2"
+    },
+    {
+      "repository": "cohere",
+      "status": "unreleased",
+      "reason": "No published stable GitHub Release; tags and development manifest versions do not qualify.",
+      "latest_release": null,
+      "release_id": null,
+      "release_url": null
+    },
+    {
+      "repository": "commerce",
+      "status": "external-install",
+      "reason": "Website, runtime, npm/plugin, role/skill/workflow collection, or CMS extension; use the repository installation instructions.",
+      "latest_release": "v0.4.0",
+      "release_id": 379408330,
+      "release_url": "https://github.com/kujolang/commerce/releases/tag/v0.4.0"
+    },
+    {
+      "repository": "concord",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.0.0",
+      "release_id": 367136445,
+      "release_url": "https://github.com/kujolang/concord/releases/tag/v1.0.0",
+      "package": "concord"
+    },
+    {
+      "repository": "contentgraph",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v0.3.0",
+      "release_id": 369662644,
+      "release_url": "https://github.com/kujolang/contentgraph/releases/tag/v0.3.0",
+      "package": "contentgraph"
+    },
+    {
+      "repository": "crud-api",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.0.0",
+      "release_id": 337646133,
+      "release_url": "https://github.com/kujolang/crud-api/releases/tag/v1.0.0",
+      "package": "crud-api"
+    },
+    {
+      "repository": "deepinfra",
+      "status": "unreleased",
+      "reason": "No published stable GitHub Release; tags and development manifest versions do not qualify.",
+      "latest_release": null,
+      "release_id": null,
+      "release_url": null
+    },
+    {
+      "repository": "deepseek",
+      "status": "unreleased",
+      "reason": "No published stable GitHub Release; tags and development manifest versions do not qualify.",
+      "latest_release": null,
+      "release_id": null,
+      "release_url": null
+    },
+    {
+      "repository": "dispatch",
+      "status": "blocked",
+      "reason": "AI SDK commit 849dbbbba7a734938320dd9569d1ed7aa6240298 has no published matching release; preserve the exact source dependency.",
+      "latest_release": "v1.2.0",
+      "release_id": 377808250,
+      "release_url": "https://github.com/kujolang/dispatch/releases/tag/v1.2.0"
+    },
+    {
+      "repository": "docs.kujolang.ai",
+      "status": "external-install",
+      "reason": "Website, runtime, npm/plugin, role/skill/workflow collection, or CMS extension; use the repository installation instructions.",
+      "latest_release": "v1.3.3",
+      "release_id": 382826007,
+      "release_url": "https://github.com/kujolang/docs.kujolang.ai/releases/tag/v1.3.3"
+    },
+    {
+      "repository": "dossier",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v0.2.0",
+      "release_id": 370827490,
+      "release_url": "https://github.com/kujolang/dossier/releases/tag/v0.2.0",
+      "package": "dossier"
+    },
+    {
+      "repository": "eval",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.0.0",
+      "release_id": 367136915,
+      "release_url": "https://github.com/kujolang/eval/releases/tag/v1.0.0",
+      "package": "eval"
+    },
+    {
+      "repository": "fal",
+      "status": "unreleased",
+      "reason": "No published stable GitHub Release; tags and development manifest versions do not qualify.",
+      "latest_release": null,
+      "release_id": null,
+      "release_url": null
+    },
+    {
+      "repository": "fence",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.0.0",
+      "release_id": 367136432,
+      "release_url": "https://github.com/kujolang/fence/releases/tag/v1.0.0",
+      "package": "fence"
+    },
+    {
+      "repository": "fireworks",
+      "status": "unreleased",
+      "reason": "No published stable GitHub Release; tags and development manifest versions do not qualify.",
+      "latest_release": null,
+      "release_id": null,
+      "release_url": null
+    },
+    {
+      "repository": "galleypack",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v0.2.0",
+      "release_id": 370827499,
+      "release_url": "https://github.com/kujolang/galleypack/releases/tag/v0.2.0",
+      "package": "galleypack"
+    },
+    {
+      "repository": "gemini",
+      "status": "unreleased",
+      "reason": "No published stable GitHub Release; tags and development manifest versions do not qualify.",
+      "latest_release": null,
+      "release_id": null,
+      "release_url": null
+    },
+    {
+      "repository": "groq",
+      "status": "unreleased",
+      "reason": "No published stable GitHub Release; tags and development manifest versions do not qualify.",
+      "latest_release": null,
+      "release_id": null,
+      "release_url": null
+    },
+    {
+      "repository": "howl",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.1.0",
+      "release_id": 368735202,
+      "release_url": "https://github.com/kujolang/howl/releases/tag/v1.1.0",
+      "package": "howl"
+    },
+    {
+      "repository": "huggingface",
+      "status": "unreleased",
+      "reason": "No published stable GitHub Release; tags and development manifest versions do not qualify.",
+      "latest_release": null,
+      "release_id": null,
+      "release_url": null
+    },
+    {
+      "repository": "intake",
+      "status": "unreleased",
+      "reason": "No published stable GitHub Release; tags and development manifest versions do not qualify.",
+      "latest_release": null,
+      "release_id": null,
+      "release_url": null
+    },
+    {
+      "repository": "kennel",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.1.0",
+      "release_id": 388030178,
+      "release_url": "https://github.com/kujolang/kennel/releases/tag/v1.1.0",
+      "package": "kennel"
+    },
+    {
+      "repository": "kennel-registry",
+      "status": "unreleased",
+      "reason": "No published stable GitHub Release; tags and development manifest versions do not qualify.",
+      "latest_release": null,
+      "release_id": null,
+      "release_url": null
+    },
+    {
+      "repository": "kujo",
+      "status": "external-install",
+      "reason": "Website, runtime, npm/plugin, role/skill/workflow collection, or CMS extension; use the repository installation instructions.",
+      "latest_release": "v1.5.0",
+      "release_id": 394168983,
+      "release_url": "https://github.com/kujolang/kujo/releases/tag/v1.5.0"
+    },
+    {
+      "repository": "kujo-agents",
+      "status": "external-install",
+      "reason": "Website, runtime, npm/plugin, role/skill/workflow collection, or CMS extension; use the repository installation instructions.",
+      "latest_release": "v1.4.0",
+      "release_id": 383773134,
+      "release_url": "https://github.com/kujolang/kujo-agents/releases/tag/v1.4.0"
+    },
+    {
+      "repository": "kujo-cmd",
+      "status": "external-install",
+      "reason": "Website, runtime, npm/plugin, role/skill/workflow collection, or CMS extension; use the repository installation instructions.",
+      "latest_release": "v0.1.4",
+      "release_id": 388520780,
+      "release_url": "https://github.com/kujolang/kujo-cmd/releases/tag/v0.1.4"
+    },
+    {
+      "repository": "kujo-pi",
+      "status": "external-install",
+      "reason": "Website, runtime, npm/plugin, role/skill/workflow collection, or CMS extension; use the repository installation instructions.",
+      "latest_release": "v1.1.0",
+      "release_id": 397030822,
+      "release_url": "https://github.com/kujolang/kujo-pi/releases/tag/v1.1.0"
+    },
+    {
+      "repository": "kujo-skills",
+      "status": "external-install",
+      "reason": "Website, runtime, npm/plugin, role/skill/workflow collection, or CMS extension; use the repository installation instructions.",
+      "latest_release": "v0.7.0",
+      "release_id": 385002654,
+      "release_url": "https://github.com/kujolang/kujo-skills/releases/tag/v0.7.0"
+    },
+    {
+      "repository": "kujo-workflows",
+      "status": "external-install",
+      "reason": "Website, runtime, npm/plugin, role/skill/workflow collection, or CMS extension; use the repository installation instructions.",
+      "latest_release": "v0.6.0",
+      "release_id": 383773186,
+      "release_url": "https://github.com/kujolang/kujo-workflows/releases/tag/v0.6.0"
+    },
+    {
+      "repository": "kujolang-mcp",
+      "status": "unreleased",
+      "reason": "No published stable GitHub Release; tags and development manifest versions do not qualify.",
+      "latest_release": null,
+      "release_id": null,
+      "release_url": null
+    },
+    {
+      "repository": "kujolang.ai",
+      "status": "external-install",
+      "reason": "Website, runtime, npm/plugin, role/skill/workflow collection, or CMS extension; use the repository installation instructions.",
+      "latest_release": "v1.2.9",
+      "release_id": 382912713,
+      "release_url": "https://github.com/kujolang/kujolang.ai/releases/tag/v1.2.9"
+    },
+    {
+      "repository": "lens",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.1.0",
+      "release_id": 384030048,
+      "release_url": "https://github.com/kujolang/lens/releases/tag/v1.1.0",
+      "package": "lens"
+    },
+    {
+      "repository": "mcp",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.1.1",
+      "release_id": 382717847,
+      "release_url": "https://github.com/kujolang/mcp/releases/tag/v1.1.1",
+      "package": "mcp"
+    },
+    {
+      "repository": "mistral",
+      "status": "unreleased",
+      "reason": "No published stable GitHub Release; tags and development manifest versions do not qualify.",
+      "latest_release": null,
+      "release_id": null,
+      "release_url": null
+    },
+    {
+      "repository": "muzzle",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.1.0",
+      "release_id": 379433804,
+      "release_url": "https://github.com/kujolang/muzzle/releases/tag/v1.1.0",
+      "package": "muzzle"
+    },
+    {
+      "repository": "nvidia-nim",
+      "status": "unreleased",
+      "reason": "No published stable GitHub Release; tags and development manifest versions do not qualify.",
+      "latest_release": null,
+      "release_id": null,
+      "release_url": null
+    },
+    {
+      "repository": "ollama",
+      "status": "blocked",
+      "reason": "Released manifest references AI SDK v1.1.0, a tag without a published GitHub Release; no immutable registry dependency projection is available.",
+      "latest_release": "v0.1.10",
+      "release_id": 377829134,
+      "release_url": "https://github.com/kujolang/ollama/releases/tag/v0.1.10"
+    },
+    {
+      "repository": "openai",
+      "status": "unreleased",
+      "reason": "No published stable GitHub Release; tags and development manifest versions do not qualify.",
+      "latest_release": null,
+      "release_id": null,
+      "release_url": null
+    },
+    {
+      "repository": "openrouter",
+      "status": "unreleased",
+      "reason": "No published stable GitHub Release; tags and development manifest versions do not qualify.",
+      "latest_release": null,
+      "release_id": null,
+      "release_url": null
+    },
+    {
+      "repository": "packwrite",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.1.0",
+      "release_id": 379436208,
+      "release_url": "https://github.com/kujolang/packwrite/releases/tag/v1.1.0",
+      "package": "packwrite"
+    },
+    {
+      "repository": "paperclip",
+      "status": "external-install",
+      "reason": "Website, runtime, npm/plugin, role/skill/workflow collection, or CMS extension; use the repository installation instructions.",
+      "latest_release": "v0.1.7",
+      "release_id": 382697086,
+      "release_url": "https://github.com/kujolang/paperclip/releases/tag/v0.1.7"
+    },
+    {
+      "repository": "patchbrief",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.0.1",
+      "release_id": 379432745,
+      "release_url": "https://github.com/kujolang/patchbrief/releases/tag/v1.0.1",
+      "package": "patchbrief"
+    },
+    {
+      "repository": "payments",
+      "status": "unreleased",
+      "reason": "No published stable GitHub Release; tags and development manifest versions do not qualify.",
+      "latest_release": null,
+      "release_id": null,
+      "release_url": null
+    },
+    {
+      "repository": "perplexity",
+      "status": "unreleased",
+      "reason": "No published stable GitHub Release; tags and development manifest versions do not qualify.",
+      "latest_release": null,
+      "release_id": null,
+      "release_url": null
+    },
+    {
+      "repository": "presswire",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v0.2.0",
+      "release_id": 370827510,
+      "release_url": "https://github.com/kujolang/presswire/releases/tag/v0.2.0",
+      "package": "presswire"
+    },
+    {
+      "repository": "rag",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.0.0",
+      "release_id": 367136936,
+      "release_url": "https://github.com/kujolang/rag/releases/tag/v1.0.0",
+      "package": "rag"
+    },
+    {
+      "repository": "readersignal",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v0.3.0",
+      "release_id": 397067443,
+      "release_url": "https://github.com/kujolang/readersignal/releases/tag/v0.3.0",
+      "package": "readersignal"
+    },
+    {
+      "repository": "redact",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.1.0",
+      "release_id": 395071622,
+      "release_url": "https://github.com/kujolang/redact/releases/tag/v1.1.0",
+      "package": "redact"
+    },
+    {
+      "repository": "relay",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.1.0",
+      "release_id": 377849492,
+      "release_url": "https://github.com/kujolang/relay/releases/tag/v1.1.0",
+      "package": "relay"
+    },
+    {
+      "repository": "replicate",
+      "status": "unreleased",
+      "reason": "No published stable GitHub Release; tags and development manifest versions do not qualify.",
+      "latest_release": null,
+      "release_id": null,
+      "release_url": null
+    },
+    {
+      "repository": "runledger",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.1.0",
+      "release_id": 379448355,
+      "release_url": "https://github.com/kujolang/runledger/releases/tag/v1.1.0",
+      "package": "runledger"
+    },
+    {
+      "repository": "scent",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.0.0",
+      "release_id": 367136953,
+      "release_url": "https://github.com/kujolang/scent/releases/tag/v1.0.0",
+      "package": "scent"
+    },
+    {
+      "repository": "scout",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.1.0",
+      "release_id": 397021873,
+      "release_url": "https://github.com/kujolang/scout/releases/tag/v1.1.0",
+      "package": "scout"
+    },
+    {
+      "repository": "searchbridge",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.0.0",
+      "release_id": 383036738,
+      "release_url": "https://github.com/kujolang/searchbridge/releases/tag/v1.0.0",
+      "package": "searchbridge"
+    },
+    {
+      "repository": "shipcheck",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.0.0",
+      "release_id": 367137016,
+      "release_url": "https://github.com/kujolang/shipcheck/releases/tag/v1.0.0",
+      "package": "shipcheck"
+    },
+    {
+      "repository": "site-kit",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.0.0",
+      "release_id": 367355693,
+      "release_url": "https://github.com/kujolang/site-kit/releases/tag/v1.0.0",
+      "package": "sitekit"
+    },
+    {
+      "repository": "sitekit-docs-template",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.0.0",
+      "release_id": 367361860,
+      "release_url": "https://github.com/kujolang/sitekit-docs-template/releases/tag/v1.0.0",
+      "package": "sitekit-docs-template"
+    },
+    {
+      "repository": "siteprobe",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v0.4.0",
+      "release_id": 393970296,
+      "release_url": "https://github.com/kujolang/siteprobe/releases/tag/v0.4.0",
+      "package": "siteprobe"
+    },
+    {
+      "repository": "spec",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.0.1",
+      "release_id": 379427817,
+      "release_url": "https://github.com/kujolang/spec/releases/tag/v1.0.1",
+      "package": "spec"
+    },
+    {
+      "repository": "ssg",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.0.0",
+      "release_id": 367141750,
+      "release_url": "https://github.com/kujolang/ssg/releases/tag/v1.0.0",
+      "package": "ssg"
+    },
+    {
+      "repository": "storydesk",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v0.3.0",
+      "release_id": 394981072,
+      "release_url": "https://github.com/kujolang/storydesk/releases/tag/v0.3.0",
+      "package": "storydesk"
+    },
+    {
+      "repository": "together",
+      "status": "unreleased",
+      "reason": "No published stable GitHub Release; tags and development manifest versions do not qualify.",
+      "latest_release": null,
+      "release_id": null,
+      "release_url": null
+    },
+    {
+      "repository": "tribunal",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.0.1",
+      "release_id": 383282910,
+      "release_url": "https://github.com/kujolang/tribunal/releases/tag/v1.0.1",
+      "package": "tribunal"
+    },
+    {
+      "repository": "versionseal",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v0.3.0",
+      "release_id": 394988613,
+      "release_url": "https://github.com/kujolang/versionseal/releases/tag/v0.3.0",
+      "package": "versionseal"
+    },
+    {
+      "repository": "vertex-ai",
+      "status": "unreleased",
+      "reason": "No published stable GitHub Release; tags and development manifest versions do not qualify.",
+      "latest_release": null,
+      "release_id": null,
+      "release_url": null
+    },
+    {
+      "repository": "watchdog",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.0.1",
+      "release_id": 368730538,
+      "release_url": "https://github.com/kujolang/watchdog/releases/tag/v1.0.1",
+      "package": "watchdog"
+    },
+    {
+      "repository": "workcell",
+      "status": "enrolled",
+      "reason": "Reviewed public reusable Kujo package; current release admitted through the central publisher.",
+      "latest_release": "v1.1.0",
+      "release_id": 382998311,
+      "release_url": "https://github.com/kujolang/workcell/releases/tag/v1.1.0",
+      "package": "workcell"
+    },
+    {
+      "repository": "workcell-studio",
+      "status": "unreleased",
+      "reason": "No published stable GitHub Release; tags and development manifest versions do not qualify.",
+      "latest_release": null,
+      "release_id": null,
+      "release_url": null
+    },
+    {
+      "repository": "xai",
+      "status": "unreleased",
+      "reason": "No published stable GitHub Release; tags and development manifest versions do not qualify.",
+      "latest_release": null,
+      "release_id": null,
+      "release_url": null
+    },
+    {
+      "repository": "zai",
+      "status": "unreleased",
+      "reason": "No published stable GitHub Release; tags and development manifest versions do not qualify.",
+      "latest_release": null,
+      "release_id": null,
+      "release_url": null
+    }
+  ]
+}
