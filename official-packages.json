@@ -889,6 +889,108 @@
           "entry": "build.kujo"
         }
       }
+    },
+    "dispatch": {
+      "repository": "kujolang/dispatch",
+      "repository_id": 1264528481,
+      "official": true,
+      "enabled": true,
+      "category": "primitives",
+      "enrolled_at": "2026-09-26T00:00:00Z",
+      "backfill_release_ids": [
+        377808250
+      ],
+      "release_commits": {
+        "1.2.0": "662417c264bd55f8d802eef3fc21f9f372590753"
+      },
+      "release_manifests": {
+        "662417c264bd55f8d802eef3fc21f9f372590753": {
+          "source_manifest": "kennel.toml",
+          "source_manifest_sha256": "7043132d266f121e7776cb8e20248ed0bc393af3a72dafb93f2355190abb0407",
+          "source_package": "dispatch",
+          "description": "Dispatch is an agent workflow engine for building reliable AI workflows written in Kujo.",
+          "license": "MIT",
+          "entry": "dispatch.kujo",
+          "dependency_git_pins": {
+            "ai-sdk": {
+              "package": "ai-sdk",
+              "original": {
+                "source": "github:kujolang/ai-sdk",
+                "ref": "849dbbbba7a734938320dd9569d1ed7aa6240298"
+              },
+              "commit": "849dbbbba7a734938320dd9569d1ed7aa6240298"
+            }
+          }
+        }
+      }
+    },
+    "anthropic": {
+      "repository": "kujolang/anthropic",
+      "repository_id": 1347945717,
+      "official": true,
+      "enabled": true,
+      "category": "primitives",
+      "enrolled_at": "2026-09-26T00:00:00Z",
+      "backfill_release_ids": [
+        377829135
+      ],
+      "release_commits": {
+        "0.1.2": "6f21254287a65c29618b2a0fad6bda003b7f165c"
+      },
+      "release_manifests": {
+        "6f21254287a65c29618b2a0fad6bda003b7f165c": {
+          "source_manifest": "kennel.toml",
+          "source_manifest_sha256": "9946c0e79d5bc8b09d9c4cffae6a05a69b1bddfa68963c991b2ab2b478f5ecda",
+          "source_package": "anthropic",
+          "description": "Native Anthropic Messages API client for Kujo with an AI SDK provider driver",
+          "license": "MIT",
+          "entry": "anthropic.kujo",
+          "dependency_git_pins": {
+            "ai-sdk": {
+              "package": "ai-sdk",
+              "original": {
+                "source": "github:kujolang/ai-sdk",
+                "ref": "v1.1.0"
+              },
+              "commit": "2295433e185e117106c9c90a1e10b5eba937955a"
+            }
+          }
+        }
+      }
+    },
+    "ollama": {
+      "repository": "kujolang/ollama",
+      "repository_id": 1347926053,
+      "official": true,
+      "enabled": true,
+      "category": "primitives",
+      "enrolled_at": "2026-09-26T00:00:00Z",
+      "backfill_release_ids": [
+        377829134
+      ],
+      "release_commits": {
+        "0.1.10": "cf9a35681cbade26c56012048fbd9b7d7f8674e6"
+      },
+      "release_manifests": {
+        "cf9a35681cbade26c56012048fbd9b7d7f8674e6": {
+          "source_manifest": "kennel.toml",
+          "source_manifest_sha256": "fc6698b9d2ada7f9e6fc884bfca818af3545f45856b6aa53cf159aa21bd2c940",
+          "source_package": "ollama",
+          "description": "Native Ollama API client for Kujo with an AI SDK provider driver",
+          "license": "MIT",
+          "entry": "ollama.kujo",
+          "dependency_git_pins": {
+            "ai-sdk": {
+              "package": "ai-sdk",
+              "original": {
+                "source": "github:kujolang/ai-sdk",
+                "ref": "v1.1.0"
+              },
+              "commit": "2295433e185e117106c9c90a1e10b5eba937955a"
+            }
+          }
+        }
+      }
     }
   }
 }

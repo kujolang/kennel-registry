@@ -52,11 +52,13 @@
     },
     {
       "repository": "anthropic",
-      "status": "blocked",
-      "reason": "Released manifest references AI SDK v1.1.0, a tag without a published GitHub Release; no immutable registry dependency projection is available.",
+      "status": "enrolled",
+      "reason": "Published source package with reviewed exact Git dependency pins; Git is required for AI SDK installation and lock replay.",
       "latest_release": "v0.1.2",
       "release_id": 377829135,
-      "release_url": "https://github.com/kujolang/anthropic/releases/tag/v0.1.2"
+      "release_url": "https://github.com/kujolang/anthropic/releases/tag/v0.1.2",
+      "package": "anthropic",
+      "registry_latest": "0.1.2"
     },
     {
       "repository": "assetworks",
@@ -244,11 +246,13 @@
     },
     {
       "repository": "dispatch",
-      "status": "blocked",
-      "reason": "AI SDK commit 849dbbbba7a734938320dd9569d1ed7aa6240298 has no published matching release; preserve the exact source dependency.",
+      "status": "enrolled",
+      "reason": "Published source package with reviewed exact Git dependency pins; Git is required for AI SDK installation and lock replay.",
       "latest_release": "v1.2.0",
       "release_id": 377808250,
-      "release_url": "https://github.com/kujolang/dispatch/releases/tag/v1.2.0"
+      "release_url": "https://github.com/kujolang/dispatch/releases/tag/v1.2.0",
+      "package": "dispatch",
+      "registry_latest": "1.2.0"
     },
     {
       "repository": "docs.kujolang.ai",
@@ -486,11 +490,13 @@
     },
     {
       "repository": "ollama",
-      "status": "blocked",
-      "reason": "Released manifest references AI SDK v1.1.0, a tag without a published GitHub Release; no immutable registry dependency projection is available.",
+      "status": "enrolled",
+      "reason": "Published source package with reviewed exact Git dependency pins; Git is required for AI SDK installation and lock replay.",
       "latest_release": "v0.1.10",
       "release_id": 377829134,
-      "release_url": "https://github.com/kujolang/ollama/releases/tag/v0.1.10"
+      "release_url": "https://github.com/kujolang/ollama/releases/tag/v0.1.10",
+      "package": "ollama",
+      "registry_latest": "0.1.10"
     },
     {
       "repository": "openai",
@@ -800,5 +806,6 @@
       "release_id": null,
       "release_url": null
     }
-  ]
+  ],
+  "updated_on": "2026-09-26"
 }

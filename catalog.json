@@ -5,6 +5,21 @@
       "description": "Maps website content and internal links to surface orphan pages, topic overlaps and linking opportunities.",
       "source": "https://kujolang.ai/ecosystem/contentgraph/",
       "reviewed_on": "2026-09-08"
+    },
+    "dispatch": {
+      "description": "Dispatch is an agent workflow engine for building reliable AI workflows written in Kujo. Requires Git for its pinned AI SDK dependency.",
+      "source": "https://github.com/kujolang/dispatch",
+      "reviewed_on": "2026-09-26"
+    },
+    "anthropic": {
+      "description": "Native Anthropic Messages API client for Kujo with an AI SDK provider driver Requires Git for its pinned AI SDK dependency.",
+      "source": "https://github.com/kujolang/anthropic",
+      "reviewed_on": "2026-09-26"
+    },
+    "ollama": {
+      "description": "Native Ollama API client for Kujo with an AI SDK provider driver Requires Git for its pinned AI SDK dependency.",
+      "source": "https://github.com/kujolang/ollama",
+      "reviewed_on": "2026-09-26"
     }
   }
 }

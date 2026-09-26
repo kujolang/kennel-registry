@@ -2,13 +2,14 @@
 
 Sources: https://kujolang.ai/ecosystem/primitives/ and https://kujolang.ai/ecosystem/tooling/. Reviewed actual public GitHub Releases, exact commit trees, package controls and dependency identities.
 
-42 packages (55 released versions, including one prerelease) are enrolled. No releases were fabricated. Initial backfill selects reviewed releases; older unrelated releases are not silently repackaged.
+45 packages (58 released versions, including one prerelease) are enrolled. No releases were fabricated. Initial backfill selects reviewed releases; older unrelated releases are not silently repackaged.
 
 | Package | Latest registry version |
 | --- | --- |
 | [ability](https://kennel.kujolang.ai/ability) | 1.1.0 |
 | [agents-sdk](https://kennel.kujolang.ai/agents-sdk) | 1.0.0 |
 | [ai-sdk](https://kennel.kujolang.ai/ai-sdk) | 1.0.0 |
+| [anthropic](https://kennel.kujolang.ai/anthropic) | 0.1.2 |
 | [assetworks](https://kennel.kujolang.ai/assetworks) | 0.3.0 |
 | [bluepencil](https://kennel.kujolang.ai/bluepencil) | 0.3.0 |
 | [casefile](https://kennel.kujolang.ai/casefile) | 1.0.0 |
@@ -17,6 +18,7 @@ Sources: https://kujolang.ai/ecosystem/primitives/ and https://kujolang.ai/ecosy
 | [concord](https://kennel.kujolang.ai/concord) | 1.0.0 |
 | [contentgraph](https://kennel.kujolang.ai/contentgraph) | 0.3.0 |
 | [crud-api](https://kennel.kujolang.ai/crud-api) | 1.0.0 |
+| [dispatch](https://kennel.kujolang.ai/dispatch) | 1.2.0 |
 | [dossier](https://kennel.kujolang.ai/dossier) | 0.2.0 |
 | [eval](https://kennel.kujolang.ai/eval) | 1.0.0 |
 | [fence](https://kennel.kujolang.ai/fence) | 1.0.0 |
@@ -26,6 +28,7 @@ Sources: https://kujolang.ai/ecosystem/primitives/ and https://kujolang.ai/ecosy
 | [lens](https://kennel.kujolang.ai/lens) | 1.1.0 |
 | [mcp](https://kennel.kujolang.ai/mcp) | 1.1.1 |
 | [muzzle](https://kennel.kujolang.ai/muzzle) | 1.1.0 |
+| [ollama](https://kennel.kujolang.ai/ollama) | 0.1.10 |
 | [packwrite](https://kennel.kujolang.ai/packwrite) | 1.1.0 |
 | [patchbrief](https://kennel.kujolang.ai/patchbrief) | 1.0.1 |
 | [presswire](https://kennel.kujolang.ai/presswire) | 0.2.0 |
@@ -51,10 +54,12 @@ Sources: https://kujolang.ai/ecosystem/primitives/ and https://kujolang.ai/ecosy
 
 ## Coverage boundaries
 
-The September 25 organization-wide review covers all 100 repositories: 42 enrolled public packages, 29 public repositories without stable published releases, 15 public projects using other installation surfaces, three dependency-blocked packages, and 11 private repositories. [release-audit.json](release-audit.json) records every public repository, current stable Release ID, and disposition. Development manifest versions and tags without GitHub Releases are not registry releases.
+The September 25 organization-wide inventory covers all 100 repositories. The September 26 dependency follow-up brings coverage to 45 enrolled public packages, 29 public repositories without stable published releases, 15 public projects using other installation surfaces, and 11 private repositories. [release-audit.json](release-audit.json) records every public repository and its disposition. Tags without GitHub Releases do not qualify as registry package releases, but a released package may retain exact Git dependencies.
 
-- Dispatch 1.2.0: its exact AI SDK dependency commit `849dbbbba7a734938320dd9569d1ed7aa6240298` has no matching published release. Enrollment remains blocked; substituting AI SDK 1.0.0 would change source identity.
-- Anthropic 0.1.2 and Ollama 0.1.10: both released manifests require AI SDK tag `v1.1.0`, which has no published GitHub Release. They remain outside the registry until an immutable dependency release or reviewed packaging policy exists.
+- Dispatch 1.2.0 retains AI SDK commit `849dbbbba7a734938320dd9569d1ed7aa6240298`. Its legacy `ref` selector is normalized to `commit`; the source identity is unchanged.
+- Anthropic 0.1.2 and Ollama 0.1.10 retain the source selected by AI SDK tag `v1.1.0`, peeled and pinned to `2295433e185e117106c9c90a1e10b5eba937955a`. The publisher verifies the tag target before building and records the original declaration and exact commit in provenance.
+- **These three packages require Git and access to GitHub for their AI SDK dependency, including lock replay.** Their packages come from Kennel; the dependency comes from its exact Git commit. No AI SDK release was fabricated, no historical version was replaced, and no source-policy override is required. They are not included in the historical 42-package Git-disabled acceptance claim below.
+
 - Kujo uses its runtime installer. Commerce, AI Chat, Pi/Paperclip/Command Code/bb integrations, CMS themes/plugins, and role/skill/workflow collections retain their documented native installation surfaces. Website repositories are not runtime packages.
 - Unreleased provider libraries, Payments, Intake, and other development repositories are inventoried but not published from moving branches.
 - Private repositories remain excluded; their identities and source are not exposed by the public audit.
