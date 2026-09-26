@@ -11,7 +11,8 @@
       "latest_release": "v1.1.0",
       "release_id": 383050709,
       "release_url": "https://github.com/kujolang/ability/releases/tag/v1.1.0",
-      "package": "ability"
+      "package": "ability",
+      "registry_latest": "1.1.0"
     },
     {
       "repository": "agents-sdk",
@@ -20,7 +21,8 @@
       "latest_release": "v1.0.0",
       "release_id": 367136944,
       "release_url": "https://github.com/kujolang/agents-sdk/releases/tag/v1.0.0",
-      "package": "agents-sdk"
+      "package": "agents-sdk",
+      "registry_latest": "1.0.0"
     },
     {
       "repository": "agents.kujolang.ai",
@@ -33,7 +35,7 @@
     {
       "repository": "ai-chat",
       "status": "external-install",
-      "reason": "Website, runtime, npm/plugin, role/skill/workflow collection, or CMS extension; use the repository installation instructions.",
+      "reason": "Node/npm web application; setup includes Node dependencies and a Kujo bridge. Use SETUP_AND_INSTALL.md.",
       "latest_release": "v1.2.0",
       "release_id": 384014389,
       "release_url": "https://github.com/kujolang/ai-chat/releases/tag/v1.2.0"
@@ -45,7 +47,8 @@
       "latest_release": "v1.0.0",
       "release_id": 367136429,
       "release_url": "https://github.com/kujolang/ai-sdk/releases/tag/v1.0.0",
-      "package": "ai-sdk"
+      "package": "ai-sdk",
+      "registry_latest": "1.0.0"
     },
     {
       "repository": "anthropic",
@@ -62,7 +65,8 @@
       "latest_release": "v0.3.0",
       "release_id": 394171259,
       "release_url": "https://github.com/kujolang/assetworks/releases/tag/v0.3.0",
-      "package": "assetworks"
+      "package": "assetworks",
+      "registry_latest": "0.3.0"
     },
     {
       "repository": "azure-ai",
@@ -83,7 +87,7 @@
     {
       "repository": "bb-kujo",
       "status": "external-install",
-      "reason": "Website, runtime, npm/plugin, role/skill/workflow collection, or CMS extension; use the repository installation instructions.",
+      "reason": "bb workspace skin installed through the bb integration workflow.",
       "latest_release": "v0.2.0",
       "release_id": 387615963,
       "release_url": "https://github.com/kujolang/bb-kujo/releases/tag/v0.2.0"
@@ -103,7 +107,8 @@
       "latest_release": "v0.3.0",
       "release_id": 394995066,
       "release_url": "https://github.com/kujolang/bluepencil/releases/tag/v0.3.0",
-      "package": "bluepencil"
+      "package": "bluepencil",
+      "registry_latest": "0.3.0"
     },
     {
       "repository": "casefile",
@@ -112,7 +117,8 @@
       "latest_release": "v1.0.0",
       "release_id": 367136450,
       "release_url": "https://github.com/kujolang/casefile/releases/tag/v1.0.0",
-      "package": "casefile"
+      "package": "casefile",
+      "registry_latest": "1.0.0"
     },
     {
       "repository": "cerebras",
@@ -129,7 +135,8 @@
       "latest_release": "v1.1.0",
       "release_id": 393740431,
       "release_url": "https://github.com/kujolang/changebucket/releases/tag/v1.1.0",
-      "package": "changebucket"
+      "package": "changebucket",
+      "registry_latest": "1.1.0"
     },
     {
       "repository": "cloudflare-ai",
@@ -146,12 +153,13 @@
       "latest_release": "v1.1.0",
       "release_id": 379347884,
       "release_url": "https://github.com/kujolang/cms/releases/tag/v1.1.0",
-      "package": "cms"
+      "package": "cms",
+      "registry_latest": "1.1.0"
     },
     {
       "repository": "cms-contact-form",
       "status": "external-install",
-      "reason": "Website, runtime, npm/plugin, role/skill/workflow collection, or CMS extension; use the repository installation instructions.",
+      "reason": "CMS plugin manifest/ZIP plus a separately operated Node service; use the CMS extension installer.",
       "latest_release": "v1.0.0",
       "release_id": 379082973,
       "release_url": "https://github.com/kujolang/cms-contact-form/releases/tag/v1.0.0"
@@ -159,7 +167,7 @@
     {
       "repository": "cms-example",
       "status": "external-install",
-      "reason": "Website, runtime, npm/plugin, role/skill/workflow collection, or CMS extension; use the repository installation instructions.",
+      "reason": "CMS theme and separate frontend/admin application; use npm and CMS theme installation.",
       "latest_release": "v1.1.0",
       "release_id": 379347883,
       "release_url": "https://github.com/kujolang/cms-example/releases/tag/v1.1.0"
@@ -167,7 +175,7 @@
     {
       "repository": "cms-field-notes-theme",
       "status": "external-install",
-      "reason": "Website, runtime, npm/plugin, role/skill/workflow collection, or CMS extension; use the repository installation instructions.",
+      "reason": "CMS theme ZIP and frontend application; use npm and the CMS extension installer.",
       "latest_release": "v1.0.2",
       "release_id": 379082934,
       "release_url": "https://github.com/kujolang/cms-field-notes-theme/releases/tag/v1.0.2"
@@ -183,7 +191,7 @@
     {
       "repository": "commerce",
       "status": "external-install",
-      "reason": "Website, runtime, npm/plugin, role/skill/workflow collection, or CMS extension; use the repository installation instructions.",
+      "reason": "JavaScript/npm package @kujolang/commerce, installed with npm.",
       "latest_release": "v0.4.0",
       "release_id": 379408330,
       "release_url": "https://github.com/kujolang/commerce/releases/tag/v0.4.0"
@@ -195,7 +203,8 @@
       "latest_release": "v1.0.0",
       "release_id": 367136445,
       "release_url": "https://github.com/kujolang/concord/releases/tag/v1.0.0",
-      "package": "concord"
+      "package": "concord",
+      "registry_latest": "1.0.0"
     },
     {
       "repository": "contentgraph",
@@ -204,7 +213,8 @@
       "latest_release": "v0.3.0",
       "release_id": 369662644,
       "release_url": "https://github.com/kujolang/contentgraph/releases/tag/v0.3.0",
-      "package": "contentgraph"
+      "package": "contentgraph",
+      "registry_latest": "0.3.0"
     },
     {
       "repository": "crud-api",
@@ -213,7 +223,8 @@
       "latest_release": "v1.0.0",
       "release_id": 337646133,
       "release_url": "https://github.com/kujolang/crud-api/releases/tag/v1.0.0",
-      "package": "crud-api"
+      "package": "crud-api",
+      "registry_latest": "1.0.0"
     },
     {
       "repository": "deepinfra",
@@ -242,7 +253,7 @@
     {
       "repository": "docs.kujolang.ai",
       "status": "external-install",
-      "reason": "Website, runtime, npm/plugin, role/skill/workflow collection, or CMS extension; use the repository installation instructions.",
+      "reason": "Documentation website deployment repository.",
       "latest_release": "v1.3.3",
       "release_id": 382826007,
       "release_url": "https://github.com/kujolang/docs.kujolang.ai/releases/tag/v1.3.3"
@@ -254,7 +265,8 @@
       "latest_release": "v0.2.0",
       "release_id": 370827490,
       "release_url": "https://github.com/kujolang/dossier/releases/tag/v0.2.0",
-      "package": "dossier"
+      "package": "dossier",
+      "registry_latest": "0.2.0"
     },
     {
       "repository": "eval",
@@ -263,7 +275,8 @@
       "latest_release": "v1.0.0",
       "release_id": 367136915,
       "release_url": "https://github.com/kujolang/eval/releases/tag/v1.0.0",
-      "package": "eval"
+      "package": "eval",
+      "registry_latest": "1.0.0"
     },
     {
       "repository": "fal",
@@ -280,7 +293,8 @@
       "latest_release": "v1.0.0",
       "release_id": 367136432,
       "release_url": "https://github.com/kujolang/fence/releases/tag/v1.0.0",
-      "package": "fence"
+      "package": "fence",
+      "registry_latest": "1.0.0"
     },
     {
       "repository": "fireworks",
@@ -297,7 +311,8 @@
       "latest_release": "v0.2.0",
       "release_id": 370827499,
       "release_url": "https://github.com/kujolang/galleypack/releases/tag/v0.2.0",
-      "package": "galleypack"
+      "package": "galleypack",
+      "registry_latest": "0.2.0"
     },
     {
       "repository": "gemini",
@@ -322,7 +337,8 @@
       "latest_release": "v1.1.0",
       "release_id": 368735202,
       "release_url": "https://github.com/kujolang/howl/releases/tag/v1.1.0",
-      "package": "howl"
+      "package": "howl",
+      "registry_latest": "1.1.0"
     },
     {
       "repository": "huggingface",
@@ -347,7 +363,8 @@
       "latest_release": "v1.1.0",
       "release_id": 388030178,
       "release_url": "https://github.com/kujolang/kennel/releases/tag/v1.1.0",
-      "package": "kennel"
+      "package": "kennel",
+      "registry_latest": "1.1.0"
     },
     {
       "repository": "kennel-registry",
@@ -360,7 +377,7 @@
     {
       "repository": "kujo",
       "status": "external-install",
-      "reason": "Website, runtime, npm/plugin, role/skill/workflow collection, or CMS extension; use the repository installation instructions.",
+      "reason": "Compiled Rust runtime distributed through the official Kujo runtime installer.",
       "latest_release": "v1.5.0",
       "release_id": 394168983,
       "release_url": "https://github.com/kujolang/kujo/releases/tag/v1.5.0"
@@ -368,7 +385,7 @@
     {
       "repository": "kujo-agents",
       "status": "external-install",
-      "reason": "Website, runtime, npm/plugin, role/skill/workflow collection, or CMS extension; use the repository installation instructions.",
+      "reason": "Agent role contracts consumed by agent tooling, not a Kujo runtime dependency.",
       "latest_release": "v1.4.0",
       "release_id": 383773134,
       "release_url": "https://github.com/kujolang/kujo-agents/releases/tag/v1.4.0"
@@ -376,7 +393,7 @@
     {
       "repository": "kujo-cmd",
       "status": "external-install",
-      "reason": "Website, runtime, npm/plugin, role/skill/workflow collection, or CMS extension; use the repository installation instructions.",
+      "reason": "Command Code integration with its own install workflow.",
       "latest_release": "v0.1.4",
       "release_id": 388520780,
       "release_url": "https://github.com/kujolang/kujo-cmd/releases/tag/v0.1.4"
@@ -384,7 +401,7 @@
     {
       "repository": "kujo-pi",
       "status": "external-install",
-      "reason": "Website, runtime, npm/plugin, role/skill/workflow collection, or CMS extension; use the repository installation instructions.",
+      "reason": "Pi package with its own package installation workflow.",
       "latest_release": "v1.1.0",
       "release_id": 397030822,
       "release_url": "https://github.com/kujolang/kujo-pi/releases/tag/v1.1.0"
@@ -392,7 +409,7 @@
     {
       "repository": "kujo-skills",
       "status": "external-install",
-      "reason": "Website, runtime, npm/plugin, role/skill/workflow collection, or CMS extension; use the repository installation instructions.",
+      "reason": "Agent Skills collection installed through skill tooling, not a Kujo runtime dependency.",
       "latest_release": "v0.7.0",
       "release_id": 385002654,
       "release_url": "https://github.com/kujolang/kujo-skills/releases/tag/v0.7.0"
@@ -400,7 +417,7 @@
     {
       "repository": "kujo-workflows",
       "status": "external-install",
-      "reason": "Website, runtime, npm/plugin, role/skill/workflow collection, or CMS extension; use the repository installation instructions.",
+      "reason": "Workflow prototypes consumed by agent tooling, not a released Kujo runtime package.",
       "latest_release": "v0.6.0",
       "release_id": 383773186,
       "release_url": "https://github.com/kujolang/kujo-workflows/releases/tag/v0.6.0"
@@ -416,7 +433,7 @@
     {
       "repository": "kujolang.ai",
       "status": "external-install",
-      "reason": "Website, runtime, npm/plugin, role/skill/workflow collection, or CMS extension; use the repository installation instructions.",
+      "reason": "Product website deployment repository.",
       "latest_release": "v1.2.9",
       "release_id": 382912713,
       "release_url": "https://github.com/kujolang/kujolang.ai/releases/tag/v1.2.9"
@@ -428,7 +445,8 @@
       "latest_release": "v1.1.0",
       "release_id": 384030048,
       "release_url": "https://github.com/kujolang/lens/releases/tag/v1.1.0",
-      "package": "lens"
+      "package": "lens",
+      "registry_latest": "1.1.0"
     },
     {
       "repository": "mcp",
@@ -437,7 +455,8 @@
       "latest_release": "v1.1.1",
       "release_id": 382717847,
       "release_url": "https://github.com/kujolang/mcp/releases/tag/v1.1.1",
-      "package": "mcp"
+      "package": "mcp",
+      "registry_latest": "1.1.1"
     },
     {
       "repository": "mistral",
@@ -454,7 +473,8 @@
       "latest_release": "v1.1.0",
       "release_id": 379433804,
       "release_url": "https://github.com/kujolang/muzzle/releases/tag/v1.1.0",
-      "package": "muzzle"
+      "package": "muzzle",
+      "registry_latest": "1.1.0"
     },
     {
       "repository": "nvidia-nim",
@@ -495,12 +515,13 @@
       "latest_release": "v1.1.0",
       "release_id": 379436208,
       "release_url": "https://github.com/kujolang/packwrite/releases/tag/v1.1.0",
-      "package": "packwrite"
+      "package": "packwrite",
+      "registry_latest": "1.1.0"
     },
     {
       "repository": "paperclip",
       "status": "external-install",
-      "reason": "Website, runtime, npm/plugin, role/skill/workflow collection, or CMS extension; use the repository installation instructions.",
+      "reason": "npm/Paperclip plugin with its own plugin installation workflow.",
       "latest_release": "v0.1.7",
       "release_id": 382697086,
       "release_url": "https://github.com/kujolang/paperclip/releases/tag/v0.1.7"
@@ -512,7 +533,8 @@
       "latest_release": "v1.0.1",
       "release_id": 379432745,
       "release_url": "https://github.com/kujolang/patchbrief/releases/tag/v1.0.1",
-      "package": "patchbrief"
+      "package": "patchbrief",
+      "registry_latest": "1.0.1"
     },
     {
       "repository": "payments",
@@ -537,7 +559,8 @@
       "latest_release": "v0.2.0",
       "release_id": 370827510,
       "release_url": "https://github.com/kujolang/presswire/releases/tag/v0.2.0",
-      "package": "presswire"
+      "package": "presswire",
+      "registry_latest": "0.2.0"
     },
     {
       "repository": "rag",
@@ -546,7 +569,8 @@
       "latest_release": "v1.0.0",
       "release_id": 367136936,
       "release_url": "https://github.com/kujolang/rag/releases/tag/v1.0.0",
-      "package": "rag"
+      "package": "rag",
+      "registry_latest": "1.0.0"
     },
     {
       "repository": "readersignal",
@@ -555,7 +579,8 @@
       "latest_release": "v0.3.0",
       "release_id": 397067443,
       "release_url": "https://github.com/kujolang/readersignal/releases/tag/v0.3.0",
-      "package": "readersignal"
+      "package": "readersignal",
+      "registry_latest": "0.3.0"
     },
     {
       "repository": "redact",
@@ -564,7 +589,8 @@
       "latest_release": "v1.1.0",
       "release_id": 395071622,
       "release_url": "https://github.com/kujolang/redact/releases/tag/v1.1.0",
-      "package": "redact"
+      "package": "redact",
+      "registry_latest": "1.1.0"
     },
     {
       "repository": "relay",
@@ -573,7 +599,8 @@
       "latest_release": "v1.1.0",
       "release_id": 377849492,
       "release_url": "https://github.com/kujolang/relay/releases/tag/v1.1.0",
-      "package": "relay"
+      "package": "relay",
+      "registry_latest": "1.1.0"
     },
     {
       "repository": "replicate",
@@ -590,7 +617,8 @@
       "latest_release": "v1.1.0",
       "release_id": 379448355,
       "release_url": "https://github.com/kujolang/runledger/releases/tag/v1.1.0",
-      "package": "runledger"
+      "package": "runledger",
+      "registry_latest": "1.1.0"
     },
     {
       "repository": "scent",
@@ -599,7 +627,8 @@
       "latest_release": "v1.0.0",
       "release_id": 367136953,
       "release_url": "https://github.com/kujolang/scent/releases/tag/v1.0.0",
-      "package": "scent"
+      "package": "scent",
+      "registry_latest": "1.0.0"
     },
     {
       "repository": "scout",
@@ -608,7 +637,8 @@
       "latest_release": "v1.1.0",
       "release_id": 397021873,
       "release_url": "https://github.com/kujolang/scout/releases/tag/v1.1.0",
-      "package": "scout"
+      "package": "scout",
+      "registry_latest": "1.1.0"
     },
     {
       "repository": "searchbridge",
@@ -617,7 +647,8 @@
       "latest_release": "v1.0.0",
       "release_id": 383036738,
       "release_url": "https://github.com/kujolang/searchbridge/releases/tag/v1.0.0",
-      "package": "searchbridge"
+      "package": "searchbridge",
+      "registry_latest": "1.0.0"
     },
     {
       "repository": "shipcheck",
@@ -626,7 +657,8 @@
       "latest_release": "v1.0.0",
       "release_id": 367137016,
       "release_url": "https://github.com/kujolang/shipcheck/releases/tag/v1.0.0",
-      "package": "shipcheck"
+      "package": "shipcheck",
+      "registry_latest": "1.0.0"
     },
     {
       "repository": "site-kit",
@@ -635,7 +667,8 @@
       "latest_release": "v1.0.0",
       "release_id": 367355693,
       "release_url": "https://github.com/kujolang/site-kit/releases/tag/v1.0.0",
-      "package": "sitekit"
+      "package": "sitekit",
+      "registry_latest": "1.0.0"
     },
     {
       "repository": "sitekit-docs-template",
@@ -644,7 +677,8 @@
       "latest_release": "v1.0.0",
       "release_id": 367361860,
       "release_url": "https://github.com/kujolang/sitekit-docs-template/releases/tag/v1.0.0",
-      "package": "sitekit-docs-template"
+      "package": "sitekit-docs-template",
+      "registry_latest": "1.0.0"
     },
     {
       "repository": "siteprobe",
@@ -653,7 +687,8 @@
       "latest_release": "v0.4.0",
       "release_id": 393970296,
       "release_url": "https://github.com/kujolang/siteprobe/releases/tag/v0.4.0",
-      "package": "siteprobe"
+      "package": "siteprobe",
+      "registry_latest": "0.4.0"
     },
     {
       "repository": "spec",
@@ -662,7 +697,8 @@
       "latest_release": "v1.0.1",
       "release_id": 379427817,
       "release_url": "https://github.com/kujolang/spec/releases/tag/v1.0.1",
-      "package": "spec"
+      "package": "spec",
+      "registry_latest": "1.0.1"
     },
     {
       "repository": "ssg",
@@ -671,7 +707,8 @@
       "latest_release": "v1.0.0",
       "release_id": 367141750,
       "release_url": "https://github.com/kujolang/ssg/releases/tag/v1.0.0",
-      "package": "ssg"
+      "package": "ssg",
+      "registry_latest": "1.0.0"
     },
     {
       "repository": "storydesk",
@@ -680,7 +717,8 @@
       "latest_release": "v0.3.0",
       "release_id": 394981072,
       "release_url": "https://github.com/kujolang/storydesk/releases/tag/v0.3.0",
-      "package": "storydesk"
+      "package": "storydesk",
+      "registry_latest": "0.3.0"
     },
     {
       "repository": "together",
@@ -697,7 +735,8 @@
       "latest_release": "v1.0.1",
       "release_id": 383282910,
       "release_url": "https://github.com/kujolang/tribunal/releases/tag/v1.0.1",
-      "package": "tribunal"
+      "package": "tribunal",
+      "registry_latest": "1.0.1"
     },
     {
       "repository": "versionseal",
@@ -706,7 +745,8 @@
       "latest_release": "v0.3.0",
       "release_id": 394988613,
       "release_url": "https://github.com/kujolang/versionseal/releases/tag/v0.3.0",
-      "package": "versionseal"
+      "package": "versionseal",
+      "registry_latest": "0.3.0"
     },
     {
       "repository": "vertex-ai",
@@ -723,7 +763,8 @@
       "latest_release": "v1.0.1",
       "release_id": 368730538,
       "release_url": "https://github.com/kujolang/watchdog/releases/tag/v1.0.1",
-      "package": "watchdog"
+      "package": "watchdog",
+      "registry_latest": "1.0.1"
     },
     {
       "repository": "workcell",
@@ -732,7 +773,8 @@
       "latest_release": "v1.1.0",
       "release_id": 382998311,
       "release_url": "https://github.com/kujolang/workcell/releases/tag/v1.1.0",
-      "package": "workcell"
+      "package": "workcell",
+      "registry_latest": "1.1.0"
     },
     {
       "repository": "workcell-studio",

@@ -53,7 +53,7 @@ Sources: https://kujolang.ai/ecosystem/primitives/ and https://kujolang.ai/ecosy
 
 The September 25 organization-wide review covers all 100 repositories: 42 enrolled public packages, 29 public repositories without stable published releases, 15 public projects using other installation surfaces, three dependency-blocked packages, and 11 private repositories. [release-audit.json](release-audit.json) records every public repository, current stable Release ID, and disposition. Development manifest versions and tags without GitHub Releases are not registry releases.
 
-- Dispatch 1.2.0: its exact AI SDK dependency commit `849dbbbba7a734938320dd9569d1ed7aa6240298` has no matching published release. Existing enrollment remains blocked; substituting AI SDK 1.0.0 would change source identity.
+- Dispatch 1.2.0: its exact AI SDK dependency commit `849dbbbba7a734938320dd9569d1ed7aa6240298` has no matching published release. Enrollment remains blocked; substituting AI SDK 1.0.0 would change source identity.
 - Anthropic 0.1.2 and Ollama 0.1.10: both released manifests require AI SDK tag `v1.1.0`, which has no published GitHub Release. They remain outside the registry until an immutable dependency release or reviewed packaging policy exists.
 - Kujo uses its runtime installer. Commerce, AI Chat, Pi/Paperclip/Command Code/bb integrations, CMS themes/plugins, and role/skill/workflow collections retain their documented native installation surfaces. Website repositories are not runtime packages.
 - Unreleased provider libraries, Payments, Intake, and other development repositories are inventoried but not published from moving branches.
@@ -65,7 +65,7 @@ New enrollments: Relay 1.1.0, Tribunal 1.0.1, SSG 1.0.0, CMS 1.1.0, CRUD API 1.0
 
 Updates: Scout 1.1.0, Redact 1.1.0, AssetWorks 0.3.0, BluePencil 0.3.0 (plus its published 0.3.0-rc.1), VersionSeal 0.3.0, StoryDesk 0.3.0, and SiteProbe 0.4.0. The publisher's missing-manifest failure is resolved with exact-commit and source-digest adaptations for the five legacy-manifest projects. Existing version archives and exact metadata remain immutable.
 
-All 14 new archives passed the pinned central native builder locally; the combined 42-package/55-version registry passed generator integrity validation. Production publication and fresh/cached install acceptance are recorded below after reconciliation.
+All 14 new archives passed the pinned central native builder locally; the combined 42-package/55-version registry passed generator integrity validation. Production publication completed in [run 36216395687](https://github.com/kujolang/kennel-registry/actions/runs/36216395687); [run 36216401723](https://github.com/kujolang/kennel-registry/actions/runs/36216401723) passed an idempotent reconciliation. On September 26, all 55 deployed archive digests verified, and **42/42 fresh installs plus 42/42 cached lock replays passed with Git disabled** using Kujo 1.5.0 and the pinned publisher/client. All enrolled latest stable versions match GitHub Releases, and no eligible published release is missing. [Machine-readable acceptance evidence](release-acceptance.json).
 
 ## Packaging adaptations
 
