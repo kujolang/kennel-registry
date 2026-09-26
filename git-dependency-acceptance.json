@@ -1,0 +1,120 @@
+{
+  "client": "released Kennel 1.1.0",
+  "runtime": "Kujo 1.5.0",
+  "results": [
+    {
+      "package": "dispatch",
+      "version": "1.2.0",
+      "sdk_commit": "849dbbbba7a734938320dd9569d1ed7aa6240298",
+      "strict_source_policy": true,
+      "git_required": true,
+      "fresh_install": "passed",
+      "clean_lock_replay": "passed",
+      "validation": "passed",
+      "sdk_source_bytes": "verified",
+      "duration_ms": {
+        "init": 649,
+        "add": 5791,
+        "install": 2942,
+        "validate": 459
+      }
+    },
+    {
+      "package": "anthropic",
+      "version": "0.1.2",
+      "sdk_commit": "2295433e185e117106c9c90a1e10b5eba937955a",
+      "strict_source_policy": true,
+      "git_required": true,
+      "fresh_install": "passed",
+      "clean_lock_replay": "passed",
+      "validation": "passed",
+      "sdk_source_bytes": "verified",
+      "duration_ms": {
+        "init": 512,
+        "add": 4619,
+        "install": 2747,
+        "validate": 564
+      }
+    },
+    {
+      "package": "ollama",
+      "version": "0.1.10",
+      "sdk_commit": "2295433e185e117106c9c90a1e10b5eba937955a",
+      "strict_source_policy": true,
+      "git_required": true,
+      "fresh_install": "passed",
+      "clean_lock_replay": "passed",
+      "validation": "passed",
+      "sdk_source_bytes": "verified",
+      "duration_ms": {
+        "init": 536,
+        "add": 5050,
+        "install": 2824,
+        "validate": 536
+      }
+    }
+  ],
+  "verified_on": "2026-09-26",
+  "publisher_commit": "0d84168",
+  "workflow_commit": "26e8a06",
+  "workflow_run": 36217727146,
+  "registry_publication_commit": "2fff104613278c2bbbd6102e253ee046177ad692",
+  "core_verification": "passed",
+  "publisher_tests": {
+    "passed": 14,
+    "failed": 0
+  },
+  "registry_protocol_tests": "passed",
+  "provider_offline_gates": {
+    "anthropic": "passed",
+    "ollama": "passed"
+  },
+  "dispatch_sdk_adapter_tests": {
+    "passed": 10,
+    "failed": 0
+  },
+  "dispatch_fixture_workflow": "completed",
+  "production_archive_digests_verified": 58,
+  "source_verification": [
+    {
+      "package": "dispatch",
+      "version": "1.2.0",
+      "archive_sha256": "8e32eb565ef1ea7e816184cbedd1f54b4366c36563fe33bca4f675d3b0688c5c",
+      "source_commit": "662417c264bd55f8d802eef3fc21f9f372590753",
+      "source_files_verified": 74,
+      "dependencies": {
+        "ai-sdk": {
+          "commit": "849dbbbba7a734938320dd9569d1ed7aa6240298",
+          "source": "github:kujolang/ai-sdk"
+        }
+      }
+    },
+    {
+      "package": "anthropic",
+      "version": "0.1.2",
+      "archive_sha256": "b88e3f1af92f92d80802726a148c1b9b6d63b417a61231d6a5f8acb88d74496f",
+      "source_commit": "6f21254287a65c29618b2a0fad6bda003b7f165c",
+      "source_files_verified": 27,
+      "dependencies": {
+        "ai-sdk": {
+          "commit": "2295433e185e117106c9c90a1e10b5eba937955a",
+          "source": "github:kujolang/ai-sdk"
+        }
+      }
+    },
+    {
+      "package": "ollama",
+      "version": "0.1.10",
+      "archive_sha256": "ce4dccac9548146459d031df1f105ef3a4e56614b6bc22e1c93029212d1e99a9",
+      "source_commit": "cf9a35681cbade26c56012048fbd9b7d7f8674e6",
+      "source_files_verified": 27,
+      "dependencies": {
+        "ai-sdk": {
+          "commit": "2295433e185e117106c9c90a1e10b5eba937955a",
+          "source": "github:kujolang/ai-sdk"
+        }
+      }
+    }
+  ],
+  "historical_immutable_files_changed": 0
+}

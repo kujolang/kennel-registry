@@ -64,6 +64,12 @@ The September 25 organization-wide inventory covers all 100 repositories. The Se
 - Unreleased provider libraries, Payments, Intake, and other development repositories are inventoried but not published from moving branches.
 - Private repositories remain excluded; their identities and source are not exposed by the public audit.
 
+## September 26 dependency unblock
+
+[Reconciliation run 36217727146](https://github.com/kujolang/kennel-registry/actions/runs/36217727146) published Dispatch 1.2.0, Anthropic 0.1.2, and Ollama 0.1.10 using the central publisher's reviewed Git-pin projection. All three passed production fresh installs, clean lock replays, and validation using **released Kennel 1.1.0**, Kujo 1.5.0, and strict source policy without overrides. Installed AI SDK source bytes and lock commits matched the reviewed identities. All 58 deployed archive digests verified; all 55 prior versions remain unchanged.
+
+Publisher tests (14), registry protocol tests, the Kennel core profile, both provider offline gates, and Dispatch's 10 SDK-adapter tests passed. Dispatch's installed fixture workflow completed. [Machine-readable verification](git-dependency-acceptance.json). The core profile used GitHub's existing credential helper for its missing-repository diagnostic fixture. The three package consumers need no special credentials to read the public source dependencies.
+
 ## September 25 refresh
 
 New enrollments: Relay 1.1.0, Tribunal 1.0.1, SSG 1.0.0, CMS 1.1.0, CRUD API 1.0.0, and SiteKit Docs Template 1.0.0. These are source packages; application setup and optional frontend dependencies still follow each released README. No global command mappings were invented.
