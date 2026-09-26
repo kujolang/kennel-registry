@@ -216,12 +216,21 @@
       ],
       "enrolled_at": "2026-09-08T00:00:00Z",
       "release_commits": {
-        "1.0.1": "3e3a8fcbcb2a3e5e92bb169da4d40cf4ee15bb04"
+        "1.0.1": "3e3a8fcbcb2a3e5e92bb169da4d40cf4ee15bb04",
+        "1.1.0": "11efe7c702ff76d33e40c1066a0f99e0fcb29028"
       },
       "release_manifests": {
         "3e3a8fcbcb2a3e5e92bb169da4d40cf4ee15bb04": {
           "source_manifest": "kujo.toml",
           "source_manifest_sha256": "eb6e486a735fb9df9f93d61025a5a6fda704bd97020e17af206413f443f29e04",
+          "source_package": "kujo-watchdog",
+          "description": "Watchdog is an observability dashboard for AI applications written in Kujo.",
+          "license": "MIT",
+          "entry": "dashboard_server.kujo"
+        },
+        "11efe7c702ff76d33e40c1066a0f99e0fcb29028": {
+          "source_manifest": "kujo.toml",
+          "source_manifest_sha256": "391f6bfc322a50aad1a11fdfab73d64961ba1c35660a9874d5263ec34bda48c9",
           "source_package": "kujo-watchdog",
           "description": "Watchdog is an observability dashboard for AI applications written in Kujo.",
           "license": "MIT",
