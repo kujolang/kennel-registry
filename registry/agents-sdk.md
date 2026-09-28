@@ -4,14 +4,14 @@ Production-oriented agent runtime primitives for Kujo, built on top of the Kujo 
 
 Install: `kennel add agents-sdk`
 
-Latest stable: 1.0.0
+Latest stable: 1.1.0
 
-Versions: 1.0.0
+Versions: 1.1.0, 1.0.0
 
 Metadata: https://kennel.kujolang.ai/api/v1/packages/agents-sdk.json
 
-Provenance: https://kennel.kujolang.ai/packages/agents-sdk/1.0.0/provenance.json
+Provenance: https://kennel.kujolang.ai/packages/agents-sdk/1.1.0/provenance.json
 
-Archive SHA-256: dbe75eceef3055bb450bc619de702d2b2cddf2d3d8d3ea67822e61f3a581382e
+Archive SHA-256: 3343d336686757eaef9e994438bfc00256cee3a8c57239f9fd18889d91185ec0
 
-Dependencies: {}
+Dependencies: {"ability":{"commit":"4aa354da8d02b027c459f692f69b523f96e97056","source":"github:kujolang/ability"}}
