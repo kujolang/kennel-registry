@@ -59,3 +59,7 @@ If a reconciliation fails, inspect its failing step before retrying. Transient G
 Published GitHub Release ID: `388030178`; exact source commit: `093d44dddcebebd99bd8987e3efcb7e044dc45a7`. The native client is live and the preview notice is removed. Archive SHA-256: `d20d585c4b1edc00718726f8f286712a64413f3c5d952a4be05976de318a3299`. Independent release and registry builds agree.
 
 The public shell downloader writes verified bytes, and the standalone native bootstrap preserves module import boundaries in a private temporary directory. Those mutable delivery fixes did not alter the published package. [macOS/Linux public acceptance](https://github.com/kujolang/kennel/actions/runs/34782478651) verifies installation and updates against the actual production registry.
+
+## Kujo 1.6 runtime guidance
+
+The homepage and getting-started guide now identify published Kujo 1.6.0 native and npm artifacts across five runtime targets. Kennel 1.1.0 still requires Kujo 1.4.0 or newer, and its native bootstrap remains macOS/Linux only. Runtime releases do not rewrite registry package versions or stabilize experimental participant SDKs. Mutable pages were regenerated with the pinned central publisher; immutable version metadata and archives are unchanged.
