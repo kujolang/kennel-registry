@@ -4,14 +4,14 @@ Dispatch is an agent workflow engine for building reliable AI workflows written 
 
 Install: `kennel add dispatch`
 
-Latest stable: 1.2.0
+Latest stable: 1.3.0
 
-Versions: 1.2.0
+Versions: 1.3.0, 1.2.0
 
 Metadata: https://kennel.kujolang.ai/api/v1/packages/dispatch.json
 
-Provenance: https://kennel.kujolang.ai/packages/dispatch/1.2.0/provenance.json
+Provenance: https://kennel.kujolang.ai/packages/dispatch/1.3.0/provenance.json
 
-Archive SHA-256: 8e32eb565ef1ea7e816184cbedd1f54b4366c36563fe33bca4f675d3b0688c5c
+Archive SHA-256: e329d5a2d23c4d9026ae89a2f50469052c00061b5d2a89911de5faa784d59e79
 
-Dependencies: {"ai-sdk":{"commit":"849dbbbba7a734938320dd9569d1ed7aa6240298","source":"github:kujolang/ai-sdk"}}
+Dependencies: {"ai-sdk":{"commit":"5184a122590dd5698770b50d99b69ed11c7ec84a","source":"github:kujolang/ai-sdk"}}
