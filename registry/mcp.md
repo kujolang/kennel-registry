@@ -4,14 +4,14 @@ A Kujo-native MCP server framework for tools, resources, and JSON-schema validat
 
 Install: `kennel add mcp`
 
-Latest stable: 1.2.0
+Latest stable: 1.3.0
 
-Versions: 1.2.0, 1.1.1
+Versions: 1.3.0, 1.2.0, 1.1.1
 
 Metadata: https://kennel.kujolang.ai/api/v1/packages/mcp.json
 
-Provenance: https://kennel.kujolang.ai/packages/mcp/1.2.0/provenance.json
+Provenance: https://kennel.kujolang.ai/packages/mcp/1.3.0/provenance.json
 
-Archive SHA-256: 906adc9863a11e2231fea0c5c5b5c43dbc95c563ecdd110bb25689930fa46c6f
+Archive SHA-256: 96edf0bf36c59d38f8781f9837364301ba837eafdb3c6402b121c51537c18809
 
 Dependencies: {"ability":{"commit":"2dc7d4e9eb25e987544ac48793cd11d1999c45e0","source":"github:kujolang/ability"}}
