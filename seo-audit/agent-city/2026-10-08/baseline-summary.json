@@ -1,0 +1,31 @@
+{
+  "phase": "baseline",
+  "generated_at": "2026-10-08T19:40:46.075233+00:00",
+  "origin": "https://kennel.kujolang.ai",
+  "canonical_pages": 120,
+  "production_200_pages": 0,
+  "indexable_pages": 120,
+  "sitemap_urls": 0,
+  "missing_titles": 0,
+  "duplicate_titles": 0,
+  "missing_descriptions": 0,
+  "duplicate_descriptions": 107,
+  "h1_issues": 0,
+  "missing_canonicals": 0,
+  "canonical_mismatches": 119,
+  "broken_internal_links": 0,
+  "orphan_pages": 118,
+  "pages_deeper_than_three_clicks": 0,
+  "images": 120,
+  "missing_alt": 0,
+  "missing_dimensions": 0,
+  "responsive_images": 0,
+  "missing_responsive_candidates": 0,
+  "schema_parse_errors": 0,
+  "schema_coverage_pages": 0,
+  "issue_counts": {
+    "canonical mismatch": 119,
+    "not in sitemap": 120,
+    "orphan page": 118
+  }
+}

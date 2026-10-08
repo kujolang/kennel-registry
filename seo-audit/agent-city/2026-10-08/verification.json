@@ -1,0 +1,17 @@
+{
+  "sourcePublisherCommit": "5188d8728e1d4290ca5da8d3c51360acfd8d01a2",
+  "registryContentCommit": "940c2ec00f1bbaf901eab11a23ef568d262141c2",
+  "checks": {
+    "HowlManifest": "pass",
+    "HowlRenderAndVisualReview": "pass",
+    "registryGenerator": "pass",
+    "immutablePackageDigests": "pass; see registry-integrity.json",
+    "livePage": "pass",
+    "browser1440And320": "pass; no overflow or runtime errors"
+  },
+  "HowlImage": {
+    "width": 1200,
+    "height": 630
+  },
+  "limitations": "No rankings or real crawler visit claim"
+}

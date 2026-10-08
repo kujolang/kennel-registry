@@ -1,0 +1,245 @@
+phase,source_url,destination_url,anchor_text,link_context,http_status,final_url,chain_length,verification,rel,recommended_action
+after,https://kennel.kujolang.ai/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/ability/1.0.1/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/ability/1.0.1/,https://github.com/kujolang/ability,kujolang/ability,main,,https://github.com/kujolang/ability,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/ability/1.1.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/ability/1.1.0/,https://github.com/kujolang/ability,kujolang/ability,main,,https://github.com/kujolang/ability,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/ability/1.2.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/ability/1.2.0/,https://github.com/kujolang/ability,kujolang/ability,main,,https://github.com/kujolang/ability,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/ability/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/ability/,https://github.com/kujolang/ability,kujolang/ability,main,,https://github.com/kujolang/ability,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/agents-sdk/1.0.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/agents-sdk/1.0.0/,https://github.com/kujolang/agents-sdk,kujolang/agents-sdk,main,,https://github.com/kujolang/agents-sdk,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/agents-sdk/1.1.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/agents-sdk/1.1.0/,https://github.com/kujolang/agents-sdk,kujolang/agents-sdk,main,,https://github.com/kujolang/agents-sdk,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/agents-sdk/1.1.1/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/agents-sdk/1.1.1/,https://github.com/kujolang/agents-sdk,kujolang/agents-sdk,main,,https://github.com/kujolang/agents-sdk,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/agents-sdk/1.1.2/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/agents-sdk/1.1.2/,https://github.com/kujolang/agents-sdk,kujolang/agents-sdk,main,,https://github.com/kujolang/agents-sdk,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/agents-sdk/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/agents-sdk/,https://github.com/kujolang/agents-sdk,kujolang/agents-sdk,main,,https://github.com/kujolang/agents-sdk,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/ai-sdk/1.0.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/ai-sdk/1.0.0/,https://github.com/kujolang/ai-sdk,kujolang/ai-sdk,main,,https://github.com/kujolang/ai-sdk,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/ai-sdk/1.1.1/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/ai-sdk/1.1.1/,https://github.com/kujolang/ai-sdk,kujolang/ai-sdk,main,,https://github.com/kujolang/ai-sdk,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/ai-sdk/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/ai-sdk/,https://github.com/kujolang/ai-sdk,kujolang/ai-sdk,main,,https://github.com/kujolang/ai-sdk,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/anthropic/0.1.2/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/anthropic/0.1.2/,https://github.com/kujolang/anthropic,kujolang/anthropic,main,,https://github.com/kujolang/anthropic,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/anthropic/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/anthropic/,https://github.com/kujolang/anthropic,kujolang/anthropic,main,,https://github.com/kujolang/anthropic,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/assetworks/0.2.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/assetworks/0.2.0/,https://github.com/kujolang/assetworks,kujolang/assetworks,main,,https://github.com/kujolang/assetworks,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/assetworks/0.3.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/assetworks/0.3.0/,https://github.com/kujolang/assetworks,kujolang/assetworks,main,,https://github.com/kujolang/assetworks,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/assetworks/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/assetworks/,https://github.com/kujolang/assetworks,kujolang/assetworks,main,,https://github.com/kujolang/assetworks,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/bluepencil/0.2.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/bluepencil/0.2.0/,https://github.com/kujolang/bluepencil,kujolang/bluepencil,main,,https://github.com/kujolang/bluepencil,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/bluepencil/0.3.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/bluepencil/0.3.0/,https://github.com/kujolang/bluepencil,kujolang/bluepencil,main,,https://github.com/kujolang/bluepencil,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/bluepencil/0.3.0-rc.1/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/bluepencil/0.3.0-rc.1/,https://github.com/kujolang/bluepencil,kujolang/bluepencil,main,,https://github.com/kujolang/bluepencil,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/bluepencil/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/bluepencil/,https://github.com/kujolang/bluepencil,kujolang/bluepencil,main,,https://github.com/kujolang/bluepencil,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/casefile/1.0.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/casefile/1.0.0/,https://github.com/kujolang/casefile,kujolang/casefile,main,,https://github.com/kujolang/casefile,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/casefile/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/casefile/,https://github.com/kujolang/casefile,kujolang/casefile,main,,https://github.com/kujolang/casefile,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/changebucket/1.0.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/changebucket/1.0.0/,https://github.com/kujolang/changebucket,kujolang/changebucket,main,,https://github.com/kujolang/changebucket,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/changebucket/1.1.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/changebucket/1.1.0/,https://github.com/kujolang/changebucket,kujolang/changebucket,main,,https://github.com/kujolang/changebucket,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/changebucket/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/changebucket/,https://github.com/kujolang/changebucket,kujolang/changebucket,main,,https://github.com/kujolang/changebucket,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/cms/1.1.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/cms/1.1.0/,https://github.com/kujolang/cms,kujolang/cms,main,,https://github.com/kujolang/cms,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/cms/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/cms/,https://github.com/kujolang/cms,kujolang/cms,main,,https://github.com/kujolang/cms,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/concord/1.0.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/concord/1.0.0/,https://github.com/kujolang/concord,kujolang/concord,main,,https://github.com/kujolang/concord,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/concord/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/concord/,https://github.com/kujolang/concord,kujolang/concord,main,,https://github.com/kujolang/concord,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/contentgraph/0.3.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/contentgraph/0.3.0/,https://github.com/kujolang/contentgraph,kujolang/contentgraph,main,,https://github.com/kujolang/contentgraph,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/contentgraph/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/contentgraph/,https://github.com/kujolang/contentgraph,kujolang/contentgraph,main,,https://github.com/kujolang/contentgraph,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/crud-api/1.0.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/crud-api/1.0.0/,https://github.com/kujolang/crud-api,kujolang/crud-api,main,,https://github.com/kujolang/crud-api,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/crud-api/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/crud-api/,https://github.com/kujolang/crud-api,kujolang/crud-api,main,,https://github.com/kujolang/crud-api,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/dispatch/1.2.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/dispatch/1.2.0/,https://github.com/kujolang/dispatch,kujolang/dispatch,main,,https://github.com/kujolang/dispatch,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/dispatch/1.3.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/dispatch/1.3.0/,https://github.com/kujolang/dispatch,kujolang/dispatch,main,,https://github.com/kujolang/dispatch,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/dispatch/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/dispatch/,https://github.com/kujolang/dispatch,kujolang/dispatch,main,,https://github.com/kujolang/dispatch,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/dossier/0.2.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/dossier/0.2.0/,https://github.com/kujolang/dossier,kujolang/dossier,main,,https://github.com/kujolang/dossier,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/dossier/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/dossier/,https://github.com/kujolang/dossier,kujolang/dossier,main,,https://github.com/kujolang/dossier,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/eval/1.0.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/eval/1.0.0/,https://github.com/kujolang/eval,kujolang/eval,main,,https://github.com/kujolang/eval,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/eval/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/eval/,https://github.com/kujolang/eval,kujolang/eval,main,,https://github.com/kujolang/eval,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/fence/1.0.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/fence/1.0.0/,https://github.com/kujolang/fence,kujolang/fence,main,,https://github.com/kujolang/fence,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/fence/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/fence/,https://github.com/kujolang/fence,kujolang/fence,main,,https://github.com/kujolang/fence,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/galleypack/0.2.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/galleypack/0.2.0/,https://github.com/kujolang/galleypack,kujolang/galleypack,main,,https://github.com/kujolang/galleypack,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/galleypack/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/galleypack/,https://github.com/kujolang/galleypack,kujolang/galleypack,main,,https://github.com/kujolang/galleypack,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/getting-started/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/getting-started/,https://docs.kujolang.ai/install/,Kujo 1.4.0 or newer,main,,https://docs.kujolang.ai/install/,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/getting-started/,https://github.com/kujolang/kujo/releases/tag/v1.6.0,Kujo 1.6.0,main,,https://github.com/kujolang/kujo/releases/tag/v1.6.0,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/getting-started/,https://docs.kujolang.ai/install/,Install the runtime,main,,https://docs.kujolang.ai/install/,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/getting-started/,https://kujolang.ai/ecosystem/agent-city/,Agent City,main,,https://kujolang.ai/ecosystem/agent-city/,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/getting-started/,https://docs.kujolang.ai/showcases/agent-city/,Agent City setup guide,main,,https://docs.kujolang.ai/showcases/agent-city/,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/getting-started/,https://github.com/kujolang/agent-city/releases/tag/v0.2.0,0.2.0 release,main,,https://github.com/kujolang/agent-city/releases/tag/v0.2.0,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/howl/1.1.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/howl/1.1.0/,https://github.com/kujolang/howl,kujolang/howl,main,,https://github.com/kujolang/howl,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/howl/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/howl/,https://github.com/kujolang/howl,kujolang/howl,main,,https://github.com/kujolang/howl,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/kennel/1.0.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/kennel/1.0.0/,https://github.com/kujolang/kennel,kujolang/kennel,main,,https://github.com/kujolang/kennel,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/kennel/1.0.1/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/kennel/1.0.1/,https://github.com/kujolang/kennel,kujolang/kennel,main,,https://github.com/kujolang/kennel,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/kennel/1.1.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/kennel/1.1.0/,https://github.com/kujolang/kennel,kujolang/kennel,main,,https://github.com/kujolang/kennel,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/kennel/1.1.1/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/kennel/1.1.1/,https://github.com/kujolang/kennel,kujolang/kennel,main,,https://github.com/kujolang/kennel,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/kennel/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/kennel/,https://github.com/kujolang/kennel,kujolang/kennel,main,,https://github.com/kujolang/kennel,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/lens/1.1.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/lens/1.1.0/,https://github.com/kujolang/lens,kujolang/lens,main,,https://github.com/kujolang/lens,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/lens/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/lens/,https://github.com/kujolang/lens,kujolang/lens,main,,https://github.com/kujolang/lens,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/mcp/1.1.1/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/mcp/1.1.1/,https://github.com/kujolang/mcp,kujolang/mcp,main,,https://github.com/kujolang/mcp,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/mcp/1.2.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/mcp/1.2.0/,https://github.com/kujolang/mcp,kujolang/mcp,main,,https://github.com/kujolang/mcp,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/mcp/1.3.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/mcp/1.3.0/,https://github.com/kujolang/mcp,kujolang/mcp,main,,https://github.com/kujolang/mcp,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/mcp/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/mcp/,https://github.com/kujolang/mcp,kujolang/mcp,main,,https://github.com/kujolang/mcp,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/muzzle/1.1.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/muzzle/1.1.0/,https://github.com/kujolang/muzzle,kujolang/muzzle,main,,https://github.com/kujolang/muzzle,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/muzzle/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/muzzle/,https://github.com/kujolang/muzzle,kujolang/muzzle,main,,https://github.com/kujolang/muzzle,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/ollama/0.1.10/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/ollama/0.1.10/,https://github.com/kujolang/ollama,kujolang/ollama,main,,https://github.com/kujolang/ollama,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/ollama/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/ollama/,https://github.com/kujolang/ollama,kujolang/ollama,main,,https://github.com/kujolang/ollama,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/packwrite/1.1.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/packwrite/1.1.0/,https://github.com/kujolang/packwrite,kujolang/packwrite,main,,https://github.com/kujolang/packwrite,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/packwrite/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/packwrite/,https://github.com/kujolang/packwrite,kujolang/packwrite,main,,https://github.com/kujolang/packwrite,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/patchbrief/1.0.1/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/patchbrief/1.0.1/,https://github.com/kujolang/patchbrief,kujolang/patchbrief,main,,https://github.com/kujolang/patchbrief,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/patchbrief/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/patchbrief/,https://github.com/kujolang/patchbrief,kujolang/patchbrief,main,,https://github.com/kujolang/patchbrief,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/presswire/0.2.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/presswire/0.2.0/,https://github.com/kujolang/presswire,kujolang/presswire,main,,https://github.com/kujolang/presswire,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/presswire/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/presswire/,https://github.com/kujolang/presswire,kujolang/presswire,main,,https://github.com/kujolang/presswire,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/rag/1.0.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/rag/1.0.0/,https://github.com/kujolang/rag,kujolang/rag,main,,https://github.com/kujolang/rag,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/rag/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/rag/,https://github.com/kujolang/rag,kujolang/rag,main,,https://github.com/kujolang/rag,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/readersignal/0.2.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/readersignal/0.2.0/,https://github.com/kujolang/readersignal,kujolang/readersignal,main,,https://github.com/kujolang/readersignal,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/readersignal/0.3.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/readersignal/0.3.0/,https://github.com/kujolang/readersignal,kujolang/readersignal,main,,https://github.com/kujolang/readersignal,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/readersignal/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/readersignal/,https://github.com/kujolang/readersignal,kujolang/readersignal,main,,https://github.com/kujolang/readersignal,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/redact/1.0.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/redact/1.0.0/,https://github.com/kujolang/redact,kujolang/redact,main,,https://github.com/kujolang/redact,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/redact/1.1.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/redact/1.1.0/,https://github.com/kujolang/redact,kujolang/redact,main,,https://github.com/kujolang/redact,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/redact/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/redact/,https://github.com/kujolang/redact,kujolang/redact,main,,https://github.com/kujolang/redact,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/relay/1.1.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/relay/1.1.0/,https://github.com/kujolang/relay,kujolang/relay,main,,https://github.com/kujolang/relay,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/relay/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/relay/,https://github.com/kujolang/relay,kujolang/relay,main,,https://github.com/kujolang/relay,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/runledger/1.1.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/runledger/1.1.0/,https://github.com/kujolang/runledger,kujolang/runledger,main,,https://github.com/kujolang/runledger,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/runledger/1.2.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/runledger/1.2.0/,https://github.com/kujolang/runledger,kujolang/runledger,main,,https://github.com/kujolang/runledger,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/runledger/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/runledger/,https://github.com/kujolang/runledger,kujolang/runledger,main,,https://github.com/kujolang/runledger,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/scent/1.0.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/scent/1.0.0/,https://github.com/kujolang/scent,kujolang/scent,main,,https://github.com/kujolang/scent,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/scent/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/scent/,https://github.com/kujolang/scent,kujolang/scent,main,,https://github.com/kujolang/scent,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/scout/1.0.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/scout/1.0.0/,https://github.com/kujolang/scout,kujolang/scout,main,,https://github.com/kujolang/scout,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/scout/1.1.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/scout/1.1.0/,https://github.com/kujolang/scout,kujolang/scout,main,,https://github.com/kujolang/scout,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/scout/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/scout/,https://github.com/kujolang/scout,kujolang/scout,main,,https://github.com/kujolang/scout,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/searchbridge/1.0.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/searchbridge/1.0.0/,https://github.com/kujolang/searchbridge,kujolang/searchbridge,main,,https://github.com/kujolang/searchbridge,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/searchbridge/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/searchbridge/,https://github.com/kujolang/searchbridge,kujolang/searchbridge,main,,https://github.com/kujolang/searchbridge,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/shipcheck/1.0.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/shipcheck/1.0.0/,https://github.com/kujolang/shipcheck,kujolang/shipcheck,main,,https://github.com/kujolang/shipcheck,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/shipcheck/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/shipcheck/,https://github.com/kujolang/shipcheck,kujolang/shipcheck,main,,https://github.com/kujolang/shipcheck,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/sitekit/1.0.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/sitekit/1.0.0/,https://github.com/kujolang/site-kit,kujolang/site-kit,main,,https://github.com/kujolang/site-kit,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/sitekit/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/sitekit/,https://github.com/kujolang/site-kit,kujolang/site-kit,main,,https://github.com/kujolang/site-kit,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/sitekit-docs-template/1.0.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/sitekit-docs-template/1.0.0/,https://github.com/kujolang/sitekit-docs-template,kujolang/sitekit-docs-template,main,,https://github.com/kujolang/sitekit-docs-template,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/sitekit-docs-template/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/sitekit-docs-template/,https://github.com/kujolang/sitekit-docs-template,kujolang/sitekit-docs-template,main,,https://github.com/kujolang/sitekit-docs-template,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/siteprobe/0.3.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/siteprobe/0.3.0/,https://github.com/kujolang/siteprobe,kujolang/siteprobe,main,,https://github.com/kujolang/siteprobe,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/siteprobe/0.4.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/siteprobe/0.4.0/,https://github.com/kujolang/siteprobe,kujolang/siteprobe,main,,https://github.com/kujolang/siteprobe,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/siteprobe/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/siteprobe/,https://github.com/kujolang/siteprobe,kujolang/siteprobe,main,,https://github.com/kujolang/siteprobe,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/spec/1.0.1/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/spec/1.0.1/,https://github.com/kujolang/spec,kujolang/spec,main,,https://github.com/kujolang/spec,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/spec/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/spec/,https://github.com/kujolang/spec,kujolang/spec,main,,https://github.com/kujolang/spec,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/ssg/1.0.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/ssg/1.0.0/,https://github.com/kujolang/ssg,kujolang/ssg,main,,https://github.com/kujolang/ssg,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/ssg/1.1.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/ssg/1.1.0/,https://github.com/kujolang/ssg,kujolang/ssg,main,,https://github.com/kujolang/ssg,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/ssg/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/ssg/,https://github.com/kujolang/ssg,kujolang/ssg,main,,https://github.com/kujolang/ssg,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/storydesk/0.2.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/storydesk/0.2.0/,https://github.com/kujolang/storydesk,kujolang/storydesk,main,,https://github.com/kujolang/storydesk,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/storydesk/0.3.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/storydesk/0.3.0/,https://github.com/kujolang/storydesk,kujolang/storydesk,main,,https://github.com/kujolang/storydesk,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/storydesk/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/storydesk/,https://github.com/kujolang/storydesk,kujolang/storydesk,main,,https://github.com/kujolang/storydesk,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/tribunal/1.0.1/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/tribunal/1.0.1/,https://github.com/kujolang/tribunal,kujolang/tribunal,main,,https://github.com/kujolang/tribunal,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/tribunal/1.0.2/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/tribunal/1.0.2/,https://github.com/kujolang/tribunal,kujolang/tribunal,main,,https://github.com/kujolang/tribunal,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/tribunal/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/tribunal/,https://github.com/kujolang/tribunal,kujolang/tribunal,main,,https://github.com/kujolang/tribunal,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/versionseal/0.2.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/versionseal/0.2.0/,https://github.com/kujolang/versionseal,kujolang/versionseal,main,,https://github.com/kujolang/versionseal,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/versionseal/0.3.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/versionseal/0.3.0/,https://github.com/kujolang/versionseal,kujolang/versionseal,main,,https://github.com/kujolang/versionseal,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/versionseal/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/versionseal/,https://github.com/kujolang/versionseal,kujolang/versionseal,main,,https://github.com/kujolang/versionseal,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/watchdog/1.0.1/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/watchdog/1.0.1/,https://github.com/kujolang/watchdog,kujolang/watchdog,main,,https://github.com/kujolang/watchdog,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/watchdog/1.1.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/watchdog/1.1.0/,https://github.com/kujolang/watchdog,kujolang/watchdog,main,,https://github.com/kujolang/watchdog,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/watchdog/1.2.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/watchdog/1.2.0/,https://github.com/kujolang/watchdog,kujolang/watchdog,main,,https://github.com/kujolang/watchdog,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/watchdog/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/watchdog/,https://github.com/kujolang/watchdog,kujolang/watchdog,main,,https://github.com/kujolang/watchdog,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/workcell/1.1.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/workcell/1.1.0/,https://github.com/kujolang/workcell,kujolang/workcell,main,,https://github.com/kujolang/workcell,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/workcell/1.2.0/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/workcell/1.2.0/,https://github.com/kujolang/workcell,kujolang/workcell,main,,https://github.com/kujolang/workcell,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/workcell/,https://kujolang.ai,Kujo ↗,nav,,https://kujolang.ai,0,not probed in crawl,,none
+after,https://kennel.kujolang.ai/workcell/,https://github.com/kujolang/workcell,kujolang/workcell,main,,https://github.com/kujolang/workcell,0,not probed in crawl,,none

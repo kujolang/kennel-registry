@@ -1,0 +1,6 @@
+url,userAgent,status,location,error,elapsedMs
+https://kennel.kujolang.ai/getting-started/,Mozilla/5.0,200,,,84
+https://kennel.kujolang.ai/getting-started/,Googlebot,200,,,86
+https://kennel.kujolang.ai/getting-started/,bingbot,200,,,168
+https://kennel.kujolang.ai/getting-started/,OAI-SearchBot,200,,,164
+https://kennel.kujolang.ai/getting-started/,GPTBot,200,,,90

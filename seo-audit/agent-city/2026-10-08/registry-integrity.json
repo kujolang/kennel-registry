@@ -1,0 +1,11 @@
+{
+  "changed": [
+    "style.css",
+    "getting-started/index.html"
+  ],
+  "added": [
+    "assets/agent-city.jpg"
+  ],
+  "unchangedBaselineFiles": 597,
+  "immutablePackageChanges": 0
+}
