@@ -12,6 +12,6 @@ The MCP origin serves a read-only protocol API, not public HTML pages. HTML meta
 
 Production checks distinguish 404 from 403/429 bot challenges. An unavailable or blocked external link is not labeled broken without corroboration. Browser checks cover desktop and narrow layouts, visible content, keyboard focus, image dimensions, and obvious overflow; they do not replace a human assistive-technology review.
 
-For Kennel, directory pages redirect slashless URLs to trailing-slash URLs. The generic link-graph parser does not normalize these aliases, so its orphan count is not proof of orphaned content. Canonical targets that redirect and missing sitemap/schema coverage are existing registry-wide recommendations, outside this Agent City content addition. Package versions remain immutable.
+For Kennel, directory pages redirect slashless URLs to trailing-slash URLs. The generic link-graph parser does not normalize these aliases, so its orphan count is not proof of orphaned content. Canonical targets that redirect were corrected in the shared publisher. Missing sitemap/schema coverage remains a separate optional registry-wide recommendation. Package versions remain immutable.
 
 The live baseline accidentally probed `/ecosystem/showcases/` on the main site; that 404 is retained as evidence of the probe, not a defect. The actual category is `/ecosystem/showcase/`, verified separately.

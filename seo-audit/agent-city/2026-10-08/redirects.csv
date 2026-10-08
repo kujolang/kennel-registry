@@ -1,4 +1,4 @@
 url,userAgent,status,location,error,elapsedMs
-http://kennel.kujolang.ai/getting-started/,AgentCityReleaseAudit/1.0,301,https://kennel.kujolang.ai/getting-started/,,118
+http://kennel.kujolang.ai/getting-started/,AgentCityReleaseAudit/1.0,301,https://kennel.kujolang.ai/getting-started/,,232
 https://www.kennel.kujolang.ai/getting-started/,AgentCityReleaseAudit/1.0,,,TypeError: fetch failed,
-https://kennel.kujolang.ai/getting-started?source=audit,AgentCityReleaseAudit/1.0,308,/getting-started/?source=audit,,63
+https://kennel.kujolang.ai/getting-started?source=audit,AgentCityReleaseAudit/1.0,308,/getting-started/?source=audit,,73

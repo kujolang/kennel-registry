@@ -1,0 +1,7 @@
+{
+  "htmlFilesChanged": 119,
+  "onlyChange": "canonical link trailing slash",
+  "unchangedNonHtmlBaselineFiles": 477,
+  "newAgentCityImage": "outside baseline; original content unchanged",
+  "check": "full generated file comparison against pre-fix registry HEAD; baseline SHA-256 for non-HTML files"
+}

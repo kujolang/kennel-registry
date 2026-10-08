@@ -1,5 +1,5 @@
 {
-  "observedAt": "2026-10-08T19:54:22.254Z",
+  "observedAt": "2026-10-08T20:26:22.007Z",
   "responses": [
     {
       "url": "https://kennel.kujolang.ai/",
@@ -10,7 +10,7 @@
       "robots": null,
       "bytes": 12912,
       "sha256": "79e078bd9695e030e3a2cc353ec59b405e052f32310308806abb49167fa5e344",
-      "elapsedMs": 91
+      "elapsedMs": 113
     },
     {
       "url": "https://kennel.kujolang.ai/ability/",
@@ -19,9 +19,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2775,
-      "sha256": "6a5182ec0a8e1615c984ab7a18abc34ca46e222a13f4ac6229ccc483e4b2dea7",
-      "elapsedMs": 372
+      "bytes": 2776,
+      "sha256": "a1d89443bf4cdf5c2e2b20313bbe13d0b31ed982825e82755648f660dd553233",
+      "elapsedMs": 417
     },
     {
       "url": "https://kennel.kujolang.ai/ability/1.0.1/",
@@ -30,9 +30,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3025,
-      "sha256": "7cb4cc277a5d4dea6de60b1a76d02e0ae98144d1e255dbf5c40221aee4d665a4",
-      "elapsedMs": 599
+      "bytes": 3026,
+      "sha256": "979e98fc9a109dd8aea77f9eacbde9bb778b92e5dcc0638fb2bca9520d988e9b",
+      "elapsedMs": 527
     },
     {
       "url": "https://kennel.kujolang.ai/ability/1.1.0/",
@@ -41,9 +41,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3025,
-      "sha256": "06a7e91dd5ed35f0b1d2b71567c544197223bb5b4d082a71d68b04126988ec53",
-      "elapsedMs": 493
+      "bytes": 3026,
+      "sha256": "2f648ce6b2b401b06e5e22b5b5601f2af24638ea5166ef6e24f4d7828564ed45",
+      "elapsedMs": 453
     },
     {
       "url": "https://kennel.kujolang.ai/ability/1.2.0/",
@@ -52,9 +52,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3025,
-      "sha256": "bd6bbc44b6962545d958bea99804e1e1e151f672eb405b0992607722dc9673b7",
-      "elapsedMs": 555
+      "bytes": 3026,
+      "sha256": "094f0097e753dfb3f59c86c71b0f23e3ccca9e7ae5847de9f3f82e6bcb04b83f",
+      "elapsedMs": 443
     },
     {
       "url": "https://kennel.kujolang.ai/agent-city-audit-missing-20261008/",
@@ -65,7 +65,7 @@
       "robots": null,
       "bytes": 1262,
       "sha256": "f708894217d8274059f306ead7c263fcad0f98685bef21820d883ed0819cf786",
-      "elapsedMs": 90
+      "elapsedMs": 96
     },
     {
       "url": "https://kennel.kujolang.ai/agents-sdk/",
@@ -74,9 +74,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3061,
-      "sha256": "2f96dc82d508c94cd8f21ca9a177d83e7cc37627966a1433af6a8fedb21ca3e7",
-      "elapsedMs": 116
+      "bytes": 3062,
+      "sha256": "f921895db61f899bde3528acaee45008cc732a782550d139a4a2fb51fa134adc",
+      "elapsedMs": 199
     },
     {
       "url": "https://kennel.kujolang.ai/agents-sdk/1.0.0/",
@@ -85,9 +85,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3167,
-      "sha256": "1f74a83a7eadbab9a04a38ce2505a36b9338e2588cf38f211a5d72769477a5c5",
-      "elapsedMs": 486
+      "bytes": 3168,
+      "sha256": "c23f94ca4a6183b6d4ee1f151a37945c15be1d58e0bf488a07840ab323335ae5",
+      "elapsedMs": 451
     },
     {
       "url": "https://kennel.kujolang.ai/agents-sdk/1.1.0/",
@@ -96,9 +96,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3314,
-      "sha256": "d0ea7699ac56429c03c9d3e52dfcb756d99228f83c204a76c95015afeb311cd3",
-      "elapsedMs": 486
+      "bytes": 3315,
+      "sha256": "43f41a744eb5f4ea01d2b6b771b61321aa81f1f3ed74763267c28cb196af67de",
+      "elapsedMs": 494
     },
     {
       "url": "https://kennel.kujolang.ai/agents-sdk/1.1.1/",
@@ -107,9 +107,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3314,
-      "sha256": "6d7623333e4ea7bd1072fc7efdf6cc440880aa5b51b9c396de643c857e80cb10",
-      "elapsedMs": 504
+      "bytes": 3315,
+      "sha256": "289ccd23b6a3440f074e7ce00a838b080b2f4127be50dd73e6695ba69cba18f8",
+      "elapsedMs": 438
     },
     {
       "url": "https://kennel.kujolang.ai/agents-sdk/1.1.2/",
@@ -118,9 +118,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3314,
-      "sha256": "0ecc2fc3e1ae0013f016a5b506f21690fd82c9cf3e90235cd265c30507a8a59e",
-      "elapsedMs": 484
+      "bytes": 3315,
+      "sha256": "9d53862dde4300ce692f0df959f8e37176a9eefe560d522c2e9007d48ee56e9b",
+      "elapsedMs": 428
     },
     {
       "url": "https://kennel.kujolang.ai/ai-sdk/",
@@ -129,9 +129,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2782,
-      "sha256": "f2fcdeda6186a9a17729499a640e46a72b6179d6a232ce2f182ab8545d931bf8",
-      "elapsedMs": 230
+      "bytes": 2783,
+      "sha256": "b0ed1f4a790f7bf5e70a98f6235af2b727f6ece310816284906124fda960b804",
+      "elapsedMs": 212
     },
     {
       "url": "https://kennel.kujolang.ai/ai-sdk/1.0.0/",
@@ -140,9 +140,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3030,
-      "sha256": "b323dad9f86d6da490fe9ce82a5f0132c657cb1593b6d1db48f409ba8c62142d",
-      "elapsedMs": 235
+      "bytes": 3031,
+      "sha256": "f01cc4595377ea84f770473265ad1c5f7ef2682119cb5d7472eca12c4a0b92f9",
+      "elapsedMs": 208
     },
     {
       "url": "https://kennel.kujolang.ai/ai-sdk/1.1.1/",
@@ -151,9 +151,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3031,
-      "sha256": "a6e7a0b0dccb7131273181a395fd33ca463926d9bcc4ce0425c2bd5b5cecbd81",
-      "elapsedMs": 248
+      "bytes": 3032,
+      "sha256": "35c5beab3661105b3986cdc7f01ab52d4b6d6e60caba4e0aea181b0f19dd237a",
+      "elapsedMs": 197
     },
     {
       "url": "https://kennel.kujolang.ai/anthropic/",
@@ -162,9 +162,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2993,
-      "sha256": "262fea5e13ab2383a425d574c9aa6c29096dc7ec26ef67944d27f249148c1a0d",
-      "elapsedMs": 252
+      "bytes": 2994,
+      "sha256": "c584bbde5e64c24bb35b9e1606c8a5cb92854971c54545e9a0410fce128c8025",
+      "elapsedMs": 170
     },
     {
       "url": "https://kennel.kujolang.ai/anthropic/0.1.2/",
@@ -173,9 +173,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3153,
-      "sha256": "1d67a8643e0aa9fd365836790ddfaef508ef7fd9187d84607de8316b69ba8bbf",
-      "elapsedMs": 248
+      "bytes": 3154,
+      "sha256": "e3be153050e3af73fcd3149b3b92cda0b7f082231de900637846c059388bef5e",
+      "elapsedMs": 182
     },
     {
       "url": "https://kennel.kujolang.ai/assetworks/",
@@ -184,9 +184,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2843,
-      "sha256": "c32baf8aef70041f3443842367e9d897c1a80cba266eb02797635f9d3f57c8cb",
-      "elapsedMs": 116
+      "bytes": 2844,
+      "sha256": "82a6f48735b5dae69fab885dcbdaf225ceb5b3994309a9e77dc142c624179edd",
+      "elapsedMs": 184
     },
     {
       "url": "https://kennel.kujolang.ai/assetworks/0.2.0/",
@@ -195,9 +195,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3096,
-      "sha256": "aa5203bd7d885880eae11c68ad6a715af35c8a84143021b5ad0ec38fd9fcf585",
-      "elapsedMs": 231
+      "bytes": 3097,
+      "sha256": "b6570ed73d5802a2dc0325299b243e02fdfe2d48094f420fe5b811fc89520510",
+      "elapsedMs": 176
     },
     {
       "url": "https://kennel.kujolang.ai/assetworks/0.3.0/",
@@ -206,9 +206,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3096,
-      "sha256": "58fa3ba330fbc66d87b9b53b1447ab8392b790dea4538cd5f91bade80190f55a",
-      "elapsedMs": 225
+      "bytes": 3097,
+      "sha256": "6796ba65c97d8f44cb2256133cf9fa4ff040534042932570f49d763b2bd4160d",
+      "elapsedMs": 282
     },
     {
       "url": "https://kennel.kujolang.ai/bluepencil/",
@@ -217,9 +217,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2884,
-      "sha256": "1f0ad78b0c162a98c99b272682f70b7bbc32a9e35b3df24d70b2b5bbf5379b36",
-      "elapsedMs": 289
+      "bytes": 2885,
+      "sha256": "b2488f2a5bbdbcc9bb235c638f251f89deae38949ff2410cef28a27f7db1c3bb",
+      "elapsedMs": 288
     },
     {
       "url": "https://kennel.kujolang.ai/bluepencil/0.2.0/",
@@ -228,9 +228,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3135,
-      "sha256": "fc7d151b47d39b5665c4708707f2ce4764120cce4b61e002c735bc85e82df127",
-      "elapsedMs": 229
+      "bytes": 3136,
+      "sha256": "4b6f07990c960732be368415b4e703d95477e7b703d483df83452f4ea3aabfad",
+      "elapsedMs": 303
     },
     {
       "url": "https://kennel.kujolang.ai/bluepencil/0.3.0-rc.1/",
@@ -239,9 +239,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3192,
-      "sha256": "f69609188c90dc3687089f83ff4e186ae3734e48359c1b1ba4d40b6105cd1d5b",
-      "elapsedMs": 289
+      "bytes": 3193,
+      "sha256": "9f036f20bd49ca38e0423a5c97f12e1b8105419698d6323d2b9f937bc71d7119",
+      "elapsedMs": 293
     },
     {
       "url": "https://kennel.kujolang.ai/bluepencil/0.3.0/",
@@ -250,9 +250,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3137,
-      "sha256": "a779c5ea69ab5c8aa9c747165d1d2955aef9431d2427d76ada2db9cf04d5027d",
-      "elapsedMs": 294
+      "bytes": 3138,
+      "sha256": "bdb8fc0e79b877ec9beaa09cabde2c397430bd40a5ed59514d9574563f5a0a1b",
+      "elapsedMs": 293
     },
     {
       "url": "https://kennel.kujolang.ai/casefile/",
@@ -261,9 +261,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2722,
-      "sha256": "c108a25a2e3a5b0770b00d619ff5e0ea18acc0a0fa4987c2570dcec8c6657912",
-      "elapsedMs": 132
+      "bytes": 2723,
+      "sha256": "1ea559375164e29f55c633f94fb9e256fe2a7e7f476927f2b6966601a43ef3af",
+      "elapsedMs": 269
     },
     {
       "url": "https://kennel.kujolang.ai/casefile/1.0.0/",
@@ -272,9 +272,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2973,
-      "sha256": "96d65f8b1a281b94ba8290dcc44f386fd43667c272ea47ec15c67e5fde52885a",
-      "elapsedMs": 277
+      "bytes": 2974,
+      "sha256": "0f5471dddfdaad2be65b97c1ec97896bb9fcc53d0bd09e7530a3ecc2b9a8a646",
+      "elapsedMs": 164
     },
     {
       "url": "https://kennel.kujolang.ai/changebucket/",
@@ -283,9 +283,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2817,
-      "sha256": "b335fcece97aca350d39c93c87fef0f6f212e07ff0d98cdb4b20fa7d8f2c211d",
-      "elapsedMs": 281
+      "bytes": 2818,
+      "sha256": "930c91dd39150b4dd730a1bd83dd46b04cecc75a10a841e2fd8ce052e53a692a",
+      "elapsedMs": 350
     },
     {
       "url": "https://kennel.kujolang.ai/changebucket/1.0.0/",
@@ -294,9 +294,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3179,
-      "sha256": "1e7852af370383e1d7d17e0ef9fb77d961ba0a0e91eb9b74508fe1775de37cf7",
-      "elapsedMs": 274
+      "bytes": 3180,
+      "sha256": "97b78c4d5b62ac7a76d8a73a592f46c8c5a77aec8c0708397e7319f7a0e08eca",
+      "elapsedMs": 386
     },
     {
       "url": "https://kennel.kujolang.ai/changebucket/1.1.0/",
@@ -305,9 +305,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3072,
-      "sha256": "a474cfa500af7e9ddcb0fe1878e3dcfc366756c55ead80c5a7c03b9d0fa39fce",
-      "elapsedMs": 268
+      "bytes": 3073,
+      "sha256": "a88af605cbffde6fa57f2a773a62b08afd91cde1db4d14790cddebea278ec43d",
+      "elapsedMs": 350
     },
     {
       "url": "https://kennel.kujolang.ai/cms/",
@@ -316,9 +316,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2601,
-      "sha256": "cf6c5d8570ca6f0d8e9b4dcf4e7d5e88992ee8cfff48943ebfa91a5c39ac0fbd",
-      "elapsedMs": 251
+      "bytes": 2602,
+      "sha256": "9356faa904c3dd2002b78fb06aef54b3c60783fe77600a2a9515b01246b1d80e",
+      "elapsedMs": 290
     },
     {
       "url": "https://kennel.kujolang.ai/cms/1.1.0/",
@@ -327,9 +327,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2847,
-      "sha256": "322c6d9d5a693fd876b63d337987a34d21d7c7415325071c102e9860b35af5bb",
-      "elapsedMs": 187
+      "bytes": 2848,
+      "sha256": "3659b09926b60396c1433b6cf69cf1227acf2e837f8d57b6e3fa9c085a6d0f0e",
+      "elapsedMs": 281
     },
     {
       "url": "https://kennel.kujolang.ai/concord/",
@@ -338,9 +338,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2789,
-      "sha256": "6524a61fa8f6007c49c853a2cd11c52267e52e3fd0dd1b401a636a66f342787a",
-      "elapsedMs": 130
+      "bytes": 2790,
+      "sha256": "a44cb200b4ac49d6c5bf1e5f12ef76763bec5da1f8262c380f04166279a9d92e",
+      "elapsedMs": 320
     },
     {
       "url": "https://kennel.kujolang.ai/concord/1.0.0/",
@@ -349,9 +349,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3039,
-      "sha256": "5e2741fbb27ae1d3bd49f7294251f8cb7177177bfa6145d09c6f4041204e71a6",
-      "elapsedMs": 270
+      "bytes": 3040,
+      "sha256": "45994fbdea8265b3012797e5241a5a0fb656ddc9159451aec445c68c4d55c355",
+      "elapsedMs": 275
     },
     {
       "url": "https://kennel.kujolang.ai/contentgraph/",
@@ -360,9 +360,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2856,
-      "sha256": "e2a38b30ff8f68b0b3cc68d9a505400ae1bd9d37043ce5c2b3049f864160de17",
-      "elapsedMs": 126
+      "bytes": 2857,
+      "sha256": "dfa2c394eebd9ca022d52dfd452fdc836afbf93d767f0142d8168ab4cefe3ced",
+      "elapsedMs": 200
     },
     {
       "url": "https://kennel.kujolang.ai/contentgraph/0.3.0/",
@@ -371,9 +371,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2923,
-      "sha256": "d1669078ef6b4d44288c94d5658f5cd11b8bc74cdbc3a80aee91b8f0e1a5535d",
-      "elapsedMs": 231
+      "bytes": 2924,
+      "sha256": "0730265d213b4673cb31f510dc1c4ede2af3c8d112e312036ab3a9d5568a2a63",
+      "elapsedMs": 312
     },
     {
       "url": "https://kennel.kujolang.ai/crud-api/",
@@ -382,9 +382,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2747,
-      "sha256": "a555a564c54a16595a36d1695ce497848f4f1b849dd3e24f123838e410d74745",
-      "elapsedMs": 342
+      "bytes": 2748,
+      "sha256": "0fd18b7e983d21bf536c4eb5f6c8fdcd2f6b1d007fc213b55dfccb9c4d4d6d57",
+      "elapsedMs": 282
     },
     {
       "url": "https://kennel.kujolang.ai/crud-api/1.0.0/",
@@ -393,9 +393,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2998,
-      "sha256": "af17ed8f57cb0c50c33769f0ce0272e5b135446909394b1c457c6c54bd3b54f2",
-      "elapsedMs": 214
+      "bytes": 2999,
+      "sha256": "6ca4448dce58b567bca7f5580b001d1441bf6e39d803f78be071d32ea9643072",
+      "elapsedMs": 199
     },
     {
       "url": "https://kennel.kujolang.ai/dispatch/",
@@ -404,9 +404,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3045,
-      "sha256": "541f435a093bbb25ce9dab2bb521a10d3e7c9c5e1aee4acb6e2934c539ae33b3",
-      "elapsedMs": 388
+      "bytes": 3046,
+      "sha256": "7f94525fd084be04197e35d5e184e61d642e56487f902045a8249315f97c9f1f",
+      "elapsedMs": 242
     },
     {
       "url": "https://kennel.kujolang.ai/dispatch/1.2.0/",
@@ -415,9 +415,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3169,
-      "sha256": "c606ad366ed12ea40a3bfc65149abe7611f2c129aededab1ccaec3b1bac40ef2",
-      "elapsedMs": 389
+      "bytes": 3170,
+      "sha256": "fd8c4bf1007929f9b86c9b11895a480867b32a2d72803ba91eb9298783520f9c",
+      "elapsedMs": 255
     },
     {
       "url": "https://kennel.kujolang.ai/dispatch/1.3.0/",
@@ -426,9 +426,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3170,
-      "sha256": "045ea055dd346f53164d3c8433f6534962339a3726ce067c126bb2752389a443",
-      "elapsedMs": 386
+      "bytes": 3171,
+      "sha256": "bec609b3c6c7b1d24bb50fe6026679023ec8b12e73dce8b41dc014debe881fab",
+      "elapsedMs": 251
     },
     {
       "url": "https://kennel.kujolang.ai/dossier/",
@@ -437,9 +437,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2729,
-      "sha256": "87ff484b6b5b7329bb24ef057c34c845927b774a6dafe2966fe0bcdec9d1ad14",
-      "elapsedMs": 285
+      "bytes": 2730,
+      "sha256": "d659da415c3605bade5098208cb3a1884a7e46c10c09396b2742906049f77f49",
+      "elapsedMs": 212
     },
     {
       "url": "https://kennel.kujolang.ai/dossier/0.2.0/",
@@ -448,9 +448,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2979,
-      "sha256": "8129cdfcfae2eacbd7a5ea199400917a0cfcf7b494a748f95be4104c5cd66987",
-      "elapsedMs": 426
+      "bytes": 2980,
+      "sha256": "d7567457cc4c8f071e4ca909f8b49b4e5ca7157413abe184c985732a3f094b6e",
+      "elapsedMs": 217
     },
     {
       "url": "https://kennel.kujolang.ai/eval/",
@@ -459,9 +459,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2857,
-      "sha256": "d79740dfd6928122dcc70c98e0fbcb6f3dbac66256a686d44b7ace9b45ad6b19",
-      "elapsedMs": 371
+      "bytes": 2858,
+      "sha256": "6940a2b04e47bb3cf75f8f7244d15819fd262d9ca8c92301bf1ad1bb3dba9667",
+      "elapsedMs": 275
     },
     {
       "url": "https://kennel.kujolang.ai/eval/1.0.0/",
@@ -470,9 +470,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3104,
-      "sha256": "577caeafa42b9053c1ad02fa02ec0a5c8072bd94bb633c9924353d17789fce99",
-      "elapsedMs": 292
+      "bytes": 3105,
+      "sha256": "b78968f1256f10dbac644c94fbd62050a6f9505a43bbd16ee760ace56903ce58",
+      "elapsedMs": 276
     },
     {
       "url": "https://kennel.kujolang.ai/fence/",
@@ -481,9 +481,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2701,
-      "sha256": "e02a9365d87b49ee476cbd1088409791b3c8f70177ac1fa29810dc0de740d656",
-      "elapsedMs": 257
+      "bytes": 2702,
+      "sha256": "6e5b99a4da6212ff577d6f46ebc94ee64c7b4fbfa688614ac289d6ac8f3cc2de",
+      "elapsedMs": 207
     },
     {
       "url": "https://kennel.kujolang.ai/fence/1.0.0/",
@@ -492,9 +492,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2949,
-      "sha256": "70fcdbf015e0002a9fe4ea5e0f8185ce66a6c706b2bc6a101c58ce79a0d4c11f",
-      "elapsedMs": 321
+      "bytes": 2950,
+      "sha256": "6f1b70adbb04d0eddd84079a13438a1e3302a15e5051bd931576ad9f0fa26720",
+      "elapsedMs": 208
     },
     {
       "url": "https://kennel.kujolang.ai/galleypack/",
@@ -503,9 +503,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2782,
-      "sha256": "590cf94d212b50ae6a80ba5f133937b7e8f6853449ce98e7710b0a7b131e2f00",
-      "elapsedMs": 169
+      "bytes": 2783,
+      "sha256": "268cd9ed44b9bf5b3fa2e1d56394c1f9e5e3b09f7fdff6bb2bb1a611ac08a21b",
+      "elapsedMs": 190
     },
     {
       "url": "https://kennel.kujolang.ai/galleypack/0.2.0/",
@@ -514,9 +514,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3035,
-      "sha256": "395e664298eef9c0af31b7ed3a18ef1b6b806a84cb8e2b93d6714ab9ab3d44ac",
-      "elapsedMs": 280
+      "bytes": 3036,
+      "sha256": "7037c6019fd80b19e58a6e44a717015ae39b79e8277ae9ed31e88ed49d1e0e78",
+      "elapsedMs": 256
     },
     {
       "url": "https://kennel.kujolang.ai/getting-started/",
@@ -525,9 +525,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 5424,
-      "sha256": "345c6880021ca5953bb86e001714ba0b45257d54af373491d889990c07ce0d90",
-      "elapsedMs": 221
+      "bytes": 5425,
+      "sha256": "4ab6a4d0f057a70849645f2f8d731ace25d6f8fc8f368306658fbacac0e91056",
+      "elapsedMs": 116
     },
     {
       "url": "https://kennel.kujolang.ai/howl/",
@@ -536,9 +536,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2648,
-      "sha256": "bb138564838902001d8c55d0f6116ca0dd3860c7e752285406ee75325067bd85",
-      "elapsedMs": 111
+      "bytes": 2649,
+      "sha256": "4ec1894c92b39237ec0435e407a6727eeb85d73f4e4c3e22d010ce75110fa87a",
+      "elapsedMs": 164
     },
     {
       "url": "https://kennel.kujolang.ai/howl/1.1.0/",
@@ -547,9 +547,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2895,
-      "sha256": "a1ea54c99a139a4d0aa5cf09fc9870fb8a22911537062be517199ac187ac49bd",
-      "elapsedMs": 252
+      "bytes": 2896,
+      "sha256": "e29e0353401a6e8a58f873fdfc6221a52fda2f2840878c7ecdfa16b0af6e1550",
+      "elapsedMs": 174
     },
     {
       "url": "https://kennel.kujolang.ai/kennel/",
@@ -558,9 +558,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2925,
-      "sha256": "ae61194a278702cd4fcffd584d5332463c7fc3bdd11a96c23360b6290acbaa36",
-      "elapsedMs": 154
+      "bytes": 2926,
+      "sha256": "cf3f98b1419191fd81e9049ff687951bdcba2d3ec456c9b76bf45848bb2ff3f4",
+      "elapsedMs": 194
     },
     {
       "url": "https://kennel.kujolang.ai/kennel/1.0.0/",
@@ -569,9 +569,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3174,
-      "sha256": "8bcb87258c314386554645287bf457f774b156c0877c63c297caa4946ac053a8",
-      "elapsedMs": 222
+      "bytes": 3175,
+      "sha256": "fa91ec27ff3f5b828e2fc1f6f095221d92fbb1520501ca488401150f1bd7ce40",
+      "elapsedMs": 358
     },
     {
       "url": "https://kennel.kujolang.ai/kennel/1.0.1/",
@@ -580,9 +580,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3174,
-      "sha256": "5b153df2d8c84017c2f3f1d34c66c8a2cf13401815ea9ac78a7a02410a48548c",
-      "elapsedMs": 202
+      "bytes": 3175,
+      "sha256": "e1dd7a86899cf5fbc0154ce51d366de3bf6475b24757f832d79a6702dc99d555",
+      "elapsedMs": 206
     },
     {
       "url": "https://kennel.kujolang.ai/kennel/1.1.0/",
@@ -591,9 +591,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3174,
-      "sha256": "e4f744302bf482e84f0440f413e42cd8fa627c8a508d87be8a6e71a009933b45",
-      "elapsedMs": 196
+      "bytes": 3175,
+      "sha256": "1dc424096a1db523f2391399cfa23deb261f39bab5238c0713aad4dde7de4f9b",
+      "elapsedMs": 334
     },
     {
       "url": "https://kennel.kujolang.ai/kennel/1.1.1/",
@@ -602,9 +602,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3174,
-      "sha256": "11a9e2c4b8ea6b049c15264ba1028ead138267bd4551af7b3bc5e69180a1865a",
-      "elapsedMs": 293
+      "bytes": 3175,
+      "sha256": "8a38f1dc8b612c2c9a4703c3f07419cee1ce6cea248fe0641b17b5e4ffa4d760",
+      "elapsedMs": 320
     },
     {
       "url": "https://kennel.kujolang.ai/lens/",
@@ -613,9 +613,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2883,
-      "sha256": "4513c291b5e18354e2ada4cd283572b024db9c35363d715c7ea955e0ec4ee5d0",
-      "elapsedMs": 246
+      "bytes": 2884,
+      "sha256": "29da62d8a98c805a4dc8671f42676029b940f64f0fda48fa1ce99bbd88c1bb2f",
+      "elapsedMs": 245
     },
     {
       "url": "https://kennel.kujolang.ai/lens/1.1.0/",
@@ -624,9 +624,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3130,
-      "sha256": "acb337bca1df93357e8e415dc16765bc12691ff5d76b169033b2bca03ac74c2a",
-      "elapsedMs": 269
+      "bytes": 3131,
+      "sha256": "5716fbe26693b9caaa30b027a69303e8751f29f8f5fe23f15993baa695cbe668",
+      "elapsedMs": 273
     },
     {
       "url": "https://kennel.kujolang.ai/mcp/",
@@ -635,9 +635,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2935,
-      "sha256": "03001c360dc21143298c93f5e09fa134e73f8ab018a90004fa04b403a85a426b",
-      "elapsedMs": 109
+      "bytes": 2936,
+      "sha256": "15817e61a884759bc0b3121d0020027dd025f73be3fec665f5940a05a2f8c5c7",
+      "elapsedMs": 521
     },
     {
       "url": "https://kennel.kujolang.ai/mcp/1.1.1/",
@@ -646,9 +646,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3150,
-      "sha256": "64fcd29b81029419686acd5469be11dddd23061b372deb6c50d9c27cf937969e",
-      "elapsedMs": 246
+      "bytes": 3151,
+      "sha256": "61e0b955a70d43d99d94c82e8ed8b9bc67a3e944f25b6d34b77afb91fc634ae1",
+      "elapsedMs": 243
     },
     {
       "url": "https://kennel.kujolang.ai/mcp/1.2.0/",
@@ -657,9 +657,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3181,
-      "sha256": "1286e71c1a8e0f15bc1bd23a291ff94b026d1ef9944443d2ef8e93cc83a3218e",
-      "elapsedMs": 224
+      "bytes": 3182,
+      "sha256": "e35b8dba9d73ad50a5dac302de979ef1da465b1114312766caaf86a7a0d777cb",
+      "elapsedMs": 661
     },
     {
       "url": "https://kennel.kujolang.ai/mcp/1.3.0/",
@@ -668,9 +668,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3181,
-      "sha256": "d678fe2cd06a5de5998295f0d88f989a48214c014c0400eba107b2a799e195e3",
-      "elapsedMs": 176
+      "bytes": 3182,
+      "sha256": "540261dd4d645568fd72711a75e60e4da2a797378e7018d29e1becb61d3f7c0f",
+      "elapsedMs": 645
     },
     {
       "url": "https://kennel.kujolang.ai/muzzle/",
@@ -679,9 +679,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2966,
-      "sha256": "be34d81dca95f0caaff38e6b51989c369269ce02986382b1b5394d8a79b2e4c5",
-      "elapsedMs": 199
+      "bytes": 2967,
+      "sha256": "b7c1cab832747ef84eb1d76acc533af2d18f25c9865c30363bf70f312f676d6a",
+      "elapsedMs": 536
     },
     {
       "url": "https://kennel.kujolang.ai/muzzle/1.1.0/",
@@ -690,9 +690,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3215,
-      "sha256": "3ed2958499712b3429b1be8f143187ea057991f24e7289b18b1fc7e036c3f1aa",
-      "elapsedMs": 252
+      "bytes": 3216,
+      "sha256": "62fcc31c983e800668fe0ca61562ca3fcde2c3b5837491597d56d449cdecb01e",
+      "elapsedMs": 518
     },
     {
       "url": "https://kennel.kujolang.ai/ollama/",
@@ -701,9 +701,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2938,
-      "sha256": "a91e48f80e0614ef72db90faaaa022644eacde449b98dd8f206c5986157230d6",
-      "elapsedMs": 198
+      "bytes": 2939,
+      "sha256": "31e95f2348184f1602aa2bb95c1f7c0950b6d6af51aab93467b9596e4720d46a",
+      "elapsedMs": 248
     },
     {
       "url": "https://kennel.kujolang.ai/ollama/0.1.10/",
@@ -712,9 +712,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3100,
-      "sha256": "9889c77409fe56b2d1803cbb1d99e5bff8ad651c47a6a14a2baa6516373bef2e",
-      "elapsedMs": 214
+      "bytes": 3101,
+      "sha256": "150e523c042222efb7a7ca0cc3e22e58e8bb3dd6f0c132e1729a1d52d6b9f3c9",
+      "elapsedMs": 528
     },
     {
       "url": "https://kennel.kujolang.ai/packwrite/",
@@ -723,9 +723,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2813,
-      "sha256": "128013b2c506f9b1bb214b348b111ed49b6104c37d0a4eace3533b88ed4018c3",
-      "elapsedMs": 137
+      "bytes": 2814,
+      "sha256": "6c52edac77236952600097b10722c248f13b8a1e59bb8815d296c950f61d17c2",
+      "elapsedMs": 267
     },
     {
       "url": "https://kennel.kujolang.ai/packwrite/1.1.0/",
@@ -734,9 +734,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3065,
-      "sha256": "fdaf9d60d30d848f3fcb7dfc3bdc783d46560f9545e1c5182cb1cde31fbd9d30",
-      "elapsedMs": 206
+      "bytes": 3066,
+      "sha256": "db2742e8f84ace03e54115a6469726065866c3796cc93a1d29109d4012c6b5df",
+      "elapsedMs": 256
     },
     {
       "url": "https://kennel.kujolang.ai/patchbrief/",
@@ -745,9 +745,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2882,
-      "sha256": "14f9ded59eae3f48664f1f94daf1dc868fd36eff97e1806f57e0ab3a63dfff0c",
-      "elapsedMs": 265
+      "bytes": 2883,
+      "sha256": "9f79ecef723244600e73fccbc4189f64cb5bbcfab9796aee5e9cf717a72590ee",
+      "elapsedMs": 522
     },
     {
       "url": "https://kennel.kujolang.ai/patchbrief/1.0.1/",
@@ -756,9 +756,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3135,
-      "sha256": "27a22a7ca1673d835eb93892baaa78270aba039c9d864937fd6f73725623b9d3",
-      "elapsedMs": 165
+      "bytes": 3136,
+      "sha256": "7560b15e0a4772d2c972c83875de36638a88e533bd3817f019302c3f833b8597",
+      "elapsedMs": 258
     },
     {
       "url": "https://kennel.kujolang.ai/presswire/",
@@ -767,9 +767,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2777,
-      "sha256": "cd5c155bb49b7ae17685a5d73feba36fcb1e57775fdf2a5442b276ac0524625a",
-      "elapsedMs": 90
+      "bytes": 2778,
+      "sha256": "dc3b6f841c4ffe8186cac561e9bd1c569905426b543c1294cfd310dad5b837e3",
+      "elapsedMs": 388
     },
     {
       "url": "https://kennel.kujolang.ai/presswire/0.2.0/",
@@ -778,9 +778,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3029,
-      "sha256": "868f70fdceebda803fcd961d7554299896dcebcc08d32723935b3d3743fc0bc5",
-      "elapsedMs": 224
+      "bytes": 3030,
+      "sha256": "0112b8955b377901323bffa522a642bd6ac775bca19560d039bee8e3299dd67d",
+      "elapsedMs": 389
     },
     {
       "url": "https://kennel.kujolang.ai/rag/",
@@ -789,9 +789,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2701,
-      "sha256": "dcfaf95138828e46461bc769ace734a94f7c7202c73f23ee6055f654071ebfda",
-      "elapsedMs": 200
+      "bytes": 2702,
+      "sha256": "97fea6911c2ea6cfaa9434c5847fd28f864cc689e2a2a2777b903f6a44a32c51",
+      "elapsedMs": 411
     },
     {
       "url": "https://kennel.kujolang.ai/rag/1.0.0/",
@@ -800,9 +800,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2947,
-      "sha256": "4f1548e679c27a91ac99d5a6824cbb00a6f0260067b98cf6eb420934a2e32196",
-      "elapsedMs": 198
+      "bytes": 2948,
+      "sha256": "f38294b0f7076f15fe4db3d85011a6f3f8108e541ee44cfc80fa313d59796db5",
+      "elapsedMs": 393
     },
     {
       "url": "https://kennel.kujolang.ai/readersignal/",
@@ -811,9 +811,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2866,
-      "sha256": "dd94da356528c5d6102265158c955c7444d429bb5005195a3ec30135b8064020",
-      "elapsedMs": 321
+      "bytes": 2867,
+      "sha256": "c8ed3f43feaeeb4637c770f1d209fe355419f224850a4a4ba92082eb9907d87b",
+      "elapsedMs": 499
     },
     {
       "url": "https://kennel.kujolang.ai/readersignal/0.2.0/",
@@ -822,9 +822,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3120,
-      "sha256": "970debbf3952ecb5dd783e76480021637a370918dbfaa7b30c9de5421bfdb43d",
-      "elapsedMs": 327
+      "bytes": 3121,
+      "sha256": "691e9eec4f5e21258ed112eb2c0409c1328642b4aa7e48ca89dbf06e569c5af9",
+      "elapsedMs": 387
     },
     {
       "url": "https://kennel.kujolang.ai/readersignal/0.3.0/",
@@ -833,9 +833,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3121,
-      "sha256": "c2cd34b8af617ab739a35a852ab2768fd0e515084dbcd1b4612c43d0e6b65524",
-      "elapsedMs": 328
+      "bytes": 3122,
+      "sha256": "d6ffe9627365847ad2132cbc3dfa72b0e9efe1601fee9e988e179b9a2320dad6",
+      "elapsedMs": 397
     },
     {
       "url": "https://kennel.kujolang.ai/redact/",
@@ -844,9 +844,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2725,
-      "sha256": "fc429c65223763b05950e1defbcf7a55a2bb73462fb05a088f716c3adca900b6",
-      "elapsedMs": 171
+      "bytes": 2726,
+      "sha256": "8a4d8913d5856d320636788df4104a1ec51b02fae108f99ff0a8d1ab931bfded",
+      "elapsedMs": 284
     },
     {
       "url": "https://kennel.kujolang.ai/redact/1.0.0/",
@@ -855,9 +855,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2974,
-      "sha256": "4b52ade3a158bbb7bbc1911ff37fdf554979c418a10879f729970f08350bb7c5",
-      "elapsedMs": 300
+      "bytes": 2975,
+      "sha256": "9308e11d00fd990d33559ef7fd63a295c91565f5da3f5138025c0bdbe330386d",
+      "elapsedMs": 302
     },
     {
       "url": "https://kennel.kujolang.ai/redact/1.1.0/",
@@ -866,9 +866,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2974,
-      "sha256": "3bfa0115d9471c9fd75b27a0ce779efa8d39cebdfabff99fb00755b62a37c63b",
-      "elapsedMs": 207
+      "bytes": 2975,
+      "sha256": "409d18bb06778f947a208d8d7b9cf20ac7742daf720567fb1463768140e30aa3",
+      "elapsedMs": 281
     },
     {
       "url": "https://kennel.kujolang.ai/relay/",
@@ -877,9 +877,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2729,
-      "sha256": "689104c94dc8c58340bcef3d2da06f162bac0473cd560d3ee883d75282c0635e",
-      "elapsedMs": 138
+      "bytes": 2730,
+      "sha256": "8c8fd448d38d7e89d6e3978a5a5280bcfbe5fb7d4e22dfb6fadc03f243a3441d",
+      "elapsedMs": 324
     },
     {
       "url": "https://kennel.kujolang.ai/relay/1.1.0/",
@@ -888,9 +888,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2977,
-      "sha256": "52a535c5df2675eec8817ef2ca75d5384f38631ce4ae7efdda37cff84840d59e",
-      "elapsedMs": 209
+      "bytes": 2978,
+      "sha256": "216125a35f8ffe02cc382ee787f13ada04a579553c1b2f497177b7f3fd8ae095",
+      "elapsedMs": 323
     },
     {
       "url": "https://kennel.kujolang.ai/robots.txt",
@@ -901,7 +901,7 @@
       "robots": null,
       "bytes": 23,
       "sha256": "16ceb5ee3e0dc13aa9adf31a3ebbe45a1d965b8c2b9f72eaf84e5911e140ed95",
-      "elapsedMs": 92
+      "elapsedMs": 104
     },
     {
       "url": "https://kennel.kujolang.ai/runledger/",
@@ -910,9 +910,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2808,
-      "sha256": "18f62e737ee2d407c3a800d7f7f00981e2401379c440d6c8ef03095ce6e06804",
-      "elapsedMs": 121
+      "bytes": 2809,
+      "sha256": "5b532b31281a3de877dbd5dc65dafc4cda7edb8c3e1cf16ef25f6e93b61c43b2",
+      "elapsedMs": 283
     },
     {
       "url": "https://kennel.kujolang.ai/runledger/1.1.0/",
@@ -921,9 +921,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3007,
-      "sha256": "d2d55c4ae09c07309e24de65f4bc9712547d3f36dd8b0d0083794e90c63ae346",
-      "elapsedMs": 175
+      "bytes": 3008,
+      "sha256": "37a4bcaf6b01e3f0036ae6ff7f32889430d4d925c76e6879959b1938de1f5087",
+      "elapsedMs": 280
     },
     {
       "url": "https://kennel.kujolang.ai/runledger/1.2.0/",
@@ -932,9 +932,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3060,
-      "sha256": "d6763be0375bead56d80ca3e8463978d3a8697a9981a3ebfe3fba6184d4c4b0e",
-      "elapsedMs": 204
+      "bytes": 3061,
+      "sha256": "171341cffa55946339e8cf45e8aad46e82e97cfd8c27e739d9287628fd9484da",
+      "elapsedMs": 293
     },
     {
       "url": "https://kennel.kujolang.ai/scent/",
@@ -943,9 +943,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2681,
-      "sha256": "21d90f74042822a625a14888ce5d209dc540b7e8edd6f526df9da49cf6016d9e",
-      "elapsedMs": 88
+      "bytes": 2682,
+      "sha256": "2a4ec8589082b8079a7a426caf9e1983d35f16384ef25b3c74e2ea5ec1ddb1df",
+      "elapsedMs": 373
     },
     {
       "url": "https://kennel.kujolang.ai/scent/1.0.0/",
@@ -954,9 +954,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2929,
-      "sha256": "44a1dce77d235c29fb353a4b9a685ad45fa27e29659500849ab4dc29f3454e85",
-      "elapsedMs": 218
+      "bytes": 2930,
+      "sha256": "321217796ce5d173df30cfefda83607de6dc481af4643a4e95c1da8b8e58a729",
+      "elapsedMs": 374
     },
     {
       "url": "https://kennel.kujolang.ai/scout/",
@@ -965,9 +965,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2743,
-      "sha256": "763ae40525ca757777e0c713cf41017fe7dcd610c7ffae7d198ef56d96f0988d",
-      "elapsedMs": 198
+      "bytes": 2744,
+      "sha256": "dee0d3a72c8a3e5a5d55a6efe4adc1fb5e26311a2436fa9f1a081f20bc3861f5",
+      "elapsedMs": 357
     },
     {
       "url": "https://kennel.kujolang.ai/scout/1.0.0/",
@@ -976,9 +976,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2990,
-      "sha256": "cb06fee581ff24c147f7e9e3593f5fafd856211968bf83cd6309908d00edc14a",
-      "elapsedMs": 233
+      "bytes": 2991,
+      "sha256": "b8f11c3a55d9bf0cca30f2acf03ceb038e02877ba412eecc8469755788755063",
+      "elapsedMs": 358
     },
     {
       "url": "https://kennel.kujolang.ai/scout/1.1.0/",
@@ -987,9 +987,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2991,
-      "sha256": "9c6e39a559864354cd246b22a160dc90220b7820977fc31eff6ef1154ea113a8",
-      "elapsedMs": 188
+      "bytes": 2992,
+      "sha256": "49520d1bce1ce7fefee9c081444ec85d81e6a5a3db4de0d4301c9f7271abe0e8",
+      "elapsedMs": 357
     },
     {
       "url": "https://kennel.kujolang.ai/searchbridge/",
@@ -998,9 +998,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2780,
-      "sha256": "966716b929707b320a89dd06dca761d823c4b5f82d681bc41286d92924ec3276",
-      "elapsedMs": 259
+      "bytes": 2781,
+      "sha256": "4a81d508c5571e3a7de75b3d345416f886f7aff048414d9e682be977b477d37c",
+      "elapsedMs": 269
     },
     {
       "url": "https://kennel.kujolang.ai/searchbridge/1.0.0/",
@@ -1009,9 +1009,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3035,
-      "sha256": "3dc16a69907b73734e82e0e9a5be15633542c0b2ba56f96d3839c75b1239216d",
-      "elapsedMs": 290
+      "bytes": 3036,
+      "sha256": "09eca25b9107b75e1cd1c51144fbb6d3ef57de88c5fc83c62474870080883315",
+      "elapsedMs": 314
     },
     {
       "url": "https://kennel.kujolang.ai/shipcheck/",
@@ -1020,9 +1020,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2903,
-      "sha256": "a30e4003fcaa19f810181f43f9fb88261200c07975e1bfa0bfc87bbefb4725cc",
-      "elapsedMs": 175
+      "bytes": 2904,
+      "sha256": "f788ec25e55268b1d07a59bfac355ca7f4b60f1d2b6b8156b46f064dd38954cc",
+      "elapsedMs": 226
     },
     {
       "url": "https://kennel.kujolang.ai/shipcheck/1.0.0/",
@@ -1031,9 +1031,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3155,
-      "sha256": "520b6782dd3dbfb40a136bce7fcbaf49278b6950f0ca0d0177938d474b655cd6",
-      "elapsedMs": 233
+      "bytes": 3156,
+      "sha256": "1a7518a7a2227c38e2c00c2e3f67bcb51ed81920760d3a1c3784efd1c8469cbd",
+      "elapsedMs": 237
     },
     {
       "url": "https://kennel.kujolang.ai/sitekit-docs-template/",
@@ -1042,9 +1042,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2882,
-      "sha256": "c6a0d63931e45c8749a158f41dafa2cc5f43003b30144593ef8e3b5ee70a3691",
-      "elapsedMs": 112
+      "bytes": 2883,
+      "sha256": "ae75896cd7ef58b67885ea935291bfff548b0306aba0e2b826e925204f584ec2",
+      "elapsedMs": 192
     },
     {
       "url": "https://kennel.kujolang.ai/sitekit-docs-template/1.0.0/",
@@ -1053,9 +1053,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3146,
-      "sha256": "b0f31a5faf30d735156cb927d1fd1c269f66eb92def7cdb0e7de1668d0430b63",
-      "elapsedMs": 304
+      "bytes": 3147,
+      "sha256": "4d99ce15bf12c0afc3e698af1fdb44d9b105aefcd96f6ffd1ae24f0081b7a161",
+      "elapsedMs": 214
     },
     {
       "url": "https://kennel.kujolang.ai/sitekit/",
@@ -1064,9 +1064,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2865,
-      "sha256": "4f5deda3d3e9b4aec488722d71c361ab586c6202a794b6fc361d306928ca21b7",
-      "elapsedMs": 296
+      "bytes": 2866,
+      "sha256": "3cb9a2628e71b633d772c188ed9aa5d817324f34d7a7403bf36573733d916666",
+      "elapsedMs": 247
     },
     {
       "url": "https://kennel.kujolang.ai/sitekit/1.0.0/",
@@ -1075,9 +1075,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3115,
-      "sha256": "2ca2c4c47a11ab7b32cac4ae7abaf631322462c0fa848d7d785da12887c073e4",
-      "elapsedMs": 302
+      "bytes": 3116,
+      "sha256": "e41aa815323e09a6742979019d8b10b3e6e10d632578998c7c31b8d249cb8d58",
+      "elapsedMs": 223
     },
     {
       "url": "https://kennel.kujolang.ai/sitemap.xml",
@@ -1088,7 +1088,7 @@
       "robots": null,
       "bytes": 1262,
       "sha256": "f708894217d8274059f306ead7c263fcad0f98685bef21820d883ed0819cf786",
-      "elapsedMs": 90
+      "elapsedMs": 85
     },
     {
       "url": "https://kennel.kujolang.ai/siteprobe/",
@@ -1097,9 +1097,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2782,
-      "sha256": "bf6da0bdde1e5b4667bfd61f0231e13e378f9140298ab446b849a8a4bd67f060",
-      "elapsedMs": 137
+      "bytes": 2783,
+      "sha256": "aae04188c1666b0c1e653455137152cf8b08899310a073611256503d22b86787",
+      "elapsedMs": 190
     },
     {
       "url": "https://kennel.kujolang.ai/siteprobe/0.3.0/",
@@ -1108,9 +1108,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3033,
-      "sha256": "872590a17f1a691fb34ba1b72e9cd8c695d44626f9bb9826da37a7625c5c03de",
-      "elapsedMs": 211
+      "bytes": 3034,
+      "sha256": "73ed90279e3dc553b9cb986ed39ca6d5c5f371bb2b3826eddb7a5fe63e25604a",
+      "elapsedMs": 241
     },
     {
       "url": "https://kennel.kujolang.ai/siteprobe/0.4.0/",
@@ -1119,9 +1119,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3034,
-      "sha256": "59708e33b885445890c12039b26d96c2a49ecedf4e2e89021e337176715a1a8c",
-      "elapsedMs": 223
+      "bytes": 3035,
+      "sha256": "8bc1271f5721cf551f2e572887ef270be85564b0b9a88e49c40c8ff7d350f7e6",
+      "elapsedMs": 4552
     },
     {
       "url": "https://kennel.kujolang.ai/spec/",
@@ -1130,9 +1130,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2830,
-      "sha256": "74a3544d0cfb5f8ef212a973679fb3e90732ca572f9c96f9e81c92f70f6fe544",
-      "elapsedMs": 110
+      "bytes": 2831,
+      "sha256": "3a9c919d9911cf3f3eb91debf39964dc0ddaa0572c539b4e6c7a2fb5b7b7bee5",
+      "elapsedMs": 192
     },
     {
       "url": "https://kennel.kujolang.ai/spec/1.0.1/",
@@ -1141,9 +1141,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3077,
-      "sha256": "718460a120b83ded12455c2ec2b6a0a5835c755dabe1c1335ff6a0a6624df82c",
-      "elapsedMs": 183
+      "bytes": 3078,
+      "sha256": "7822b2bff0aad127248c06e723c0f1e8b167b5329d3fe71ee12fb7c5847caa2f",
+      "elapsedMs": 364
     },
     {
       "url": "https://kennel.kujolang.ai/ssg/",
@@ -1152,9 +1152,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2834,
-      "sha256": "ee56b112c929fa066a88ced33e34d2c10ff71f9657435f0f995c6dfdbf0681aa",
-      "elapsedMs": 228
+      "bytes": 2835,
+      "sha256": "ed7b35d2d621e538447f2758799c1e1f8d7f804b4b7483a7bd80ee9733f7443c",
+      "elapsedMs": 183
     },
     {
       "url": "https://kennel.kujolang.ai/ssg/1.0.0/",
@@ -1163,9 +1163,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2896,
-      "sha256": "012553d6b63d6261ee33ff9902a8be05ee2f584bfff0e011be4dc1aa9d103490",
-      "elapsedMs": 114
+      "bytes": 2897,
+      "sha256": "6f89601ded25457f7d8b2fde21e174b8749d08056e7efefecba692d949acf0f5",
+      "elapsedMs": 300
     },
     {
       "url": "https://kennel.kujolang.ai/ssg/1.1.0/",
@@ -1174,9 +1174,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3080,
-      "sha256": "6438601916cd8faa8d400d5d279da84fc09086ff84c0c902b00095c2a28627e0",
-      "elapsedMs": 204
+      "bytes": 3081,
+      "sha256": "bb06c3c97ccbfef0f567766bd6e901cbf0ad5409a2dcceaa5a602971ba0110af",
+      "elapsedMs": 198
     },
     {
       "url": "https://kennel.kujolang.ai/storydesk/",
@@ -1185,9 +1185,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2821,
-      "sha256": "329990e63fb94edd482a76fcbcb14ea2d3bd4e44ef5f8b2963d9203cfe925cba",
-      "elapsedMs": 210
+      "bytes": 2822,
+      "sha256": "68f9042bf6624ddb11fb0350bd6a8bf5b56f3b5f285a78ede044458dd29db754",
+      "elapsedMs": 190
     },
     {
       "url": "https://kennel.kujolang.ai/storydesk/0.2.0/",
@@ -1196,9 +1196,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3074,
-      "sha256": "df6a6b395527233ba6345b2f86b368cf789ad53700ce2ba188a43c4da56d76e9",
-      "elapsedMs": 227
+      "bytes": 3075,
+      "sha256": "80d2e61a2846744381b0eb701ea0523227eda8341c23848e7915468f218587a6",
+      "elapsedMs": 273
     },
     {
       "url": "https://kennel.kujolang.ai/storydesk/0.3.0/",
@@ -1207,9 +1207,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3073,
-      "sha256": "ea6e29d1a67a94591acef3af517047eb7c7206f4b9d89bb07cf89df4c5c77da4",
-      "elapsedMs": 206
+      "bytes": 3074,
+      "sha256": "debeb13a82a926f344965529a6e8e830c0405e3568511e2e4044134aef61d02b",
+      "elapsedMs": 170
     },
     {
       "url": "https://kennel.kujolang.ai/tribunal/",
@@ -1218,9 +1218,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2795,
-      "sha256": "3aaecd6dc28faff719dfdb88b6157e12a836788a83f7eb0b092a8166c9e03468",
-      "elapsedMs": 90
+      "bytes": 2796,
+      "sha256": "bb0c99d02d20adec6d8ca6d765a38ae353f439d6ee223b6da3944788c7cd5d28",
+      "elapsedMs": 192
     },
     {
       "url": "https://kennel.kujolang.ai/tribunal/1.0.1/",
@@ -1229,9 +1229,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3046,
-      "sha256": "cc17d858acf3207c896d33b06e5d5149ccb6c181fd9d835101c18312d25d453e",
-      "elapsedMs": 199
+      "bytes": 3047,
+      "sha256": "09e5aa08ccc22abea50d9f71def0188c0a983a42dcb5949ee38fc903047ae159",
+      "elapsedMs": 197
     },
     {
       "url": "https://kennel.kujolang.ai/tribunal/1.0.2/",
@@ -1240,9 +1240,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3046,
-      "sha256": "84ab36fbccb307959ccee4ed50380e46c1ef8707c4703403ccc14e4d69d73414",
-      "elapsedMs": 191
+      "bytes": 3047,
+      "sha256": "fd2030fa4c7b7cd2c3562f26c94978a99cfedecf4b8a43e468edc4087613f6e8",
+      "elapsedMs": 193
     },
     {
       "url": "https://kennel.kujolang.ai/versionseal/",
@@ -1251,9 +1251,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2803,
-      "sha256": "aee20da5803308faa4f2a3af32e48a4c4fa98edfc6d56d89edccda8dd1b1de12",
-      "elapsedMs": 119
+      "bytes": 2804,
+      "sha256": "3494725848a1cb099a7f9e95c9eda1a96bdd5f5635b1236bd2aa5fe694bb0acc",
+      "elapsedMs": 193
     },
     {
       "url": "https://kennel.kujolang.ai/versionseal/0.2.0/",
@@ -1262,9 +1262,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3057,
-      "sha256": "e5fa99d67aca180e26eb89ffbf1a8999529f070eef0392f1fee1dc8a1e23e165",
-      "elapsedMs": 324
+      "bytes": 3058,
+      "sha256": "0c57c239a96467d2e560aee0977694dc9bdba4218ac7cf0d754c3d86d1c0c987",
+      "elapsedMs": 191
     },
     {
       "url": "https://kennel.kujolang.ai/versionseal/0.3.0/",
@@ -1273,9 +1273,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3057,
-      "sha256": "543ab98f463919b8eda5ce68066a7d4bed766849bab1c28b79f72cac464458f1",
-      "elapsedMs": 201
+      "bytes": 3058,
+      "sha256": "795e1da89728927d811672c6f688a9e3b1e3824ca3d255d468de3a27e9cef2be",
+      "elapsedMs": 176
     },
     {
       "url": "https://kennel.kujolang.ai/watchdog",
@@ -1286,7 +1286,7 @@
       "robots": null,
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "elapsedMs": 118
+      "elapsedMs": 72
     },
     {
       "url": "https://kennel.kujolang.ai/watchdog/",
@@ -1295,9 +1295,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2842,
-      "sha256": "3043c88fdff9c76f41df7a23934d441d114743f058f2dd336fc5d1108997ec83",
-      "elapsedMs": 83
+      "bytes": 2843,
+      "sha256": "08b35692e98a322f182c9aedff7987bc9c2b95cd221c573ad4de6e7ffa75b80d",
+      "elapsedMs": 183
     },
     {
       "url": "https://kennel.kujolang.ai/watchdog/1.0.1/",
@@ -1306,9 +1306,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3071,
-      "sha256": "aa6b44b733b564a3199df6784f21a1d1f72ea23d2403696c4527ac0b618ef247",
-      "elapsedMs": 297
+      "bytes": 3072,
+      "sha256": "cf5666ffd4bffc8b979edc2835fbe742a1230ed0fa56b0ab085f365a590dc211",
+      "elapsedMs": 191
     },
     {
       "url": "https://kennel.kujolang.ai/watchdog/1.1.0/",
@@ -1317,9 +1317,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3071,
-      "sha256": "fd43c64300da2cb64329c7beb4ddc5cc119a520385ce5eec788c227b578cb49e",
-      "elapsedMs": 297
+      "bytes": 3072,
+      "sha256": "812b8ea1ab290f7c74d82568541d2de7148c8e38e7d1d6fe9f00d8675ec50a3b",
+      "elapsedMs": 198
     },
     {
       "url": "https://kennel.kujolang.ai/watchdog/1.2.0/",
@@ -1328,9 +1328,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3093,
-      "sha256": "d7329b2d9c00ba8f2670cc90180e1a0f6e6efa38fd6972cc375ab3089c32cf82",
-      "elapsedMs": 269
+      "bytes": 3094,
+      "sha256": "1ba5f35edfa17bf561b00927510e4c0d7af828aa4e4e440467ec274129055615",
+      "elapsedMs": 227
     },
     {
       "url": "https://kennel.kujolang.ai/workcell/",
@@ -1339,9 +1339,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 2797,
-      "sha256": "57b65f6cc65254ebb3c5da12b7a0ce29005b6c43186c2d61adcb34eefb3c5c84",
-      "elapsedMs": 171
+      "bytes": 2798,
+      "sha256": "d6f039fe55a10d2d28fd51d2792c2309f13f35dff646a53ea6bbbf2b4ee4b050",
+      "elapsedMs": 182
     },
     {
       "url": "https://kennel.kujolang.ai/workcell/1.1.0/",
@@ -1350,9 +1350,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3048,
-      "sha256": "5e1b91c6463fde8abba2a04ed81bf9f56a840115b59f4ba73c1a4e2b5a7acad0",
-      "elapsedMs": 250
+      "bytes": 3049,
+      "sha256": "1ad4d29e8b95f4aa7334930c54053412692fbc55a139dc309d9f3b7b8eaf0338",
+      "elapsedMs": 190
     },
     {
       "url": "https://kennel.kujolang.ai/workcell/1.2.0/",
@@ -1361,9 +1361,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 3048,
-      "sha256": "f8f6dc601d01b077ef43b2ddb96995c7eb5395188b19ace979b98908af61b6d2",
-      "elapsedMs": 213
+      "bytes": 3049,
+      "sha256": "d261a1cd692cdb1181bfee8ea367681f11a3d55d9957c17005d54c62b4b64c46",
+      "elapsedMs": 209
     }
   ],
   "crawlerAccess": [
@@ -1374,9 +1374,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 5424,
-      "sha256": "345c6880021ca5953bb86e001714ba0b45257d54af373491d889990c07ce0d90",
-      "elapsedMs": 84
+      "bytes": 5425,
+      "sha256": "4ab6a4d0f057a70849645f2f8d731ace25d6f8fc8f368306658fbacac0e91056",
+      "elapsedMs": 414
     },
     {
       "url": "https://kennel.kujolang.ai/getting-started/",
@@ -1385,9 +1385,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 5424,
-      "sha256": "345c6880021ca5953bb86e001714ba0b45257d54af373491d889990c07ce0d90",
-      "elapsedMs": 86
+      "bytes": 5425,
+      "sha256": "4ab6a4d0f057a70849645f2f8d731ace25d6f8fc8f368306658fbacac0e91056",
+      "elapsedMs": 3013
     },
     {
       "url": "https://kennel.kujolang.ai/getting-started/",
@@ -1396,9 +1396,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 5424,
-      "sha256": "345c6880021ca5953bb86e001714ba0b45257d54af373491d889990c07ce0d90",
-      "elapsedMs": 168
+      "bytes": 5425,
+      "sha256": "4ab6a4d0f057a70849645f2f8d731ace25d6f8fc8f368306658fbacac0e91056",
+      "elapsedMs": 548
     },
     {
       "url": "https://kennel.kujolang.ai/getting-started/",
@@ -1407,9 +1407,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 5424,
-      "sha256": "345c6880021ca5953bb86e001714ba0b45257d54af373491d889990c07ce0d90",
-      "elapsedMs": 164
+      "bytes": 5425,
+      "sha256": "4ab6a4d0f057a70849645f2f8d731ace25d6f8fc8f368306658fbacac0e91056",
+      "elapsedMs": 113
     },
     {
       "url": "https://kennel.kujolang.ai/getting-started/",
@@ -1418,9 +1418,9 @@
       "location": null,
       "contentType": "text/html; charset=utf-8",
       "robots": null,
-      "bytes": 5424,
-      "sha256": "345c6880021ca5953bb86e001714ba0b45257d54af373491d889990c07ce0d90",
-      "elapsedMs": 90
+      "bytes": 5425,
+      "sha256": "4ab6a4d0f057a70849645f2f8d731ace25d6f8fc8f368306658fbacac0e91056",
+      "elapsedMs": 109
     }
   ],
   "variants": [
@@ -1433,7 +1433,7 @@
       "robots": null,
       "bytes": 167,
       "sha256": "446a6087825fa73eadb045e5a2e9e2adf7df241b571228187728191d961dda1f",
-      "elapsedMs": 118
+      "elapsedMs": 232
     },
     {
       "url": "https://www.kennel.kujolang.ai/getting-started/",
@@ -1449,7 +1449,7 @@
       "robots": null,
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "elapsedMs": 63
+      "elapsedMs": 73
     }
   ]
 }

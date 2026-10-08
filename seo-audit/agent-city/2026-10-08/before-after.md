@@ -9,7 +9,7 @@
 | missing_descriptions | 0 | 0 |
 | duplicate_descriptions | 107 | 107 |
 | h1_issues | 0 | 0 |
-| canonical_mismatches | 119 | 119 |
+| canonical_mismatches | 119 | 0 |
 | broken_internal_links | 0 | 0 |
 | orphan_pages | 118 | 118 |
 | missing_alt | 0 | 0 |
@@ -18,4 +18,4 @@
 
 Generated counts are diagnostics. Production status counts come from a separate live crawl; the local crawler’s `production_200_pages: 0` means it did not probe production, not that the site failed.
 
-Kennel has pre-existing slashless canonical URLs that redirect to directory URLs, repeated version-page descriptions, and no sitemap/JSON-LD. The generic crawler’s orphan count is inflated by slash normalization; these are not newly orphaned pages. Registry-wide SEO cleanup remains separate from the Agent City addition.
+Corrected 119 slashless canonical URLs to their live directory URLs. Existing repeated version-page descriptions and absent sitemap/JSON-LD remain optional registry-wide follow-ups. The generic crawler’s orphan count is inflated by slash normalization; these are not newly orphaned pages.

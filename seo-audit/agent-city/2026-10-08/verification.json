@@ -1,13 +1,14 @@
 {
-  "sourcePublisherCommit": "5188d8728e1d4290ca5da8d3c51360acfd8d01a2",
-  "registryContentCommit": "940c2ec00f1bbaf901eab11a23ef568d262141c2",
+  "sourcePublisherCommit": "f0359544a540f37641972b53d06d43d831bea3ac",
+  "registryContentCommit": "42b6f7c9d8021c6711f26bb2f63e5fde65fb82fa",
   "checks": {
     "HowlManifest": "pass",
     "HowlRenderAndVisualReview": "pass",
     "registryGenerator": "pass",
     "immutablePackageDigests": "pass; see registry-integrity.json",
     "livePage": "pass",
-    "browser1440And320": "pass; no overflow or runtime errors"
+    "browser1440And320": "pass; no overflow or runtime errors",
+    "canonicalURLs": "119 direct directory canonicals; source check and generated comparison passed"
   },
   "HowlImage": {
     "width": 1200,
