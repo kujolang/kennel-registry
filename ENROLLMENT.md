@@ -93,3 +93,15 @@ Local deterministic package builds passed for all 34 new package names. GitHub r
 Production acceptance: **36/36 fresh installs and 36/36 cached lock replays passed with Git disabled** using the updated client and Kujo 1.3.1. The full Kennel verification profile passed, and 113 live registry documents passed JSON Schema validation. [Committed acceptance evidence](https://github.com/kujolang/kennel/blob/main/docs/registry/ecosystem-acceptance.md).
 
 Kennel 1.1.0 was published on September 13 from commit `093d44dddcebebd99bd8987e3efcb7e044dc45a7`. The new archive and all 190 previously published immutable files were verified. [Public bootstrap acceptance](https://github.com/kujolang/kennel/actions/runs/34782478651) passes on macOS and Linux using released Kujo 1.4.0, including PATH, global commands, exact/latest/clean/cached installs, updates and failed-update rollback with Git/Python disabled.
+
+## Commerce 0.5.0 — external installation
+
+Reviewed October 10, 2026: [Commerce 0.5.0](https://github.com/kujolang/commerce/releases/tag/v0.5.0) remains a JavaScript/npm package, outside native Kennel enrollment. Release ID `409022245` points to commit `305caa995bf8ea8cd05fe41e2784603fb41e7ff1`. Its optional PostgreSQL and Square modules do not change that installation boundary. No Kennel archive or version record is created.
+
+While npm registry publication is pending, install the published GitHub tarball:
+
+```bash
+npm install https://github.com/kujolang/commerce/releases/download/v0.5.0/kujolang-commerce-0.5.0.tgz
+```
+
+The tarball SHA-256 is `63dbb27e2390f5570ffef6d42dfa493bafc7caf9ff9db7b75b1aa7f74e24ac58`. See the [Commerce guide](https://docs.kujolang.ai/tools/commerce/) for upgrades and feature acceptance.

@@ -193,10 +193,13 @@
     {
       "repository": "commerce",
       "status": "external-install",
-      "reason": "JavaScript/npm package @kujolang/commerce, installed with npm.",
-      "latest_release": "v0.4.0",
-      "release_id": 379408330,
-      "release_url": "https://github.com/kujolang/commerce/releases/tag/v0.4.0"
+      "reason": "JavaScript/npm package @kujolang/commerce; install the published 0.5.0 GitHub tarball with npm while registry publication is pending. Not a native Kujo package.",
+      "latest_release": "v0.5.0",
+      "release_id": 409022245,
+      "release_url": "https://github.com/kujolang/commerce/releases/tag/v0.5.0",
+      "reviewed_on": "2026-10-10",
+      "source_commit": "305caa995bf8ea8cd05fe41e2784603fb41e7ff1",
+      "install_command": "npm install https://github.com/kujolang/commerce/releases/download/v0.5.0/kujolang-commerce-0.5.0.tgz"
     },
     {
       "repository": "concord",
