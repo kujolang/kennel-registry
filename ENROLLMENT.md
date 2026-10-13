@@ -29,7 +29,7 @@ Sources: https://kujolang.ai/ecosystem/primitives/ and https://kujolang.ai/ecosy
 | [mcp](https://kennel.kujolang.ai/mcp) | 1.1.1 |
 | [muzzle](https://kennel.kujolang.ai/muzzle) | 1.1.0 |
 | [ollama](https://kennel.kujolang.ai/ollama) | 0.1.10 |
-| [packwrite](https://kennel.kujolang.ai/packwrite) | 1.1.0 |
+| [packwrite](https://kennel.kujolang.ai/packwrite) | 1.1.1 |
 | [patchbrief](https://kennel.kujolang.ai/patchbrief) | 1.0.1 |
 | [presswire](https://kennel.kujolang.ai/presswire) | 0.2.0 |
 | [rag](https://kennel.kujolang.ai/rag) | 1.0.0 |
