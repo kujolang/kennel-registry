@@ -4,14 +4,14 @@ Provider-agnostic SDK primitives for building OpenAI-compatible chat integration
 
 Install: `kennel add ai-sdk`
 
-Latest stable: 1.1.1
+Latest stable: 1.2.0
 
-Versions: 1.1.1, 1.0.0
+Versions: 1.2.0, 1.1.1, 1.0.0
 
 Metadata: https://kennel.kujolang.ai/api/v1/packages/ai-sdk.json
 
-Provenance: https://kennel.kujolang.ai/packages/ai-sdk/1.1.1/provenance.json
+Provenance: https://kennel.kujolang.ai/packages/ai-sdk/1.2.0/provenance.json
 
-Archive SHA-256: 7382ccde5352fb001a2ce34043bc9b0b1907ebb38d09d41e183f9501bc70be9e
+Archive SHA-256: 1622b676ef34350d541d5754a7f23922657e6f1aa8b876a84d26805bf44ecceb
 
 Dependencies: {}
