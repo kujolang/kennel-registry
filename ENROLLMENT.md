@@ -61,7 +61,8 @@ The September 25 organization-wide inventory covers all 100 repositories. The Se
 - **These three packages require Git and access to GitHub for their AI SDK dependency, including lock replay.** Their packages come from Kennel; the dependency comes from its exact Git commit. No AI SDK release was fabricated, no historical version was replaced, and no source-policy override is required. They are not included in the historical 42-package Git-disabled acceptance claim below.
 
 - Kujo uses its runtime installer. Commerce, AI Chat, Pi/Paperclip/Command Code/bb integrations, CMS themes/plugins, and role/skill/workflow collections retain their documented native installation surfaces. Website repositories are not runtime packages.
-- Unreleased provider libraries, Payments, Intake, and other development repositories are inventoried but not published from moving branches.
+- Unreleased provider libraries, Payments, and other development repositories are inventoried but not published from moving branches.
+- [Intake 0.2.0](https://github.com/kujolang/intake/releases/tag/v0.2.0) is a released Node.js application distributed through GitHub. It has no Kennel manifest or native Kujo entrypoint and remains outside registry enrollment. Install its tagged source with Node.js 20.19 or newer and `npm ci`; do not advertise `kennel add intake` or `kennel tool install intake`.
 - Private repositories remain excluded; their identities and source are not exposed by the public audit.
 
 ## September 26 dependency unblock
