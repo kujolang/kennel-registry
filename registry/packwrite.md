@@ -1,17 +1,17 @@
 # packwrite
 
-AI-assisted, local-first planning compiler that turns project intent into validated agent execution packs
+Compile project briefs into validated execution packs for coding agents
 
 Install: `kennel add packwrite`
 
-Latest stable: 1.1.0
+Latest stable: 1.1.1
 
-Versions: 1.1.0
+Versions: 1.1.1, 1.1.0
 
 Metadata: https://kennel.kujolang.ai/api/v1/packages/packwrite.json
 
-Provenance: https://kennel.kujolang.ai/packages/packwrite/1.1.0/provenance.json
+Provenance: https://kennel.kujolang.ai/packages/packwrite/1.1.1/provenance.json
 
-Archive SHA-256: 694ff8caefc9546f998b3b360362c13aea8416b802bc340cf482476f7fb5975f
+Archive SHA-256: 8e398375f25d904e7138bd539cd9254484ccabe36a9c9bf7b5a3ba6a713ef5c9
 
 Dependencies: {}
