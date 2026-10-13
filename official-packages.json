@@ -325,11 +325,13 @@
       "enabled": true,
       "category": "tooling",
       "backfill_release_ids": [
-        379436208
+        379436208,
+        411660108
       ],
       "enrolled_at": "2026-09-08T00:00:00Z",
       "release_commits": {
-        "1.1.0": "b69652241b035a7216a59867d93073728849987e"
+        "1.1.0": "b69652241b035a7216a59867d93073728849987e",
+        "1.1.1": "721dcc0ad41eaedc159d84f34a06396f92ede79f"
       },
       "release_manifests": {
         "b69652241b035a7216a59867d93073728849987e": {
@@ -337,6 +339,14 @@
           "source_manifest_sha256": "be9b869228c5fd3829c41156859ba204e823c15540da51a243876349b00f3013",
           "source_package": "packwrite",
           "description": "AI-assisted, local-first planning compiler that turns project intent into validated agent execution packs",
+          "license": "MIT",
+          "entry": "packwrite.kujo"
+        },
+        "721dcc0ad41eaedc159d84f34a06396f92ede79f": {
+          "source_manifest": "kujo.toml",
+          "source_manifest_sha256": "6d769a57255bcad24863018c41d77301b027d3b4899ab471aceca21d9fb1d3f3",
+          "source_package": "packwrite",
+          "description": "Compile project briefs into validated execution packs for coding agents",
           "license": "MIT",
           "entry": "packwrite.kujo"
         }
