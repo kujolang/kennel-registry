@@ -363,10 +363,19 @@
       ],
       "enrolled_at": "2026-09-08T00:00:00Z",
       "release_commits": {
-        "1.0.0": "a9684c3552afbb16c6e7afb04ff8faa396401c20"
+        "1.0.0": "a9684c3552afbb16c6e7afb04ff8faa396401c20",
+        "1.0.1": "3d8da7d76445cb554fe193ea0d3a8b5a557962d7"
       },
       "release_manifests": {
         "a9684c3552afbb16c6e7afb04ff8faa396401c20": {
+          "source_manifest": null,
+          "source_manifest_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "source_package": "casefile",
+          "description": "Turn failures into reproducible, reviewable investigation packets.",
+          "license": "MIT",
+          "entry": "casefile.kujo"
+        },
+        "3d8da7d76445cb554fe193ea0d3a8b5a557962d7": {
           "source_manifest": null,
           "source_manifest_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
           "source_package": "casefile",
