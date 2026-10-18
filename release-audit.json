@@ -406,6 +406,17 @@
       "release_url": "https://github.com/kujolang/kujo-cmd/releases/tag/v0.1.4"
     },
     {
+      "repository": "kujo-opencode",
+      "status": "external-install",
+      "reason": "OpenCode 2 host integration distributed through npm as @kujolang/kujo-opencode. Requires Node.js, npm, Git, and the OpenCode host; setup installs pinned Kujo sources and runtime. Not a reusable Kennel source package.",
+      "latest_release": "v0.2.0",
+      "release_id": 416134915,
+      "release_url": "https://github.com/kujolang/kujo-opencode/releases/tag/v0.2.0",
+      "reviewed_on": "2026-10-18",
+      "install_command": "npm install --global @kujolang/kujo-opencode@0.2.0",
+      "documentation_url": "https://docs.kujolang.ai/tools/kujo-opencode/"
+    },
+    {
       "repository": "kujo-pi",
       "status": "external-install",
       "reason": "Pi package with its own package installation workflow.",
@@ -810,5 +821,6 @@
       "release_url": null
     }
   ],
-  "updated_on": "2026-09-26"
+  "updated_on": "2026-10-18",
+  "follow_up_scope": "Added Kujo OpenCode 0.2.0 as external-install on 2026-10-18. The dated organization-wide review and repository totals above retain their historical scope."
 }

@@ -1,5 +1,22 @@
 # Ecosystem enrollment — updated 2026-09-13
 
+## Kujo OpenCode — 2026-10-18
+
+[Kujo OpenCode 0.2.0](https://github.com/kujolang/kujo-opencode/releases/tag/v0.2.0)
+is a released OpenCode 2 host integration. Like Pi, Command Code, and Paperclip
+integrations, it uses its host's native installation surface rather than a Kennel
+source package. Install it with `npm install --global @kujolang/kujo-opencode@0.2.0`,
+then run `kujo-opencode setup` in your project. See the
+[setup guide](https://docs.kujolang.ai/tools/kujo-opencode/).
+
+The release audit records it as `external-install`. Do not use
+`kennel add kujo-opencode` or invent a Kennel tool command for it. Kennel's
+supported dependency operations remain available inside OpenCode. No registry
+archive, exact version manifest, or enrollment policy was changed by this entry.
+
+## Historical enrollment inventory
+
+
 Sources: https://kujolang.ai/ecosystem/primitives/ and https://kujolang.ai/ecosystem/tooling/. Reviewed actual public GitHub Releases, exact commit trees, package controls and dependency identities.
 
 45 packages (58 released versions, including one prerelease) are enrolled. No releases were fabricated. Initial backfill selects reviewed releases; older unrelated releases are not silently repackaged.
