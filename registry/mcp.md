@@ -6,7 +6,7 @@ Install: `kennel add mcp`
 
 Latest stable: 1.3.2
 
-Versions: 1.3.2, 1.3.0, 1.2.0, 1.1.1
+Versions: 1.3.2, 1.3.1, 1.3.0, 1.2.0, 1.1.1
 
 Metadata: https://kennel.kujolang.ai/api/v1/packages/mcp.json
 
