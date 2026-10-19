@@ -70,3 +70,11 @@ The public shell downloader writes verified bytes, and the standalone native boo
 ## Kujo 1.6 runtime guidance
 
 The homepage and getting-started guide now identify published Kujo 1.6.0 native and npm artifacts across five runtime targets. Kennel 1.1.0 still requires Kujo 1.4.0 or newer, and its native bootstrap remains macOS/Linux only. Runtime releases do not rewrite registry package versions or stabilize experimental participant SDKs. Mutable pages were regenerated with the pinned central publisher; immutable version metadata and archives are unchanged.
+
+## Kujo 1.8.2 runtime guidance
+
+The current runtime recommendation is Kujo 1.8.2. Mutable pages are regenerated
+from the reviewed central publisher; scheduled reconciliation pins the same
+guidance. Package archive bytes, exact version metadata, provenance and the
+Kennel runtime minimum are unchanged. Regeneration also carries the publisher's
+existing canonical directory URLs and responsive showcase image style.
