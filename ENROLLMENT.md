@@ -123,3 +123,16 @@ npm install https://github.com/kujolang/commerce/releases/download/v0.5.0/kujola
 ```
 
 The tarball SHA-256 is `63dbb27e2390f5570ffef6d42dfa493bafc7caf9ff9db7b75b1aa7f74e24ac58`. See the [Commerce guide](https://docs.kujolang.ai/tools/commerce/) for upgrades and feature acceptance.
+
+## Full release reconciliation — 2026-10-19
+
+SiteKit 1.1.0 (GitHub release `409155607`) has no Kennel manifest. Its reviewed
+source commit `6d33c1b5f012ebd74ddd998e086c9d4b54881c00` now uses the same
+commit-pinned, source-only manifest projection as SiteKit 1.0.0. The release
+package.json confirms version 1.1.0 and the MIT license; no executable entry
+is invented. Existing package versions remain immutable.
+
+This repairs the full scheduled reconciliation, which a Kennel-only manual
+run did not exercise. MCP 1.3.1 already contains a native Kennel manifest and
+requires no policy adaptation. The publisher continues to validate exact
+release tags, repository identities, source commits and archive checksums.
