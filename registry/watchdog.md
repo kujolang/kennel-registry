@@ -4,14 +4,14 @@ Local observability, proxy telemetry and verified Kujo runtime measurement refer
 
 Install: `kennel add watchdog`
 
-Latest stable: 1.2.1
+Latest stable: 1.2.2
 
-Versions: 1.2.1, 1.2.0, 1.1.0, 1.0.1
+Versions: 1.2.2, 1.2.1, 1.2.0, 1.1.0, 1.0.1
 
 Metadata: https://kennel.kujolang.ai/api/v1/packages/watchdog.json
 
-Provenance: https://kennel.kujolang.ai/packages/watchdog/1.2.1/provenance.json
+Provenance: https://kennel.kujolang.ai/packages/watchdog/1.2.2/provenance.json
 
-Archive SHA-256: ea77b21f994510a7863054ab83e601f15d239f1226de252904302311b61a5402
+Archive SHA-256: 9ca2f050eb21e6f0897705d14b641b189740aa5c4856c4321e61ac07e0d483f7
 
 Dependencies: {}

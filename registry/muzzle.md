@@ -4,14 +4,14 @@ Quiet workflow runner for AI-assisted development. Kujo-native CLI with modular 
 
 Install: `kennel add muzzle`
 
-Latest stable: 1.1.2
+Latest stable: 1.1.3
 
-Versions: 1.1.2, 1.1.1, 1.1.0
+Versions: 1.1.3, 1.1.2, 1.1.1, 1.1.0
 
 Metadata: https://kennel.kujolang.ai/api/v1/packages/muzzle.json
 
-Provenance: https://kennel.kujolang.ai/packages/muzzle/1.1.2/provenance.json
+Provenance: https://kennel.kujolang.ai/packages/muzzle/1.1.3/provenance.json
 
-Archive SHA-256: c57ca5715551a45013bda71d40b6f2ad0148b56c65bc97f70c660f7d1ed883d5
+Archive SHA-256: 166b4c06af3f87e17ccc1617163bf25154e830bdc6ec4d6096e457105ecf02ca
 
 Dependencies: {}
