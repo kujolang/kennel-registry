@@ -45,7 +45,7 @@ Dispatch, Anthropic, and Ollama require Git for their exact AI SDK dependency. K
 ## OpenCode integration
 
 [Kujo OpenCode](https://docs.kujolang.ai/tools/kujo-opencode/) uses npm and
-OpenCode 2, not a Kennel package. Install `@kujolang/kujo-opencode@0.2.0` with npm,
+OpenCode 2, not a Kennel package. Install `@kujolang/kujo-opencode@0.2.1` with npm,
 then run `kujo-opencode setup` in your project. Its reviewed external-install
 classification is recorded in [ENROLLMENT.md](ENROLLMENT.md).
 
