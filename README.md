@@ -1,5 +1,8 @@
 # Kennel Registry
 
+[![Source](https://img.shields.io/badge/source-main-black)](https://github.com/kujolang/kennel-registry)
+[![built for Kujo](https://img.shields.io/badge/built%20for-Kujo-white.svg)](https://github.com/kujolang/kujo)
+
 Generated distribution of official Kujo package releases at https://kennel.kujolang.ai. GitHub remains the development platform. This is not a repository mirror.
 
 `registry/` is the direct Cloudflare Pages output directory. No application server, database, Worker or object store. `official-packages.json` explicitly enrolls reviewed packages using repository names and immutable GitHub IDs. Unscoped names belong to Kujo.
@@ -55,7 +58,7 @@ The native publisher provides `/getting-started/`, an inspectable `/install.kujo
 
 Public bootstrap requires Kujo 1.4.0 or newer, followed by Kennel 1.1.0 or newer. Kujo 1.4.0 supplies the isolated imports, locking and process/filesystem operations required by the native installer. Python is no longer a consumer or publishing prerequisite. The pinned workflow installs its checksum-verified exact Kujo runtime; Git and the GitHub CLI remain publishing tools. Reconciliation consumes actual published releases; it never creates them. Review the companion Kennel `docs/registry/release-candidate.md` for release verification.
 
-To regenerate mutable pages using a compatible runtime, set `KUJO_BIN` to its absolute path and `KUJO_MODULE_PATH` to the Kennel checkout, then run `"$KUJO_BIN" run "$KUJO_MODULE_PATH/scripts/registry/generate_registry.kujo" --interpreter --isolated-imports -- /absolute/kennel-registry/registry`. The native builder records `kennel-kujo-ustar-gzip-v1`; existing releases retain their original archive bytes and builder provenance.
+To regenerate mutable pages using a compatible runtime, set `KUJO_BIN` to its absolute path and `KUJO_MODULE_PATH` to the Kennel checkout, then run `"$KUJO_BIN" run "$KUJO_MODULE_PATH/scripts/registry/generate_registry.kujo" --isolated-imports -- /absolute/kennel-registry/registry`. The native builder records `kennel-kujo-ustar-gzip-v1`; existing releases retain their original archive bytes and builder provenance.
 
 Users install Kennel once, then use `kennel add NAME` for project dependencies or `kennel tool install NAME` for global commands. `kennel tool update` refreshes installed unpinned tools; `kennel self update` updates the client. The scheduled official-release reconciliation and Pages Git deployment keep new package releases available without changing those commands.
 
