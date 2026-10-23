@@ -4,14 +4,14 @@ Local-first Kujo RAG starter kit with offline indexing, retrieval, and API proof
 
 Install: `kennel add rag`
 
-Latest stable: 1.0.0
+Latest stable: 1.1.0
 
-Versions: 1.0.0
+Versions: 1.1.0, 1.0.0
 
 Metadata: https://kennel.kujolang.ai/api/v1/packages/rag.json
 
-Provenance: https://kennel.kujolang.ai/packages/rag/1.0.0/provenance.json
+Provenance: https://kennel.kujolang.ai/packages/rag/1.1.0/provenance.json
 
-Archive SHA-256: ce0241974951c82daaa5d70842873c726d1e402df5f724f60ba9d97319905eeb
+Archive SHA-256: 0e94dbfb7bc5d5c49c1cf3dd7ba227d195058835c2e84a86ba52124946d9585c
 
 Dependencies: {}
