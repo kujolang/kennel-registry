@@ -84,3 +84,7 @@ existing canonical directory URLs and responsive showcase image style.
 
 The reviewed reconciliation workflow uses the checksum-verified Kujo 1.8.2
 runtime and a separately pinned publisher source revision.
+
+## Kujo Hermes 0.1.0 — external installation
+
+Reviewed November 10, 2026: [Kujo Hermes](https://docs.kujolang.ai/tools/kujo-hermes/) is a native Hermes Python plugin, not a reusable Kujo package. Install with `hermes plugins install kujolang/kujo-hermes`, then run `hermes kujo setup --trust-workspace .` with Hermes, Git and Kujo already installed. [Official release](https://github.com/kujolang/kujo-hermes/releases/tag/v0.1.0). No Kennel enrollment, archive or immutable version record is created.

@@ -136,3 +136,7 @@ This repairs the full scheduled reconciliation, which a Kennel-only manual
 run did not exercise. MCP 1.3.1 already contains a native Kennel manifest and
 requires no policy adaptation. The publisher continues to validate exact
 release tags, repository identities, source commits and archive checksums.
+
+## Kujo Hermes 0.1.0 — external installation
+
+Reviewed November 10, 2026: [Kujo Hermes](https://docs.kujolang.ai/tools/kujo-hermes/) is a native Hermes Python plugin, not a reusable Kujo package. Install with `hermes plugins install kujolang/kujo-hermes`, then run `hermes kujo setup --trust-workspace .` with Hermes, Git and Kujo already installed. [Official release](https://github.com/kujolang/kujo-hermes/releases/tag/v0.1.0). No Kennel enrollment, archive or immutable version record is created.
