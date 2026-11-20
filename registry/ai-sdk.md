@@ -1,6 +1,6 @@
 # ai-sdk
 
-Provider-agnostic SDK primitives for building OpenAI-compatible chat integrations in Kujo.
+Released Kujo chat and embedding contracts. For the common setup covering 35 integrations, the setup guide uses a separately pinned AI SDK source checkout.
 
 Install: `kennel add ai-sdk`
 

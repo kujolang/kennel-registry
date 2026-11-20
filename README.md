@@ -43,6 +43,8 @@ Production activated 2026-09-08. The Git-connected Pages project is `kennel-regi
 
 The registry contains 45 public Kujo packages. See [ENROLLMENT.md](ENROLLMENT.md) for current versions and release adaptations, and [release-audit.json](release-audit.json) for the September 25 review of all 100 organization repositories, including reviewed Git dependencies and other installation surfaces. [catalog.json](catalog.json) holds reviewed discovery copy; immutable release metadata stays unchanged.
 
+The [AI SDK package page](https://kennel.kujolang.ai/ai-sdk/) links to the [common provider setup guide](https://docs.kujolang.ai/ecosystem/providers/#configure-a-provider). That guide pins the newer AI SDK source separately from the published package. A reviewed `documentation_url` in the catalog is rendered on the unversioned package page.
+
 Dispatch, Anthropic, and Ollama require Git for their exact AI SDK dependency. Kennel locks the reviewed commit; a separate registry release of that dependency is not required. See ENROLLMENT.md for the source-identity checks and acceptance evidence.
 
 ## OpenCode integration

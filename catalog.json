@@ -20,6 +20,12 @@
       "description": "Native Ollama API client for Kujo with an AI SDK provider driver Requires Git for its pinned AI SDK dependency.",
       "source": "https://github.com/kujolang/ollama",
       "reviewed_on": "2026-09-26"
+    },
+    "ai-sdk": {
+      "description": "Released Kujo chat and embedding contracts. For the common setup covering 35 integrations, the setup guide uses a separately pinned AI SDK source checkout.",
+      "documentation_url": "https://docs.kujolang.ai/ecosystem/providers/#configure-a-provider",
+      "source": "https://docs.kujolang.ai/ecosystem/providers/",
+      "reviewed_on": "2026-11-20"
     }
   }
 }
