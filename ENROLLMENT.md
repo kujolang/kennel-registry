@@ -140,3 +140,7 @@ release tags, repository identities, source commits and archive checksums.
 ## Kujo Hermes 0.1.0 — external installation
 
 Reviewed November 10, 2026: [Kujo Hermes](https://docs.kujolang.ai/tools/kujo-hermes/) is a native Hermes Python plugin, not a reusable Kujo package. Install with `hermes plugins install kujolang/kujo-hermes`, then run `hermes kujo setup --trust-workspace .` with Hermes, Git and Kujo already installed. [Official release](https://github.com/kujolang/kujo-hermes/releases/tag/v0.1.0). No Kennel enrollment, archive or immutable version record is created.
+
+### Software Factory
+
+Software Factory 0.2.0 is a standalone Node application with a locked Git and npm setup and separate rootless Workcell requirements. Its release is linked from Getting Started. Keep it out of the official package inventory and native Kennel installation profiles.
